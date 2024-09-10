@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2024-09-10'
 author-meta:
-- Sean Shih
+- Yung Shun Shih
 - Derek Chen
 header-includes: |
   <!--
@@ -23,15 +23,15 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T18:25:11+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T18:25:11+00:00" />
+  <meta name="dc.modified" content="2024-09-10T18:30:40+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T18:30:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Sean Shih" />
+  <meta name="citation_author" content="Yung Shun Shih" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360/))
+([permalink](https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/))
 was automatically generated
-from [uiceds/project-team-go@1e859ca](https://github.com/uiceds/project-team-go/tree/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360)
+from [uiceds/project-team-go@65497a5](https://github.com/uiceds/project-team-go/tree/65497a5e7f356951f5a9b02b0ad30088c1189fc2)
 on September 10, 2024.
 </em></small>
 
@@ -81,12 +81,12 @@ on September 10, 2024.
 
 
 
-+ **Sean Shih**
++ **Yung Shun Shih**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoejkjkl](https://github.com/johndoejkjkl)
+    [johndoe](https://github.com/johndoe)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [johndoe](https://twitter.com/johndoe)
     · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
