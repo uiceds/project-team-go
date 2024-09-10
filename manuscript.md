@@ -8,7 +8,7 @@ lang: en-US
 date-meta: '2024-09-10'
 author-meta:
 - Sean Shih
-- Jane Roe
+- Derek Chen
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T18:04:03+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T18:04:03+00:00" />
+  <meta name="dc.modified" content="2024-09-10T18:11:00+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T18:11:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -35,7 +35,7 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Derek Chen" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/311f34e2a25326c99d653313a1938e4b57765a54/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/311f34e2a25326c99d653313a1938e4b57765a54/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/311f34e2a25326c99d653313a1938e4b57765a54/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/))
+([permalink](https://uiceds.github.io/project-team-go/v/311f34e2a25326c99d653313a1938e4b57765a54/))
 was automatically generated
-from [uiceds/project-team-go@e3ebb41](https://github.com/uiceds/project-team-go/tree/e3ebb4122679d311ae6c737edf7c6fa83a217551)
+from [uiceds/project-team-go@311f34e](https://github.com/uiceds/project-team-go/tree/311f34e2a25326c99d653313a1938e4b57765a54)
 on September 10, 2024.
 </em></small>
 
@@ -97,7 +97,7 @@ on September 10, 2024.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**
++ **Derek Chen**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
@@ -112,7 +112,7 @@ on September 10, 2024.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-go/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Derek Chen \<derek1249241692@gmail.com\>.
 
 
 :::
