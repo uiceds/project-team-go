@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: TeamGo Project Title
 keywords:
 - markdown
 - publishing
@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2024-09-10'
 author-meta:
-- John Doe
+- Sean Shih
 - Jane Roe
 header-includes: |
   <!--
@@ -16,22 +16,22 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="TeamGo Project Title" />
+  <meta name="citation_title" content="TeamGo Project Title" />
+  <meta property="og:title" content="TeamGo Project Title" />
+  <meta property="twitter:title" content="TeamGo Project Title" />
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:20:22+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:20:22+00:00" />
+  <meta name="dc.modified" content="2024-09-10T18:04:03+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T18:04:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Sean Shih" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/30dae49799be01101b22d91b75d5cb5294fc3593/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/30dae49799be01101b22d91b75d5cb5294fc3593/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/30dae49799be01101b22d91b75d5cb5294fc3593/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/30dae49799be01101b22d91b75d5cb5294fc3593/))
+([permalink](https://uiceds.github.io/project-team-go/v/e3ebb4122679d311ae6c737edf7c6fa83a217551/))
 was automatically generated
-from [uiceds/project-team-go@30dae49](https://github.com/uiceds/project-team-go/tree/30dae49799be01101b22d91b75d5cb5294fc3593)
+from [uiceds/project-team-go@e3ebb41](https://github.com/uiceds/project-team-go/tree/e3ebb4122679d311ae6c737edf7c6fa83a217551)
 on September 10, 2024.
 </em></small>
 
@@ -81,7 +81,7 @@ on September 10, 2024.
 
 
 
-+ **John Doe**
++ **Sean Shih**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
