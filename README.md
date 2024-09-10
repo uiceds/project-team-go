@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/project-team-go/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/project-team-go/>.
-The permalink for this webpage version is <https://uiceds.github.io/project-team-go/v/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360/>.
+The permalink for this webpage version is <https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/project-team-go/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360`](https://github.com/uiceds/project-team-go/commit/1e859cabc607f0af5d92ae0f1d0c67a4f3f0f360).
+[`65497a5e7f356951f5a9b02b0ad30088c1189fc2`](https://github.com/uiceds/project-team-go/commit/65497a5e7f356951f5a9b02b0ad30088c1189fc2).
