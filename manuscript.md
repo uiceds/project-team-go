@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-10'
+date-meta: '2024-09-26'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="TeamGo Project Title" />
   <meta property="og:title" content="TeamGo Project Title" />
   <meta property="twitter:title" content="TeamGo Project Title" />
-  <meta name="dc.date" content="2024-09-10" />
-  <meta name="citation_publication_date" content="2024-09-10" />
-  <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T18:30:40+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T18:30:40+00:00" />
+  <meta name="dc.date" content="2024-09-26" />
+  <meta name="citation_publication_date" content="2024-09-26" />
+  <meta property="article:published_time" content="2024-09-26" />
+  <meta name="dc.modified" content="2024-09-26T18:32:34+00:00" />
+  <meta property="article:modified_time" content="2024-09-26T18:32:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/65497a5e7f356951f5a9b02b0ad30088c1189fc2/))
+([permalink](https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/))
 was automatically generated
-from [uiceds/project-team-go@65497a5](https://github.com/uiceds/project-team-go/tree/65497a5e7f356951f5a9b02b0ad30088c1189fc2)
-on September 10, 2024.
+from [uiceds/project-team-go@57d5126](https://github.com/uiceds/project-team-go/tree/57d5126330c46890a2266ea0375284880c1049be)
+on September 26, 2024.
 </em></small>
 
 
@@ -121,6 +121,7 @@ Derek Chen \<derek1249241692@gmail.com\>.
 ## Abstract {.page_break_before}
 
 
+cfghjj
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
