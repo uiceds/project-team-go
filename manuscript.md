@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T21:44:56+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T21:44:56+00:00" />
+  <meta name="dc.modified" content="2024-09-27T21:45:11+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T21:45:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/77dfc0d98d26de4a989a277f8c01153dbbf9797b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/77dfc0d98d26de4a989a277f8c01153dbbf9797b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/77dfc0d98d26de4a989a277f8c01153dbbf9797b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/77dfc0d98d26de4a989a277f8c01153dbbf9797b/))
+([permalink](https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/))
 was automatically generated
-from [uiceds/project-team-go@77dfc0d](https://github.com/uiceds/project-team-go/tree/77dfc0d98d26de4a989a277f8c01153dbbf9797b)
+from [uiceds/project-team-go@1890d4d](https://github.com/uiceds/project-team-go/tree/1890d4d9966929974ef4fad005968a2bb4934ccf)
 on September 27, 2024.
 </em></small>
 
@@ -132,6 +132,7 @@ The dataset we plan to use is the meteorological records of Champaign, Illinois.
 
 ## References {.page_break_before}
 Hartmut Bossel. (2007). System Zoo 2 Simulation Models – Climate, Ecosystem, Resources. Books on Demand
+
 Hartmut Bossel. (1985). Umweltdynamik - 30Programme für kybernetische Umwelterfahrungen auf jedem BASIC-Rechner. Tewi Verlag
 
 <!-- Explicitly insert bibliography here -->
