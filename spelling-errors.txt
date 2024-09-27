@@ -4,7 +4,7 @@ aliquip
 amet
 anim
 aute
-cfghjj
+CEE
 cillum
 commodo
 consectetur
@@ -25,7 +25,6 @@ incididunt
 ipsum
 irure
 janeroe
-johndoe
 labore
 laboris
 laborum
@@ -47,10 +46,10 @@ Shih
 sint
 sunt
 tempor
+UIUC
 ullamco
 velit
 veniam
 voluptate
 XXXX
-XXXXXXXX
 Yung

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-26'
+date-meta: '2024-09-27'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="TeamGo Project Title" />
   <meta property="og:title" content="TeamGo Project Title" />
   <meta property="twitter:title" content="TeamGo Project Title" />
-  <meta name="dc.date" content="2024-09-26" />
-  <meta name="citation_publication_date" content="2024-09-26" />
-  <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-09-26T18:32:34+00:00" />
-  <meta property="article:modified_time" content="2024-09-26T18:32:34+00:00" />
+  <meta name="dc.date" content="2024-09-27" />
+  <meta name="citation_publication_date" content="2024-09-27" />
+  <meta property="article:published_time" content="2024-09-27" />
+  <meta name="dc.modified" content="2024-09-27T03:34:21+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T03:34:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -32,9 +32,8 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Yung Shun Shih" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author_institution" content="Department of CEE, University of UIUC" />
+  <meta name="citation_author_orcid" content="N" />
   <meta name="citation_author" content="Derek Chen" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -45,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/5baf3c38b25d715162dd354b4891148d6beb4884/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/5baf3c38b25d715162dd354b4891148d6beb4884/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/5baf3c38b25d715162dd354b4891148d6beb4884/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/57d5126330c46890a2266ea0375284880c1049be/))
+([permalink](https://uiceds.github.io/project-team-go/v/5baf3c38b25d715162dd354b4891148d6beb4884/))
 was automatically generated
-from [uiceds/project-team-go@57d5126](https://github.com/uiceds/project-team-go/tree/57d5126330c46890a2266ea0375284880c1049be)
-on September 26, 2024.
+from [uiceds/project-team-go@5baf3c3](https://github.com/uiceds/project-team-go/tree/5baf3c38b25d715162dd354b4891148d6beb4884)
+on September 27, 2024.
 </em></small>
 
 
@@ -84,17 +83,12 @@ on September 26, 2024.
 + **Yung Shun Shih**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [N](https://orcid.org/N)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
+    [N](https://github.com/N)
     <br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of CEE, University of UIUC
   </small>
 
 + **Derek Chen**
@@ -120,8 +114,8 @@ Derek Chen \<derek1249241692@gmail.com\>.
 
 ## Abstract {.page_break_before}
 
-
-cfghjj
+Hello, I am Sean.
+Hi, I am Derek.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
