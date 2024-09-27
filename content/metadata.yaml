@@ -11,13 +11,18 @@ authors:
     initials: JD
     email: sean310066@gmail.com
     affiliations:
-      - Department of CEE, University of illinois urbana champaign
-  - github: janeroe
-    name: Derek Chen
+      - Department of CEE, University of illinois Urbana-Chamapign
+  - name: Derek Chen
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
     email: derek1249241692@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of CEE, University of illinois Urbana-Chamapign
+  - name: Xinyuan Wang
+    initials: JD
+    affiliations:
+      - Department of CEE, University of illinois Urbana-Chamapign
+  - name: Xiaozhuo Cao
+    initials: JD
+    affiliations:
+      - Department of CEE, University of illinois Urbana-Chamapign
     corresponding: true
