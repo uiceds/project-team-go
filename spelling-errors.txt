@@ -1,3 +1,5 @@
+auf
+Bossel
 Bossel’s
 Cao
 CEE
@@ -5,12 +7,21 @@ Chamapign
 Champaign
 CSV
 dataset
+für
 Hartmut
+jedem
+kybernetische
 PCA
+Programme
+Rechner
 Shih
 SVD
+Tewi
+Umweltdynamik
+Umwelterfahrungen
 Urbana
 Vensim
+Verlag
 wunderground
 Xiaozhuo
 Xinyuan
