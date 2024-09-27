@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T18:21:36+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T18:21:36+00:00" />
+  <meta name="dc.modified" content="2024-09-27T18:34:12+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T18:34:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/34ce054a50b92e348f53e65d52f5890aff79559a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/34ce054a50b92e348f53e65d52f5890aff79559a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/34ce054a50b92e348f53e65d52f5890aff79559a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/f1166cb0f6073b0096f79c4b9e1b232cea09a436/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/f1166cb0f6073b0096f79c4b9e1b232cea09a436/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/f1166cb0f6073b0096f79c4b9e1b232cea09a436/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/34ce054a50b92e348f53e65d52f5890aff79559a/))
+([permalink](https://uiceds.github.io/project-team-go/v/f1166cb0f6073b0096f79c4b9e1b232cea09a436/))
 was automatically generated
-from [uiceds/project-team-go@34ce054](https://github.com/uiceds/project-team-go/tree/34ce054a50b92e348f53e65d52f5890aff79559a)
+from [uiceds/project-team-go@f1166cb](https://github.com/uiceds/project-team-go/tree/f1166cb0f6073b0096f79c4b9e1b232cea09a436)
 on September 27, 2024.
 </em></small>
 
@@ -114,7 +114,15 @@ Derek Chen \<derek1249241692@gmail.com\>.
 
 ## Abstract {.page_break_before}
 
-SEEEEEEAN
+**Bold** __Project proposal__
+
+Environmental factors have a significant impact on agricultural production. For instance, environmental factors including precipitation, humidity, temperature, fertilization, soil, plant disease prevention, as well as pest management would all impact agricultural yield. Therefore, it is very important and interesting to study the impact of environmental factors and their interactions on agricultural yields from previous data.
+
+In this project, a model is proposed to qualitatively describe analyze the impacts from environmental factors on agricultural yield. Data is collected from previous meteorological records and environmental investigations. Specifically, this model analyzes the impact of precipitation, temperature, and soil nutrients on agricultural production, and is able to predict next year's agricultural yield based on given environmental factor values. This model is expected to help decision-makers better plan agricultural production and improve its efficiency.
+
+**Bold** __Data description__
+
+The dataset we plan to use is the meteorological records of Champaign, Illinois. We want to predict corn yield by analyzing precipitation and temperature. Data will be obtained from wunderground.com (Savoy, IL Weather History | Weather Underground). And daily temperature and the annual precipitation amount would be needed. The format would be primarily in CSV. The four columns will be temperature (including max, avg and min) and precipitation every day, while the rows will be the date for a whole year.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
