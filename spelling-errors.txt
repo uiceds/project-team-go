@@ -1,10 +1,10 @@
 CEE
-Champaign
+champaign
 CSV
 dataset
 janeroe
 Shih
-UIUC
+urbana
 wunderground
 XXXX
 Yung

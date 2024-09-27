@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T18:40:18+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T18:40:18+00:00" />
+  <meta name="dc.modified" content="2024-09-27T18:41:35+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T18:41:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -32,8 +32,7 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Yung Shun Shih" />
-  <meta name="citation_author_institution" content="Department of CEE, University of UIUC" />
-  <meta name="citation_author_orcid" content="N" />
+  <meta name="citation_author_institution" content="Department of CEE, University of illinois urbana champaign" />
   <meta name="citation_author" content="Derek Chen" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -44,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/146c028387a8bb58fdb118ff5421965e2720fff5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/146c028387a8bb58fdb118ff5421965e2720fff5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/146c028387a8bb58fdb118ff5421965e2720fff5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e1fd6c895d696ba995aa215791dd931a0abf91ee/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e1fd6c895d696ba995aa215791dd931a0abf91ee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e1fd6c895d696ba995aa215791dd931a0abf91ee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/146c028387a8bb58fdb118ff5421965e2720fff5/))
+([permalink](https://uiceds.github.io/project-team-go/v/e1fd6c895d696ba995aa215791dd931a0abf91ee/))
 was automatically generated
-from [uiceds/project-team-go@146c028](https://github.com/uiceds/project-team-go/tree/146c028387a8bb58fdb118ff5421965e2720fff5)
+from [uiceds/project-team-go@e1fd6c8](https://github.com/uiceds/project-team-go/tree/e1fd6c895d696ba995aa215791dd931a0abf91ee)
 on September 27, 2024.
 </em></small>
 
@@ -82,13 +81,8 @@ on September 27, 2024.
 
 + **Yung Shun Shih**
   <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [N](https://orcid.org/N)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [N](https://github.com/N)
-    <br>
   <small>
-     Department of CEE, University of UIUC
+     Department of CEE, University of illinois urbana champaign
   </small>
 
 + **Derek Chen**
