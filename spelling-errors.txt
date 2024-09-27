@@ -1,10 +1,12 @@
+Cao
 CEE
-champaign
+Chamapign
+Champaign
 CSV
 dataset
-janeroe
 Shih
-urbana
+Urbana
 wunderground
-XXXX
+Xiaozhuo
+Xinyuan
 Yung

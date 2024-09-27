@@ -9,6 +9,8 @@ date-meta: '2024-09-27'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
+- Xinyuan Wang
+- Xiaozhuo Cao
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T18:51:16+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T18:51:16+00:00" />
+  <meta name="dc.modified" content="2024-09-27T18:54:56+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T18:54:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -32,20 +34,22 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Yung Shun Shih" />
-  <meta name="citation_author_institution" content="Department of CEE, University of illinois urbana champaign" />
+  <meta name="citation_author_institution" content="Department of CEE, University of illinois Urbana-Chamapign" />
   <meta name="citation_author" content="Derek Chen" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="Department of CEE, University of illinois Urbana-Chamapign" />
+  <meta name="citation_author" content="Xinyuan Wang" />
+  <meta name="citation_author_institution" content="Department of CEE, University of illinois Urbana-Chamapign" />
+  <meta name="citation_author" content="Xiaozhuo Cao" />
+  <meta name="citation_author_institution" content="Department of CEE, University of illinois Urbana-Chamapign" />
   <link rel="canonical" href="https://uiceds.github.io/project-team-go/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team-go/" />
   <meta property="twitter:url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/aa2b91ddc724f4f462984e241a79492fd4f1f129/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/aa2b91ddc724f4f462984e241a79492fd4f1f129/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/aa2b91ddc724f4f462984e241a79492fd4f1f129/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/))
+([permalink](https://uiceds.github.io/project-team-go/v/aa2b91ddc724f4f462984e241a79492fd4f1f129/))
 was automatically generated
-from [uiceds/project-team-go@192467e](https://github.com/uiceds/project-team-go/tree/192467e1d05817f5694bbf699bba6fcb9e59a342)
+from [uiceds/project-team-go@aa2b91d](https://github.com/uiceds/project-team-go/tree/aa2b91ddc724f4f462984e241a79492fd4f1f129)
 on September 27, 2024.
 </em></small>
 
@@ -82,25 +86,32 @@ on September 27, 2024.
 + **Yung Shun Shih**
   <br>
   <small>
-     Department of CEE, University of illinois urbana champaign
+     Department of CEE, University of illinois Urbana-Chamapign
   </small>
 
 + **Derek Chen**
-  ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
-    <br>
+  <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of CEE, University of illinois Urbana-Chamapign
+  </small>
+
++ **Xinyuan Wang**
+  <br>
+  <small>
+     Department of CEE, University of illinois Urbana-Chamapign
+  </small>
+
++ **Xiaozhuo Cao**
+  ^[✉](#correspondence)^<br>
+  <small>
+     Department of CEE, University of illinois Urbana-Chamapign
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-go/issues)
 or email to
-Derek Chen \<derek1249241692@gmail.com\>.
+Xiaozhuo Cao \<\>.
 
 
 :::
