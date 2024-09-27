@@ -1,11 +1,16 @@
+Bossel’s
 Cao
 CEE
 Chamapign
 Champaign
 CSV
 dataset
+Hartmut
+PCA
 Shih
+SVD
 Urbana
+Vensim
 wunderground
 Xiaozhuo
 Xinyuan
