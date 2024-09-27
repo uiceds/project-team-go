@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T21:45:11+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T21:45:11+00:00" />
+  <meta name="dc.modified" content="2024-09-27T21:48:44+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T21:48:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/1890d4d9966929974ef4fad005968a2bb4934ccf/))
+([permalink](https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/))
 was automatically generated
-from [uiceds/project-team-go@1890d4d](https://github.com/uiceds/project-team-go/tree/1890d4d9966929974ef4fad005968a2bb4934ccf)
+from [uiceds/project-team-go@2382270](https://github.com/uiceds/project-team-go/tree/23822701e0b4c23a18565bb5a3e3f77df1663bdb)
 on September 27, 2024.
 </em></small>
 
@@ -119,7 +119,9 @@ on September 27, 2024.
 __Project proposal__
 
 Environmental factors significantly impact agricultural production. Factors such as precipitation, humidity, temperature, fertilization, and soil properties all influence agricultural yield. Therefore, it is crucial to investigate these factors and identify patterns in agricultural yields based on accessible data.
+
 In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and Fourier series. The original model was created in BASIC (Hartmut, 1985) and Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (Nitrogen) availability on plant growth dynamics. Constructed from first principles, it captures the complex interactions between water and nutrient dynamics and can be adapted to different scenarios by assigning local plant and soil parameters.
+
 Our goal is to create a second model that provides predictions similar to the reference model, while approaching the system from a different perspective. By using the simulation model as reference, we can test and improve our black-box model in a controlled environment to ensure accuracy.
 
 __Data description__
