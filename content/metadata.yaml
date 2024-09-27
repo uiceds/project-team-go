@@ -7,13 +7,11 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: N
-    name: Yung Shun Shih
+  - name: Yung Shun Shih
     initials: JD
-    orcid: N
     email: sean310066@gmail.com
     affiliations:
-      - Department of CEE, University of UIUC
+      - Department of CEE, University of illinois urbana champaign
   - github: janeroe
     name: Derek Chen
     initials: JR
