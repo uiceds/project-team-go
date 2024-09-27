@@ -1,5 +1,5 @@
 ---
-title: TeamGo Project Title
+title: 'Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois'
 keywords:
 - markdown
 - publishing
@@ -16,15 +16,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="TeamGo Project Title" />
-  <meta name="citation_title" content="TeamGo Project Title" />
-  <meta property="og:title" content="TeamGo Project Title" />
-  <meta property="twitter:title" content="TeamGo Project Title" />
+  <meta name="dc.title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
+  <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
+  <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
+  <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T18:43:46+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T18:43:46+00:00" />
+  <meta name="dc.modified" content="2024-09-27T18:51:16+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T18:51:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/044164d9c68fc2014b6716f25ed2f1e0f67a37fd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/044164d9c68fc2014b6716f25ed2f1e0f67a37fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/044164d9c68fc2014b6716f25ed2f1e0f67a37fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/044164d9c68fc2014b6716f25ed2f1e0f67a37fd/))
+([permalink](https://uiceds.github.io/project-team-go/v/192467e1d05817f5694bbf699bba6fcb9e59a342/))
 was automatically generated
-from [uiceds/project-team-go@044164d](https://github.com/uiceds/project-team-go/tree/044164d9c68fc2014b6716f25ed2f1e0f67a37fd)
+from [uiceds/project-team-go@192467e](https://github.com/uiceds/project-team-go/tree/192467e1d05817f5694bbf699bba6fcb9e59a342)
 on September 27, 2024.
 </em></small>
 
