@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T01:18:13+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:18:13+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:19:29+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:19:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ab9e75fb4a1c1574cd77770690bc642ab323917b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ab9e75fb4a1c1574cd77770690bc642ab323917b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ab9e75fb4a1c1574cd77770690bc642ab323917b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/))
+([permalink](https://uiceds.github.io/project-team-go/v/ab9e75fb4a1c1574cd77770690bc642ab323917b/))
 was automatically generated
-from [uiceds/project-team-go@620601c](https://github.com/uiceds/project-team-go/tree/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa)
+from [uiceds/project-team-go@ab9e75f](https://github.com/uiceds/project-team-go/tree/ab9e75fb4a1c1574cd77770690bc642ab323917b)
 on October 28, 2024.
 </em></small>
 
@@ -135,9 +135,14 @@ The dataset we plan to use is the meteorological records of Champaign, Illinois.
 
 
 ## References {.page_break_before}
-Hartmut Bossel. (2007). System Zoo 2 Simulation Models – Climate, Ecosystem, Resources. Books on Demand
+Chapagain, R., Remenyi, T. A., Harris, R. M., Mohammed, C. L., Huth, N., Wallach, D., ... & Ojeda, J. J. (2022). 
+Decomposing crop model uncertainty: A systematic review. Field Crops Research, 279, 108448.
 
-Hartmut Bossel. (1985). Umweltdynamik - 30Programme für kybernetische Umwelterfahrungen auf jedem BASIC-Rechner. Tewi Verlag
+Huang, J., Gómez-Dans, J. L., Huang, H., Ma, H., Wu, Q., Lewis, P. E., ... & Xie, X. (2019). 
+Assimilation of remote sensing into crop growth models: Current status and perspectives. Agricultural and forest meteorology, 276, 107609.
+
+Reynolds, J. F., & Acock, B. (1985). 
+Predicting the response of plants to increasing carbon dioxide: a critique of plant growth models. Ecological Modelling, 29(1-4), 107-129.
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
