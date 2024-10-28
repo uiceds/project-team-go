@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T00:53:22+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:53:22+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:05:13+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:05:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/a2e4ed7093fca71d2bf6b2091237e87b2234fab6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/a2e4ed7093fca71d2bf6b2091237e87b2234fab6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/a2e4ed7093fca71d2bf6b2091237e87b2234fab6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/a2e4ed7093fca71d2bf6b2091237e87b2234fab6/))
+([permalink](https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/))
 was automatically generated
-from [uiceds/project-team-go@a2e4ed7](https://github.com/uiceds/project-team-go/tree/a2e4ed7093fca71d2bf6b2091237e87b2234fab6)
+from [uiceds/project-team-go@93cd104](https://github.com/uiceds/project-team-go/tree/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1)
 on October 28, 2024.
 </em></small>
 
@@ -129,7 +129,8 @@ __Data description__
 The dataset we plan to use is the meteorological records of Champaign, Illinois. We want to predict corn yield by analyzing precipitation and temperature. Data will be obtained from wunderground.com (Savoy, IL Weather History | Weather Underground). And daily temperature and the annual precipitation amount would be needed. The format would be primarily in CSV. The four columns will be temperature (including max, avg and min) and precipitation every day, while the rows will be the date for a whole year.
 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/Corn.png)
+![Corn](https://github.com/user-attachments/assets/9f9ed268-6a98-40c4-8742-39f290b8e5bd)
+
 
 
 
