@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T01:27:18+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:27:18+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:38:51+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:38:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6b9ba38a6a6b14a22bf17a8779cc143987a25ad2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6b9ba38a6a6b14a22bf17a8779cc143987a25ad2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6b9ba38a6a6b14a22bf17a8779cc143987a25ad2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3718f2d5b24fab95f6f0029cfa649df73fa7c289/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3718f2d5b24fab95f6f0029cfa649df73fa7c289/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3718f2d5b24fab95f6f0029cfa649df73fa7c289/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/6b9ba38a6a6b14a22bf17a8779cc143987a25ad2/))
+([permalink](https://uiceds.github.io/project-team-go/v/3718f2d5b24fab95f6f0029cfa649df73fa7c289/))
 was automatically generated
-from [uiceds/project-team-go@6b9ba38](https://github.com/uiceds/project-team-go/tree/6b9ba38a6a6b14a22bf17a8779cc143987a25ad2)
+from [uiceds/project-team-go@3718f2d](https://github.com/uiceds/project-team-go/tree/3718f2d5b24fab95f6f0029cfa649df73fa7c289)
 on October 28, 2024.
 </em></small>
 
@@ -128,6 +128,16 @@ The dataset we plan to use is the meteorological records of Champaign, Illinois.
 
 
 ## Exploratory data analysis {.page_break_before}
+
+__Overlay Analysis of Crop Yield Distribution and Climate Zones in the U.S. for Targeted Climate Data Selection__
+![Corn](https://github.com/user-attachments/assets/d731e81e-abbc-46ab-bfa2-4e0c4e33508b)
+![Wheat](https://github.com/user-attachments/assets/f6ac088a-417c-44ce-b70a-c960ce154e37)
+![Cotton](https://github.com/user-attachments/assets/c0cd340e-6bac-4406-8683-2e13e80e313b)
+
+The figures above show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays. 
+
+We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions.
+
 
 __Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
 
