@@ -11,15 +11,32 @@ content/01.abstract.md:11:Champaign
 content/01.abstract.md:11:CSV
 content/01.abstract.md:11:dataset
 content/01.abstract.md:11:wunderground
-content/02. Exploratory data analysis.md:17:Stoneville
-content/02. Exploratory data analysis.md:25:Soilwater
-content/02. Exploratory data analysis.md:25:Soilwater
-content/02. Exploratory data analysis.md:26:Stoneville
-content/02. Exploratory data analysis.md:36:highwater
-content/02. Exploratory data analysis.md:36:locational
-content/02. Exploratory data analysis.md:36:Stoneville
-content/02. Exploratory data analysis.md:41:Dataset
-content/02. Exploratory data analysis.md:42:Evapotranspiration
+content/02. Exploratory data analysis.md:5:Acock
+content/02. Exploratory data analysis.md:5:Chapagain
+content/02. Exploratory data analysis.md:7:Bossel's
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:PCA
+content/02. Exploratory data analysis.md:7:SVD
+content/02. Exploratory data analysis.md:7:Vensim
+content/02. Exploratory data analysis.md:11:modularized
+content/02. Exploratory data analysis.md:12:csv
+content/02. Exploratory data analysis.md:12:Soilnutrient
+content/02. Exploratory data analysis.md:12:Soilwater
+content/02. Exploratory data analysis.md:34:Stoneville
+content/02. Exploratory data analysis.md:41:Soilwater
+content/02. Exploratory data analysis.md:41:Soilwater
+content/02. Exploratory data analysis.md:42:Stoneville
+content/02. Exploratory data analysis.md:52:highwater
+content/02. Exploratory data analysis.md:52:locational
+content/02. Exploratory data analysis.md:52:Stoneville
+content/02. Exploratory data analysis.md:57:Dataset
+content/02. Exploratory data analysis.md:58:Evapotranspiration
+content/02. Exploratory data analysis.md:63:CSV
+content/02. Exploratory data analysis.md:63:DataFrame
+content/02. Exploratory data analysis.md:63:PCA
+content/02. Exploratory data analysis.md:63:SVD
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed
