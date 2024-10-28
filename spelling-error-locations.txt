@@ -11,6 +11,15 @@ content/01.abstract.md:11:Champaign
 content/01.abstract.md:11:CSV
 content/01.abstract.md:11:dataset
 content/01.abstract.md:11:wunderground
+content/02. Exploratory data analysis.md:7:Stoneville
+content/02. Exploratory data analysis.md:15:Soilwater
+content/02. Exploratory data analysis.md:15:Soilwater
+content/02. Exploratory data analysis.md:16:Stoneville
+content/02. Exploratory data analysis.md:26:highwater
+content/02. Exploratory data analysis.md:26:locational
+content/02. Exploratory data analysis.md:26:Stoneville
+content/02. Exploratory data analysis.md:31:Dataset
+content/02. Exploratory data analysis.md:32:Evapotranspiration
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed
