@@ -1,3 +1,4 @@
+Acock
 auf
 Bossel
 Bossel’s
@@ -5,6 +6,7 @@ Cao
 CEE
 Chamapign
 Champaign
+Chapagain
 CSV
 dataset
 für

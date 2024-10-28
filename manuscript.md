@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T01:05:13+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T01:05:13+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:18:13+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:18:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1/))
+([permalink](https://uiceds.github.io/project-team-go/v/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa/))
 was automatically generated
-from [uiceds/project-team-go@93cd104](https://github.com/uiceds/project-team-go/tree/93cd1043ad1bdfd22d4d4214dfe9f75d951433c1)
+from [uiceds/project-team-go@620601c](https://github.com/uiceds/project-team-go/tree/620601cf6a3dacb914bb78dcd50e8c9ce63c48fa)
 on October 28, 2024.
 </em></small>
 
@@ -118,11 +118,9 @@ on October 28, 2024.
 
 __Project proposal__
 
-Environmental factors significantly impact agricultural production. Factors such as precipitation, humidity, temperature, fertilization, and soil properties all influence agricultural yield. Therefore, it is crucial to investigate these factors and identify patterns in agricultural yields based on accessible data.
+Crop models are computational tools that assess the effects of environmental variation and cultivation strategies on crop yield (Chapagain et al., 2022; Huang et al., 2019). By incorporating factors such as precipitation, humidity, temperature, fertilization, and soil properties, crop models establish relationships between input parameters and agricultural yield outcomes. From a structural perspective, crop models can be either empirical or mechanistic. Empirical models create statistical relationships based on existing data, while mechanistic models aim to explain relationships by exploring physiological mechanisms and causal connections (Reynolds and Acock, 1985). From a parameter standpoint, crop models generally include weather, soil, and crop-specific parameters to estimate crop biomass. Weather parameters cover solar radiation, precipitation, temperature, and more, while soil parameters focus on humus content, organic matter content, and other soil characteristics. Crop-specific parameters include maximum crop yield, specific nitrogen uptake rate, and related factors.
+In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and/or Fourier series. The original model is a parsimonious one, primarily focusing on the dynamic effects of precipitation on crop yield across a spectrum of crops in Germany. Initially created in BASIC (Hartmut, 1985) and later in Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (nitrogen) availability on plant growth dynamics. Built from first principles, it captures complex interactions between water and nutrient dynamics and can be adapted to different scenarios by applying specific plant and soil parameters.
 
-In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and Fourier series. The original model was created in BASIC (Hartmut, 1985) and Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (Nitrogen) availability on plant growth dynamics. Constructed from first principles, it captures the complex interactions between water and nutrient dynamics and can be adapted to different scenarios by assigning local plant and soil parameters.
-
-Our goal is to create a second model that provides predictions similar to the reference model, while approaching the system from a different perspective. By using the simulation model as reference, we can test and improve our black-box model in a controlled environment to ensure accuracy.
 
 __Data description__
 
