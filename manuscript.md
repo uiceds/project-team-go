@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-27'
+date-meta: '2024-10-28'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-09-27" />
-  <meta name="citation_publication_date" content="2024-09-27" />
-  <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T21:48:44+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T21:48:44+00:00" />
+  <meta name="dc.date" content="2024-10-28" />
+  <meta name="citation_publication_date" content="2024-10-28" />
+  <meta property="article:published_time" content="2024-10-28" />
+  <meta name="dc.modified" content="2024-10-28T00:39:01+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T00:39:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/cc317868f7b3e5da07dab81aec433536ad1053a5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/cc317868f7b3e5da07dab81aec433536ad1053a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/cc317868f7b3e5da07dab81aec433536ad1053a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/23822701e0b4c23a18565bb5a3e3f77df1663bdb/))
+([permalink](https://uiceds.github.io/project-team-go/v/cc317868f7b3e5da07dab81aec433536ad1053a5/))
 was automatically generated
-from [uiceds/project-team-go@2382270](https://github.com/uiceds/project-team-go/tree/23822701e0b4c23a18565bb5a3e3f77df1663bdb)
-on September 27, 2024.
+from [uiceds/project-team-go@cc31786](https://github.com/uiceds/project-team-go/tree/cc317868f7b3e5da07dab81aec433536ad1053a5)
+on October 28, 2024.
 </em></small>
 
 
@@ -87,7 +87,6 @@ on September 27, 2024.
   <br>
   <small>
      Department of CEE, University of illinois Urbana-Chamapign
-  TestTest
   </small>
 
 + **Derek Chen**
