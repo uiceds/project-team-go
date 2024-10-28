@@ -25,19 +25,19 @@ content/02. Exploratory data analysis.md:10:csv
 content/02. Exploratory data analysis.md:10:Soilnutrient
 content/02. Exploratory data analysis.md:10:Soilwater
 content/02. Exploratory data analysis.md:32:Champaign
-content/02. Exploratory data analysis.md:38:Stoneville
-content/02. Exploratory data analysis.md:43:Soilwater
-content/02. Exploratory data analysis.md:43:Soilwater
-content/02. Exploratory data analysis.md:44:Stoneville
-content/02. Exploratory data analysis.md:53:highwater
-content/02. Exploratory data analysis.md:53:locational
-content/02. Exploratory data analysis.md:53:Stoneville
-content/02. Exploratory data analysis.md:57:Dataset
-content/02. Exploratory data analysis.md:58:Evapotranspiration
-content/02. Exploratory data analysis.md:62:CSV
-content/02. Exploratory data analysis.md:62:DataFrame
-content/02. Exploratory data analysis.md:62:PCA
-content/02. Exploratory data analysis.md:62:SVD
+content/02. Exploratory data analysis.md:39:Stoneville
+content/02. Exploratory data analysis.md:44:Soilwater
+content/02. Exploratory data analysis.md:44:Soilwater
+content/02. Exploratory data analysis.md:45:Stoneville
+content/02. Exploratory data analysis.md:54:highwater
+content/02. Exploratory data analysis.md:54:locational
+content/02. Exploratory data analysis.md:54:Stoneville
+content/02. Exploratory data analysis.md:58:Dataset
+content/02. Exploratory data analysis.md:59:Evapotranspiration
+content/02. Exploratory data analysis.md:63:CSV
+content/02. Exploratory data analysis.md:63:DataFrame
+content/02. Exploratory data analysis.md:63:PCA
+content/02. Exploratory data analysis.md:63:SVD
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed

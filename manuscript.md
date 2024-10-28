@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T05:03:55+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T05:03:55+00:00" />
+  <meta name="dc.modified" content="2024-10-28T05:13:12+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T05:13:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/45b9970a63ec72c7c5fb396cc3e0e341efb2aa81/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/45b9970a63ec72c7c5fb396cc3e0e341efb2aa81/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/45b9970a63ec72c7c5fb396cc3e0e341efb2aa81/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ff25c4881a0f5e32c20582fe4bb4cbf879662708/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff25c4881a0f5e32c20582fe4bb4cbf879662708/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff25c4881a0f5e32c20582fe4bb4cbf879662708/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/45b9970a63ec72c7c5fb396cc3e0e341efb2aa81/))
+([permalink](https://uiceds.github.io/project-team-go/v/ff25c4881a0f5e32c20582fe4bb4cbf879662708/))
 was automatically generated
-from [uiceds/project-team-go@45b9970](https://github.com/uiceds/project-team-go/tree/45b9970a63ec72c7c5fb396cc3e0e341efb2aa81)
+from [uiceds/project-team-go@ff25c48](https://github.com/uiceds/project-team-go/tree/ff25c4881a0f5e32c20582fe4bb4cbf879662708)
 on October 28, 2024.
 </em></small>
 
@@ -138,7 +138,7 @@ __2. Reference model Construction__
 In our project, we have already translated the model into Python as the reference model. We modularized the code into three phases to enhance customization and improve understanding:
 The first part of the code focuses on preparing input values, which involve defining constants and table functions that are used in the next stage. The second part integrates two sub-models: soil-water and soil-nutrient. The ‘Soilwater’ model determines the soil water content based on two key factors: water-related parameters and soil parameters. The water-related parameters describe the mass balance of water (precipitation, irrigation, transpiration, evaporation, and percolation). In parallel, the soil parameters define the water-holding capacity of the soil. The other sub-model ‘Soilnutrient’ contains a mass balance for nitrogen (the interconnection between plant available nitrogen and humus in soil). In summary, soil-water and soil-nutrient are fundamentally important to estimate the yield. In the third part, the output data is presented as diagrams (or in csv files), visualizing the simulation results and enabling analysis of how changing factors influence crop yield.
 
-__3. Data Preparation__
+__3. Data Preparation__{.page_break_before}
 
 __3.1 Selecting Climate Zone and Sampling Points__
 
@@ -150,7 +150,7 @@ The figures above show an overlay analysis of the distribution percentages of co
 
 We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions.
 
-__3.2 Data Preparation__
+__3.2 Data Preparation__{.page_break_before}
 
 ![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=70%}
 ![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=70%}
@@ -160,7 +160,8 @@ In this study, three typical U.S. crops, corn, cotton, and wheat, were selected 
 
 Here, we chose to represent the climatic characteristics of a region using the monthly average temperature and monthly average precipitation for each year. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, we chose Nobel County in Minnesota as a typical wheat-producing area to illustrate its climate characteristics, and Port Mansfield in Texas to represent the climate characteristics of a typical cotton-growing area.
 
-__4. Reference Model Results Analysis and Questions__
+__4. Reference Model Results Analysis and Questions__{.page_break_before}
+
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
 ![image](https://github.com/user-attachments/assets/d9aff41d-6891-4189-b007-3cd3ae2e0c01){width=80%}
 
@@ -175,7 +176,7 @@ __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
 4. Model Validation: How well do these model outputs align with real crop yield data from similar climate zones? (This may exceed the scope of our project.)
 5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
 
-__4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
+__4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__{.page_break_before}
 ![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc){width=80%}
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
