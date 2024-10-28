@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:53:23+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:53:23+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:58:24+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:58:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1e27094e18c4dce903e2bb4ff89efac0407fbac2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1e27094e18c4dce903e2bb4ff89efac0407fbac2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1e27094e18c4dce903e2bb4ff89efac0407fbac2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/17c292e4b86c4941f5eb9c46b956d2b9b15132ac/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/17c292e4b86c4941f5eb9c46b956d2b9b15132ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/17c292e4b86c4941f5eb9c46b956d2b9b15132ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/1e27094e18c4dce903e2bb4ff89efac0407fbac2/))
+([permalink](https://uiceds.github.io/project-team-go/v/17c292e4b86c4941f5eb9c46b956d2b9b15132ac/))
 was automatically generated
-from [uiceds/project-team-go@1e27094](https://github.com/uiceds/project-team-go/tree/1e27094e18c4dce903e2bb4ff89efac0407fbac2)
+from [uiceds/project-team-go@17c292e](https://github.com/uiceds/project-team-go/tree/17c292e4b86c4941f5eb9c46b956d2b9b15132ac)
 on October 28, 2024.
 </em></small>
 
@@ -141,25 +141,25 @@ The first part of the code focuses on preparing input values, which involve defi
 __3. Data Preparation__
 
 __3.1 Selecting Climate Zone and Sampling Points__
-![image](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67)
-![image](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209)
-![image](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407)
+![image](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=70%}
+![image](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=70%}
+![image](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=70%}
 
 The figures above show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays. 
 
 We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions.
 
 __3.2 Data Preparation__
-![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a)
-![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca)
-![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772)
+![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=70%}
+![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=70%}
+![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=70%}
 In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which clearly shows the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, were collected and used in this study for model analysis.
 
 Here, we chose to represent the climatic characteristics of a region using the monthly average temperature and monthly average precipitation for each year. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, we chose Nobel County in Minnesota as a typical wheat-producing area to illustrate its climate characteristics, and Port Mansfield in Texas to represent the climate characteristics of a typical cotton-growing area.
 
 __4. Reference Model Results Analysis and Questions__
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
-![image](https://github.com/user-attachments/assets/d9aff41d-6891-4189-b007-3cd3ae2e0c01)
+![image](https://github.com/user-attachments/assets/d9aff41d-6891-4189-b007-3cd3ae2e0c01){width=70%}
 
 Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
 
@@ -173,7 +173,7 @@ __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
 5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc)
+![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc){width=70%}
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
 The similarity of soil nutrient results is probably cause by model error. In soil water, we can see three precipitation cases covers highwater excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, not significant seasonal variation .

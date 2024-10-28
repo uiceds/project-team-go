@@ -5,7 +5,7 @@ CEE
 Chamapign
 Champaign
 Chapagain
-csv
+CSV
 Dans
 DataFrame
 dataset
