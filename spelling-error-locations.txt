@@ -56,7 +56,6 @@ content/03. Preliminary predictive modeling.md:69:csv
 content/03. Preliminary predictive modeling.md:69:datapoints
 content/03. Preliminary predictive modeling.md:69:dataset
 content/03. Preliminary predictive modeling.md:69:dataset
-content/03. Preliminary predictive modeling.md:78:png
 content/03. Preliminary predictive modeling.md:81:SVD
 content/03. Preliminary predictive modeling.md:83:dataset
 content/03. Preliminary predictive modeling.md:83:dataset

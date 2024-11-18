@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:18:02+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:18:02+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:21:51+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:21:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/))
+([permalink](https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/))
 was automatically generated
-from [uiceds/project-team-go@7073b89](https://github.com/uiceds/project-team-go/tree/7073b89e98033ba697bb597f4ca33b74f3afe0de)
+from [uiceds/project-team-go@4c300d3](https://github.com/uiceds/project-team-go/tree/4c300d36b65aec8e6c7276c4a68819a3f850e100)
 on November 18, 2024.
 </em></small>
 
@@ -261,7 +261,7 @@ $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 ## 3 Data Description for All Scenario
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
-To generate a spectrum of scenarios for better estimation of the corn yield in the US, we select overlaps the major corn production map with the climate zone map and select 9 sampling locations across three different major climate zones, for each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process. 
+To generate a spectrum of scenarios for better estimation of the corn yield in the US, we overlapped the corn production map with the climate zone map and select 9 sampling locations across three different major climate zones. For each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process. 
 
 To generate a spectrum of scenarios for better estimation of corn yield across the U.S., we overlap the major corn production map with the climate zone map and select 9 sampling locations representing three major climate zones. For each location, precipitation data is gathered over a 20- to 21-year period. Additional scenarios are generated by using corrected precipitation, calculated as the product of meteorological 'precipitation' data and a 'multiplier for precipitation' ranging from 0.1 to 0.9 (representing suboptimal conditions). This approach results in a total of 1,692 scenarios, which is the product of the number of locations (9), years of precipitation data (20-21), and multipliers for precipitation (9). Gif 1-3 demonstrates that the simulation data remains intact even after this data transformation process.
 In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.
@@ -273,7 +273,7 @@ content/images/precipitation_scenarios_0.1_loc8_all3.gif
 ![
 **A square image at actual size and with a bottom caption.**
 Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
+](content/images/precipitation_scenarios_0.1_loc8_all3.gif){#fig:square-image}
 
 
 ## 4 Dimension Reduction by SVD
