@@ -3,29 +3,28 @@
 ## Explanation of Columns
 
 The dataset includes several key columns, each playing an essential role in the analysis. 
-The sim_index column represents the simulation timeline, allowing the data to be tracked sequentially. 
+The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
 While not directly used in the model, it helps visualize time-dependent trends. 
-The MULTIPLIER_FOR_RAINFALL column is a scaling factor applied to raw rainfall data, reflecting environmental adjustments or experimental conditions. 
+The _MULTIPLIER_FOR_RAINFALL_ column is a scaling factor applied to raw rainfall data, reflecting environmental adjustments or experimental conditions. 
 Using this multiplier, the rain_amount column is calculated as the cumulative rainfall over time, 
 serving as the independent variable in the regression analysis to explore its impact on biomass production.
-The precipitation column indicates the level of rainfall at each time point, providing additional environmental context. 
-Similarly, the soil_moisture column captures the moisture levels in the soil, influenced by rainfall and precipitation. 
-Although not directly used in the predictive model, these variables add depth and context to the dataset, 
-enabling potential feature engineering for more complex analyses. 
-Finally, the total_biomass column represents the dependent variable, measuring the biomass produced under given conditions. 
-This serves as the target variable in the regression model, with predictions based on the rain_amount variable. 
+The _precipitation_ column indicates the level of rainfall at each time point, providing additional environmental context. 
+Similarly, the _soil_moisture_ column captures the moisture levels in the soil, influenced by rainfall and precipitation. 
+This column is not directly used in the predictive model now.
+Finally, the _total_biomass_ column represents the dependent variable, measuring the biomass produced under given conditions. 
+This serves as the target variable in the regression model, with predictions based on the _rain_amount_ variable. 
 Together, these columns create a comprehensive dataset for analyzing the interplay between rainfall and biomass in varying environmental conditions.
 
 ## Relationships and Usage in Code
 
 The dataset’s variables are used in specific ways to build and analyze the predictive model. 
-The rain_amount column, derived by multiplying MULTIPLIER_FOR_RAINFALL and raw rainfall data, 
+The _rain_amount column_, derived by multiplying _MULTIPLIER_FOR_RAINFALL_ and _raw rainfall_ data, 
 serves as the core predictor to model its relationship with total_biomass.
 This dependent variable acts as the target for the regression analysis, allowing the model to evaluate its predictive accuracy. 
-Supporting variables such as precipitation and soil_moisture provide additional environmental context, 
+Supporting variables such as _precipitation_ and _soil_moisture_ provide additional environmental context, 
 which could be leveraged for feature engineering in more advanced models. 
-The sim_index ensures that the data can be tracked sequentially for exploratory analysis and visualization. 
-These relationships enable the construction of a decision tree regression model, which uses rain_amount to predict total_biomass, 
+The _sim_index_ ensures that the data can be tracked sequentially for exploratory analysis and visualization. 
+These relationships enable the construction of a decision tree regression model, which uses _rain_amount_ to predict _total_biomass_, 
 and its performance is validated through visualizations and comparisons with the observed data.
 
 # _1 Model Construction and Analysis_
