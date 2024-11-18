@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:21:51+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:21:51+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:24:02+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:24:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/))
+([permalink](https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/))
 was automatically generated
-from [uiceds/project-team-go@4c300d3](https://github.com/uiceds/project-team-go/tree/4c300d36b65aec8e6c7276c4a68819a3f850e100)
+from [uiceds/project-team-go@8304cc4](https://github.com/uiceds/project-team-go/tree/8304cc4668c9facfb9ad6e681c382b81d07dd545)
 on November 18, 2024.
 </em></small>
 
@@ -270,10 +270,9 @@ content/images/precipitation_scenarios_0.1_loc1_all3.gif
 content/images/precipitation_scenarios_0.1_loc6_all3.gif
 content/images/precipitation_scenarios_0.1_loc8_all3.gif
 
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](content/images/precipitation_scenarios_0.1_loc8_all3.gif){#fig:square-image}
+
+
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif){width=70%}
 
 
 ## 4 Dimension Reduction by SVD

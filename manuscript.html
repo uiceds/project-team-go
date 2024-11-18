@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:21:51+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:21:51+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:24:02+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:24:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/4c300d36b65aec8e6c7276c4a68819a3f850e100/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/4c300d36b65aec8e6c7276c4a68819a3f850e100">uiceds/project-team-go@4c300d3</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/8304cc4668c9facfb9ad6e681c382b81d07dd545">uiceds/project-team-go@8304cc4</a>
 on November 18, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -224,13 +224,10 @@ In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each 
 <p>content/images/precipitation_scenarios_0.1_loc1_all3.gif
 content/images/precipitation_scenarios_0.1_loc6_all3.gif
 content/images/precipitation_scenarios_0.1_loc8_all3.gif</p>
-<div id="fig:square-image" class="fignos">
 <figure>
-<img src="content/images/precipitation_scenarios_0.1_loc8_all3.gif" alt="Figure 1: A square image at actual size and with a bottom caption. Loaded from the latest version of image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif" style="width:70.0%" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
 </figure>
-</div>
 <h2 id="dimension-reduction-by-svd">4 Dimension Reduction by SVD</h2>
 <p>The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model harder to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.</p>
 <p>To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V’).</p>
