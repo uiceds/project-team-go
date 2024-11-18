@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:15:27+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:15:27+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:18:02+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:18:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/))
+([permalink](https://uiceds.github.io/project-team-go/v/7073b89e98033ba697bb597f4ca33b74f3afe0de/))
 was automatically generated
-from [uiceds/project-team-go@7f8f6e1](https://github.com/uiceds/project-team-go/tree/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9)
+from [uiceds/project-team-go@7073b89](https://github.com/uiceds/project-team-go/tree/7073b89e98033ba697bb597f4ca33b74f3afe0de)
 on November 18, 2024.
 </em></small>
 
@@ -269,6 +269,12 @@ In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each 
 content/images/precipitation_scenarios_0.1_loc1_all3.gif
 content/images/precipitation_scenarios_0.1_loc6_all3.gif
 content/images/precipitation_scenarios_0.1_loc8_all3.gif
+
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
+
 
 ## 4 Dimension Reduction by SVD
 
