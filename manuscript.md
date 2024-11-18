@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:31:13+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:31:13+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:35:45+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:35:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/))
+([permalink](https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/))
 was automatically generated
-from [uiceds/project-team-go@1eafa03](https://github.com/uiceds/project-team-go/tree/1eafa0342e69b3e3e20f20d898517453153b86c4)
+from [uiceds/project-team-go@c121748](https://github.com/uiceds/project-team-go/tree/c121748bdcf376c6c325dd218dc6a246d515b133)
 on November 18, 2024.
 </em></small>
 
@@ -205,6 +205,14 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 ## 1 Data Description of One Scenario
 
 ### 1.1 Explanation of Columns
+
+| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
+|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
+| Game 1 | 150 | 187 | 210 | 105 |
+| Game 2 |  98 | 202 | 197 | 102 |
+| Game 3 | 123 | 180 | 238 | 134 |
+
+
 
 The dataset includes several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
