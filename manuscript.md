@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:00:23+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:00:23+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:07:21+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:07:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/))
+([permalink](https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/))
 was automatically generated
-from [uiceds/project-team-go@799462d](https://github.com/uiceds/project-team-go/tree/799462db667528d93482dc2c2fc3206b321c1542)
+from [uiceds/project-team-go@3de2697](https://github.com/uiceds/project-team-go/tree/3de26973f102002c81f49835297ae11907925166)
 on November 18, 2024.
 </em></small>
 
@@ -257,7 +257,10 @@ $R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, in which ${
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
 
-![你有问题要不要问问他](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png){Figure 1}
+
+Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
+
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
 
 ## 3 Data Description for All Scenario
@@ -290,11 +293,14 @@ To prepare the dataset for SVD, we first reorganized the data by stretching all 
 Figure 2 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale. It shows that the dataset’s variance starts relatively small and decreases rapidly at the initial stage. Figure 3 identifies the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 4 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈). Finally, the dataset was reconstructed using the compressed data gained from the SVD process, and Figure 5 displays the reconstructed scenario.
 
 Figure 1 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 2 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 3 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 4 displays the reconstructed scenario.
-content/images/sv_plot.png
 
-content/images/variance 1-5 SVD indices.png
-content/images/eigensce_plot_10sce.png
-content/images/reconstructed_dynamics.gif
+![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png){SV Plot}
+
+![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png){Variance 1-5 SVD Indices}
+
+![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Eigensce Plot 10 SCE}
+
+![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Reconstructed Dynamics}
 
 
 
