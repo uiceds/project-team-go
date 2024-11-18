@@ -5,10 +5,10 @@ CEE
 Chamapign
 Champaign
 Chapagain
-csv
+CSV
 Dans
 DataFrame
-dataset
+Dataset
 dataset’s
 Evapotranspiration
 Gómez
