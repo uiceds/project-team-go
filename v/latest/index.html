@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:00:23+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:00:23+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:07:21+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:07:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/799462db667528d93482dc2c2fc3206b321c1542">uiceds/project-team-go@799462d</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/3de26973f102002c81f49835297ae11907925166">uiceds/project-team-go@3de2697</a>
 on November 18, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -215,8 +215,15 @@ and its performance is validated through visualizations and comparisons with the
 <p>By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:</p>
 <p><span class="math inline">\(R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}\)</span>, in which <span class="math inline">\({\text{SS} _{\text{tot}}}\)</span> is Total Sum of Squares, <span class="math inline">\({\text{SS} _{\text{res}}}\)</span> is Residual Sum of Squares.</p>
 <p>Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.</p>
-<p><img src="https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png" alt="你有问题要不要问问他" />
-<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png" alt="image" /></p>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
+<p>Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.</p>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
 <h2 id="data-description-for-all-scenario">3 Data Description for All Scenario</h2>
 <p>We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, ‘precipitation’ and ‘multiplier for precipitation’ serve as inputs, and their combination constitutes a new scenario. ‘Total biomass’ refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.</p>
 <p>To generate a spectrum of scenarios for better estimation of the corn yield in the US, we overlapped the corn production map with the climate zone map and select 9 sampling locations across three different major climate zones. For each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process.</p>
@@ -239,11 +246,23 @@ content/images/precipitation_scenarios_0.1_loc8_all3.gif</p>
 <p>The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model harder to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.</p>
 <p>To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V’).</p>
 <p>Figure 2 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale. It shows that the dataset’s variance starts relatively small and decreases rapidly at the initial stage. Figure 3 identifies the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 4 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈). Finally, the dataset was reconstructed using the compressed data gained from the SVD process, and Figure 5 displays the reconstructed scenario.</p>
-<p>Figure 1 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset’s variance starts relatively small and decreases sharply at the initial stage. Figure 2 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 3 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset’s principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 4 displays the reconstructed scenario.
-content/images/sv_plot.png</p>
-<p>content/images/variance 1-5 SVD indices.png
-content/images/eigensce_plot_10sce.png
-content/images/reconstructed_dynamics.gif</p>
+<p>Figure 1 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset’s variance starts relatively small and decreases sharply at the initial stage. Figure 2 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 3 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset’s principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 4 displays the reconstructed scenario.</p>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png" alt="content/images/sv_plot.png" />
+<figcaption aria-hidden="true">content/images/sv_plot.png</figcaption>
+</figure>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png" alt="content/images/variance 1-5 SVD indices.png" />
+<figcaption aria-hidden="true">content/images/variance 1-5 SVD indices.png</figcaption>
+</figure>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png" alt="content/images/eigensce_plot_10sce.png" />
+<figcaption aria-hidden="true">content/images/eigensce_plot_10sce.png</figcaption>
+</figure>
+<figure>
+<img src="https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif" alt="content/images/reconstructed_dynamics.gif" />
+<figcaption aria-hidden="true">content/images/reconstructed_dynamics.gif</figcaption>
+</figure>
 <h2 class="page_break_before" id="references">References</h2>
 <p>Chapagain, R., Remenyi, T. A., Harris, R. M., Mohammed, C. L., Huth, N., Wallach, D., … &amp; Ojeda, J. J. (2022).
 Decomposing crop model uncertainty: A systematic review. Field Crops Research, 279, 108448.</p>
