@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:49:46+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:49:46+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:36:56+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:36:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/))
+([permalink](https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/))
 was automatically generated
-from [uiceds/project-team-go@069aea8](https://github.com/uiceds/project-team-go/tree/069aea8171ed64ba760f5bfdcbbf699ebf98403b)
+from [uiceds/project-team-go@cee98cc](https://github.com/uiceds/project-team-go/tree/cee98cc3221a519c33d1c673fa457ce8a0e32c0e)
 on November 18, 2024.
 </em></small>
 
@@ -265,7 +265,9 @@ $R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, in which ${
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png){Figure 1}
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
+
+*Figure 1. Prediction result of model with depth 100*
 
 Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
