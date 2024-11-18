@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:40:28+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:40:28+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:42:28+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:42:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/dd4731a8a3ecc0d34a75ea276efaa1aa34972d55/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd4731a8a3ecc0d34a75ea276efaa1aa34972d55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd4731a8a3ecc0d34a75ea276efaa1aa34972d55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/dadf692941baaf7e58e7922dbf9372b49554f660/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/dadf692941baaf7e58e7922dbf9372b49554f660/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/dadf692941baaf7e58e7922dbf9372b49554f660/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/dd4731a8a3ecc0d34a75ea276efaa1aa34972d55/))
+([permalink](https://uiceds.github.io/project-team-go/v/dadf692941baaf7e58e7922dbf9372b49554f660/))
 was automatically generated
-from [uiceds/project-team-go@dd4731a](https://github.com/uiceds/project-team-go/tree/dd4731a8a3ecc0d34a75ea276efaa1aa34972d55)
+from [uiceds/project-team-go@dadf692](https://github.com/uiceds/project-team-go/tree/dadf692941baaf7e58e7922dbf9372b49554f660)
 on November 18, 2024.
 </em></small>
 
@@ -252,7 +252,7 @@ The goal of this function is to construct a regression tree model based on the f
 By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:
 
 
-$R^2 = 1 - \frac{\text{SS}_{\text{res}} \text{SS}_{\text{tot}}}$
+$$R^2 = 1 - \frac{\text{SS1} \text{SS2}}$$
 
 $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
