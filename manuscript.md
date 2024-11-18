@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:07:21+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:07:21+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:11:09+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:11:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/3de26973f102002c81f49835297ae11907925166/))
+([permalink](https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/))
 was automatically generated
-from [uiceds/project-team-go@3de2697](https://github.com/uiceds/project-team-go/tree/3de26973f102002c81f49835297ae11907925166)
+from [uiceds/project-team-go@3a225c8](https://github.com/uiceds/project-team-go/tree/3a225c85d7404137d4478ed06365fc745e68b313)
 on November 18, 2024.
 </em></small>
 
@@ -259,9 +259,11 @@ Although this implementation is relatively simplified, it effectively demonstrat
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png){Figure 1}
 
-Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
+Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png){Figure 2}
+
+Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
 ## 3 Data Description for All Scenario
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
@@ -271,18 +273,11 @@ To generate a spectrum of scenarios for better estimation of the corn yield in t
 To generate a spectrum of scenarios for better estimation of corn yield across the U.S., we overlap the major corn production map with the climate zone map and select 9 sampling locations representing three major climate zones. For each location, precipitation data is gathered over a 20- to 21-year period. Additional scenarios are generated by using corrected precipitation, calculated as the product of meteorological 'precipitation' data and a 'multiplier for precipitation' ranging from 0.1 to 0.9 (representing suboptimal conditions). This approach results in a total of 1,692 scenarios, which is the product of the number of locations (9), years of precipitation data (20-21), and multipliers for precipitation (9). Gif 1-3 demonstrates that the simulation data remains intact even after this data transformation process.
 In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.
 
-content/images/precipitation_scenarios_0.1_loc1_all3.gif
-content/images/precipitation_scenarios_0.1_loc6_all3.gif
-content/images/precipitation_scenarios_0.1_loc8_all3.gif
-
-
-
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc1_all3.gif){width=70%}
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc1_all3.gif)
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif)
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc8_all3.gif)
-8
 
 ## 4 Dimension Reduction by SVD
 
