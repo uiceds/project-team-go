@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:22:43+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:22:43+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:31:13+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:31:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/cef4a35217657258e3c64cffb50e719768cc08ff/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/cef4a35217657258e3c64cffb50e719768cc08ff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/cef4a35217657258e3c64cffb50e719768cc08ff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/cef4a35217657258e3c64cffb50e719768cc08ff/))
+([permalink](https://uiceds.github.io/project-team-go/v/1eafa0342e69b3e3e20f20d898517453153b86c4/))
 was automatically generated
-from [uiceds/project-team-go@cef4a35](https://github.com/uiceds/project-team-go/tree/cef4a35217657258e3c64cffb50e719768cc08ff)
+from [uiceds/project-team-go@1eafa03](https://github.com/uiceds/project-team-go/tree/1eafa0342e69b3e3e20f20d898517453153b86c4)
 on November 18, 2024.
 </em></small>
 
@@ -196,7 +196,11 @@ To do this, we will first ensure that the reference mechanistic model functions 
 
 
 
-# Preliminary Predictive Modeling
+## Preliminary Predictive Modeling
+
+This section focuses on predictive modeling and dimensionality reduction for analyzing the relationship between rainfall and corn yield under varying environmental scenarios. The study leverages a mechanistic dataset with high dimensionality and computational complexity. The primary objectives include implementing a decision tree regression model for single-scenario prediction and utilizing Singular Value Decomposition (SVD) for multi-scenario dimensionality reduction. By combining these approaches, the project aims to reduce computational cost while preserving the predictive accuracy and interpretability of the model.
+
+## Single Scenario Analysis by Using Decision Tree
 
 ## 1 Data Description of One Scenario
 
@@ -265,6 +269,8 @@ Figure 1 is the prediction result of model with depth 100, which has a goodness 
 
 Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
+## Multiple Scenario Analysis by Using SVD and PCA
+
 ## 3 Data Description for All Scenario
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
@@ -294,6 +300,16 @@ Figure 6 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 ![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Figure 8}
 
 ![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Figure 9}
+
+## Conclusion
+
+This project successfully demonstrates the application of decision tree regression and SVD for predictive modeling and dimensionality reduction:
+
+Single Scenario Analysis: The decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees.
+
+Multi-Scenario Analysis: SVD reduces the dataset's dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
+
+These methods provide a comprehensive framework for analyzing complex datasets in agricultural and environmental studies. Future work could explore integrating additional features, such as soil properties, or applying more advanced machine learning models to further improve predictive performance.
 
 
 

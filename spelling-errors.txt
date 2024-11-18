@@ -5,12 +5,13 @@ CEE
 Chamapign
 Champaign
 Chapagain
-csv
+CSV
 Dans
 DataFrame
 datapoints
 dataset
 dataset’s
+datasets
 dimensionality
 eigen
 eigensce
@@ -19,6 +20,7 @@ Gómez
 Hartmut
 highwater
 Huth
+interpretability
 locational
 meteological
 modularized
