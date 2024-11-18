@@ -71,27 +71,20 @@ content/03. Preliminary predictive modeling.md:88:SVD
 content/03. Preliminary predictive modeling.md:88:SVD
 content/03. Preliminary predictive modeling.md:90:dataset
 content/03. Preliminary predictive modeling.md:90:dataset
-content/03. Preliminary predictive modeling.md:90:dataset’s
+content/03. Preliminary predictive modeling.md:90:dataset
+content/03. Preliminary predictive modeling.md:90:dataset's
+content/03. Preliminary predictive modeling.md:90:dataset's
 content/03. Preliminary predictive modeling.md:90:eigen
 content/03. Preliminary predictive modeling.md:90:PCA
 content/03. Preliminary predictive modeling.md:90:PCA
 content/03. Preliminary predictive modeling.md:90:SVD
-content/03. Preliminary predictive modeling.md:92:dataset
-content/03. Preliminary predictive modeling.md:92:dataset
-content/03. Preliminary predictive modeling.md:92:dataset
-content/03. Preliminary predictive modeling.md:92:dataset's
-content/03. Preliminary predictive modeling.md:92:dataset's
-content/03. Preliminary predictive modeling.md:92:eigen
-content/03. Preliminary predictive modeling.md:92:PCA
-content/03. Preliminary predictive modeling.md:92:PCA
-content/03. Preliminary predictive modeling.md:92:SVD
+content/03. Preliminary predictive modeling.md:92:png
+content/03. Preliminary predictive modeling.md:92:png
 content/03. Preliminary predictive modeling.md:94:png
 content/03. Preliminary predictive modeling.md:94:png
+content/03. Preliminary predictive modeling.md:94:SVD
 content/03. Preliminary predictive modeling.md:96:png
 content/03. Preliminary predictive modeling.md:96:png
-content/03. Preliminary predictive modeling.md:96:SVD
-content/03. Preliminary predictive modeling.md:98:png
-content/03. Preliminary predictive modeling.md:98:png
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed
