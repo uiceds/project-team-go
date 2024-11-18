@@ -4,9 +4,9 @@
 ##  Decision Tree Regression
 
 For this project, we implemented a custom decision tree regression model. Below is the detailed logic of the model:
-•	Model Principle:
-o	The decision tree recursively partitions the data, dividing the feature space into smaller subregions. Each subregion is represented by the mean value of the target variable.
-o	The tree-building process involves:
-	Optimal Split Selection: Iterating through all possible split points (unique rainfall values) to minimize the Mean Squared Error (MSE).
-	Recursive Subtree Construction: Splitting data into left and right branches and continuing until the predefined maximum depth or a minimum number of samples is reached.
-	Termination Criteria: If the sample size in a node is less than min_samples_split or the tree reaches the maximum depth, the node returns the mean value of the target variable.
+Model Principle:
+The decision tree recursively partitions the data, dividing the feature space into smaller subregions. Each subregion is represented by the mean value of the target variable.
+The tree-building process involves:
+Optimal Split Selection: Iterating through all possible split points (unique rainfall values) to minimize the Mean Squared Error (MSE).
+Recursive Subtree Construction: Splitting data into left and right branches and continuing until the predefined maximum depth or a minimum number of samples is reached.
+Termination Criteria: If the sample size in a node is less than min_samples_split or the tree reaches the maximum depth, the node returns the mean value of the target variable.
