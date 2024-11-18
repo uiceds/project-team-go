@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:44:36+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:44:36+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:49:46+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:49:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/264b95f1a14ad5be2eab7ea00af802cef57f01a1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/264b95f1a14ad5be2eab7ea00af802cef57f01a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/264b95f1a14ad5be2eab7ea00af802cef57f01a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/264b95f1a14ad5be2eab7ea00af802cef57f01a1/))
+([permalink](https://uiceds.github.io/project-team-go/v/069aea8171ed64ba760f5bfdcbbf699ebf98403b/))
 was automatically generated
-from [uiceds/project-team-go@264b95f](https://github.com/uiceds/project-team-go/tree/264b95f1a14ad5be2eab7ea00af802cef57f01a1)
+from [uiceds/project-team-go@069aea8](https://github.com/uiceds/project-team-go/tree/069aea8171ed64ba760f5bfdcbbf699ebf98403b)
 on November 18, 2024.
 </em></small>
 
@@ -206,7 +206,7 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 
 ### 1.1 Explanation of Columns
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121903.png){#fig:tall-image height=3in}
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121903.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121942.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20122013.png)
 
@@ -288,6 +288,8 @@ In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif){Figure 4}
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc8_all3.gif){Figure 5}
+
+Figure 3-5 show the corrected precipitation, soil water, and yield dynamics under different multiplier scenarios (0.1–0.9). The three figures also demonstrate that the simulation data remains intact even after this data transformation process.
 
 ## 4 Dimension Reduction by SVD
 
