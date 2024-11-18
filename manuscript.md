@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-11-17'
+date-meta: '2024-11-18'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-11-17" />
-  <meta name="citation_publication_date" content="2024-11-17" />
-  <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T22:21:31+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T22:21:31+00:00" />
+  <meta name="dc.date" content="2024-11-18" />
+  <meta name="citation_publication_date" content="2024-11-18" />
+  <meta property="article:published_time" content="2024-11-18" />
+  <meta name="dc.modified" content="2024-11-18T02:46:26+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T02:46:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6c52a32a06f1562674c93fcfd99b5bccab864893/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c52a32a06f1562674c93fcfd99b5bccab864893/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c52a32a06f1562674c93fcfd99b5bccab864893/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/4841821eae433489140c49b42e1a91f7a84a20b9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/4841821eae433489140c49b42e1a91f7a84a20b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/4841821eae433489140c49b42e1a91f7a84a20b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/6c52a32a06f1562674c93fcfd99b5bccab864893/))
+([permalink](https://uiceds.github.io/project-team-go/v/4841821eae433489140c49b42e1a91f7a84a20b9/))
 was automatically generated
-from [uiceds/project-team-go@6c52a32](https://github.com/uiceds/project-team-go/tree/6c52a32a06f1562674c93fcfd99b5bccab864893)
-on November 17, 2024.
+from [uiceds/project-team-go@4841821](https://github.com/uiceds/project-team-go/tree/4841821eae433489140c49b42e1a91f7a84a20b9)
+on November 18, 2024.
 </em></small>
 
 
@@ -130,13 +130,11 @@ The dataset we plan to use is the meteorological records of Champaign, Illinois.
 ## Exploratory data analysis {.page_break_before}
 
 __1. Background and Research Proposal__
-
 Crop models are computational tools that assess the effects of environmental variation and cultivation strategies on crop yield (Chapagain et al., 2022; Huang et al., 2019). By incorporating factors such as precipitation, humidity, temperature, fertilization, and soil properties, crop models establish relationships between input parameters and agricultural yield outcomes. From a structural perspective, crop models can be either empirical or mechanistic. Empirical models create statistical relationships based on existing data, while mechanistic models aim to explain relationships by exploring physiological mechanisms and causal connections (Reynolds and Acock, 1985). From a parameter standpoint, crop models generally include weather, soil, and crop-specific parameters to estimate crop biomass. Weather parameters cover solar radiation, precipitation, temperature, and more, while soil parameters focus on humus content, organic matter content, and other soil characteristics. Crop-specific parameters include maximum crop yield, specific nitrogen uptake rate, and related factors.
 
 In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and/or Fourier series. The original model is a parsimonious one, primarily focusing on the dynamic effects of precipitation on crop yield across a spectrum of crops in Germany. Initially created in BASIC (Hartmut, 1985) and later in Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (nitrogen) availability on plant growth dynamics. Built from first principles, it captures complex interactions between water and nutrient dynamics and can be adapted to different scenarios by applying specific plant and soil parameters.
 
 __2. Reference model Construction__
-
 In our project, we have already translated the model into Python as the reference model. We modularized the code into three phases to enhance customization and improve understanding:
 The first part of the code focuses on preparing input values, which involve defining constants and table functions that are used in the next stage. The second part integrates two sub-models: soil-water and soil-nutrient. The ‘Soilwater’ model determines the soil water content based on two key factors: water-related parameters and soil parameters. The water-related parameters describe the mass balance of water (precipitation, irrigation, transpiration, evaporation, and percolation). In parallel, the soil parameters define the water-holding capacity of the soil. The other sub-model ‘Soilnutrient’ contains a mass balance for nitrogen (the interconnection between plant available nitrogen and humus in soil). In summary, soil-water and soil-nutrient are fundamentally important to estimate the yield. In the third part, the output data is presented as diagrams (or in csv files), visualizing the simulation results and enabling analysis of how changing factors influence crop yield.
 
@@ -165,7 +163,6 @@ Here, we chose to represent the climatic characteristics of a region using the m
 __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
-
 ![image](https://github.com/user-attachments/assets/d9aff41d-6891-4189-b007-3cd3ae2e0c01){width=80%}
 
 Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
@@ -173,7 +170,6 @@ Figure 1. shows the mechanistic model results for soil water and nutrient dynami
 From the soil nutrient data, we can observe the seasonal dynamics of biomass levels as well as plant-available nitrogen in the soil. At the beginning of cultivation, with the application of fertilizer, nitrogen levels reach their peak and then decrease as the crop continues to grow. From the soil water data, we can see that a water surplus exists in both the max and mean rainfall scenarios, leading to a significant rise in groundwater levels (d, e). Additionally, since the reference model did not account for surface runoff, there could be a significant overestimation of precipitation's contribution to groundwater levels.
 
 __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
-
 1. Model Glitch: Notice that, despite the differences in precipitation levels, plots a, b, and c are largely identical. It appears that the sub-model 'Soilwater' is not successfully linked with the other sub-model 'Soilwater' in the simulation. Further debugging is required to calibrate the reference model.
 2. Optimal Precipitation for Corn Growth: Even under minimum precipitation, there is no significant water deficit; thus, all crops grow under optimal water conditions. However, how does each scenario impact actual corn yield in Stoneville? Can the model accurately reflect the optimal precipitation range for maximum crop growth?
 3. Nutrient Leaching: Will excessive rainfall affect nutrient level through leaching end erosion? The original model was designed to represent moderate conditions at or below optimal precipitation, but could high precipitation levels cause additional nutrient loss in other pathways?
@@ -181,40 +177,20 @@ __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
 5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-
 ![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc){width=80%}
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
 The similarity of soil nutrient results is probably cause by model error. In soil water, we can see three precipitation cases covers highwater excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, not significant seasonal variation .
 
 __4.4 Further Questions on Reference Model Results, Humid Subtropical Climate__
-
 1. Model Glitch: Given that precipitation in this scenario is below the optimum level, it can be confirmed that there is a model glitch. In the original model, when water availability is below optimal, both crop growth and microbial activities (which affect the transformation of organic matter into plant-available nitrogen) in the soil should be reduced. Therefore, the overall biomass curve should shrink vertically (red), the available nitrogen level should remain low instead of increasing (green) after harvesting, and the organic matter level should remain high (blue) after harvesting.
 2. Dataset Scope: In the future, we may limit our climate zones to Humid Continental or drier regions to avoid the structural limitations of the mechanistic model in explaining crop yield under heavy rainfall conditions and accounting for surface runoff in the region’s water balance.
 3. Evapotranspiration (ET) Rate Correction: Currently, the reference model characterizes the ET rate as a constant. Since we are using this model in different locations with varying humidity, temperature, and wind speed, we could enhance the model's accuracy by incorporating location-specific ET rate.
 
 __5 Predictive Modeling Plan__
-
 The aim of this project is to create a statistical model to produce similar estimates as the mechanistic model. The benefit of this simplification is to reduce computational costs. Another potential outcome of this approach is that, by using regression analysis, we can test correlations and rank the inputs that have the most significant effect on the output, thereby helping to determine the dominant factors influencing crop growth and decision-making in crop management.
 To do this, we will first ensure that the reference mechanistic model functions correctly, making it capable of generating predictive yield based on the precipitation data. Then, to create sufficient data, we can randomly generate 1,000 (or more) precipitation curves for each scenario using the mean value and standard deviation obtained from the data in section 3. Third, the generated precipitation curves will be stored as CSV files, ready for model input. Fourth, we will translate the current Python model into Julia and automatically run simulations to obtain the corresponding yield for each precipitation scenario. Finally, we will compile a new DataFrame that includes both the precipitation and yield data, allowing us to apply SVD, PCA, and/or Fourier series to identify the dominant eigenvectors and underlying patterns in the data.
 
-## Predictive Modeling
-
-__1 Dataset preparation__
-
-We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the results include 17 time-series variables, each with 100 data points, amounting to a total of 1,700 data points per scenario.
-To generate a spectrum of scenarios for better estimation of the corn yield in the US, we select overlaps the major corn production map with the climate zone map and select 9 sampling locations across three different major climate zones, for each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process. 
-To generate a spectrum of scenarios for better estimation of corn yield across the U.S., we overlap the major corn production map with the climate zone map and select 9 sampling locations representing three major climate zones. For each location, precipitation data is gathered over a 20- to 21-year period. Additional scenarios are generated by using corrected precipitation, calculated as the product of meteorological 'precipitation' data and a 'multiplier for precipitation' ranging from 0.1 to 0.9 (representing suboptimal conditions). This approach results in a total of 1,692 scenarios, which is the product of the number of locations (9), years of precipitation data (20-21), and multipliers for precipitation (9). Gif 1-3 demonstrates that the simulation data remains intact even after this data transformation process.
-In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.
-
-
-
-__2 Dimension Reduction__
-
-The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model harder to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.
-To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
-Figure 2 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale. It shows that the dataset’s variance starts relatively small and decreases rapidly at the initial stage. Figure 3 identifies the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 4 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈). Finally, the dataset was reconstructed using the compressed data gained from the SVD process, and Figure 5 displays the reconstructed scenario.
-Figure 1 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 2 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 3 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 4 displays the reconstructed scenario.
 
 
 
