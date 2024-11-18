@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:52:07+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:52:07+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:55:34+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:55:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/))
+([permalink](https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/))
 was automatically generated
-from [uiceds/project-team-go@ea32c2e](https://github.com/uiceds/project-team-go/tree/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9)
+from [uiceds/project-team-go@6c185cd](https://github.com/uiceds/project-team-go/tree/6c185cd3115856a2391e76e7c4605591c1547081)
 on November 18, 2024.
 </em></small>
 
@@ -209,6 +209,8 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121903.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121942.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20122013.png)
+
+*Chart 1. Output data of one scenario*
 
 The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
