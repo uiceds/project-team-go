@@ -9,7 +9,7 @@ csv
 Dans
 DataFrame
 datapoints
-Dataset
+dataset
 dataset’s
 datasets
 dimensionality

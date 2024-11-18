@@ -101,13 +101,13 @@ content/03. Preliminary predictive modeling.md:123:png
 content/03. Preliminary predictive modeling.md:123:png
 content/03. Preliminary predictive modeling.md:125:eigen
 content/03. Preliminary predictive modeling.md:129:Reconstucted
+content/03. Preliminary predictive modeling.md:133:dataset
+content/03. Preliminary predictive modeling.md:133:dataset's
+content/03. Preliminary predictive modeling.md:133:dimensionality
 content/03. Preliminary predictive modeling.md:133:dimensionality
 content/03. Preliminary predictive modeling.md:133:SVD
-content/03. Preliminary predictive modeling.md:137:dataset
-content/03. Preliminary predictive modeling.md:137:dataset's
-content/03. Preliminary predictive modeling.md:137:dimensionality
-content/03. Preliminary predictive modeling.md:137:SVD
-content/03. Preliminary predictive modeling.md:139:datasets
+content/03. Preliminary predictive modeling.md:133:SVD
+content/03. Preliminary predictive modeling.md:134:datasets
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:47:45+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:47:45+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:52:07+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:52:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/))
+([permalink](https://uiceds.github.io/project-team-go/v/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9/))
 was automatically generated
-from [uiceds/project-team-go@bd3f903](https://github.com/uiceds/project-team-go/tree/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68)
+from [uiceds/project-team-go@ea32c2e](https://github.com/uiceds/project-team-go/tree/ea32c2ea04c0c77f8a04e758cfb8c83c5115d0a9)
 on November 18, 2024.
 </em></small>
 
@@ -318,22 +318,17 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 *Figure 5. Variance explained by the PCA modes*
 
-![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Figure 8}
+![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png)
 
 *Figure 6. The first ten eigen-scenarios*
 
-![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Figure 9}
+![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif)
 
 *Gif 4. Reconstucted scenario*
 
 ## Conclusion
 
-This project successfully demonstrates the application of decision tree regression and SVD for predictive modeling and dimensionality reduction:
-
-Single Scenario Analysis: The decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees.
-
-Multi-Scenario Analysis: SVD reduces the dataset's dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
-
+This project successfully demonstrates the application of decision tree regression for predictive modeling in one scenario and SVD for dimensionality reduction. In the single scenario analysis, the decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees. In the multi-scenario analysis, the SVD process reduces the dataset's dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
 These methods provide a comprehensive framework for analyzing complex datasets in agricultural and environmental studies. Future work could explore integrating additional features, such as soil properties, or applying more advanced machine learning models to further improve predictive performance.
 
 
