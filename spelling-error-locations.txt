@@ -42,10 +42,12 @@ content/03. Preliminary predictive modeling.md:7:dataset
 content/03. Preliminary predictive modeling.md:18:dataset
 content/03. Preliminary predictive modeling.md:22:dataset
 content/03. Preliminary predictive modeling.md:22:dataset’s
-content/03. Preliminary predictive modeling.md:38:subregion
-content/03. Preliminary predictive modeling.md:38:subregions
-content/03. Preliminary predictive modeling.md:40:MSE
-content/03. Preliminary predictive modeling.md:41:Subtree
+content/03. Preliminary predictive modeling.md:34:dataset
+content/03. Preliminary predictive modeling.md:42:dataset
+content/03. Preliminary predictive modeling.md:44:subtrees
+content/03. Preliminary predictive modeling.md:44:subtrees
+content/03. Preliminary predictive modeling.md:48:dataset
+content/03. Preliminary predictive modeling.md:48:dataset
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed

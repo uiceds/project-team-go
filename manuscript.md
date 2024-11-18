@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T18:09:17+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:09:17+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:34:20+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:34:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ccc1a72a9e09fa8bc2108000890f61f501c547cc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ccc1a72a9e09fa8bc2108000890f61f501c547cc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ccc1a72a9e09fa8bc2108000890f61f501c547cc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e6ee2ff5d6f2f978496b27b0a59e33979b848924/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e6ee2ff5d6f2f978496b27b0a59e33979b848924/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e6ee2ff5d6f2f978496b27b0a59e33979b848924/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ccc1a72a9e09fa8bc2108000890f61f501c547cc/))
+([permalink](https://uiceds.github.io/project-team-go/v/e6ee2ff5d6f2f978496b27b0a59e33979b848924/))
 was automatically generated
-from [uiceds/project-team-go@ccc1a72](https://github.com/uiceds/project-team-go/tree/ccc1a72a9e09fa8bc2108000890f61f501c547cc)
+from [uiceds/project-team-go@e6ee2ff](https://github.com/uiceds/project-team-go/tree/e6ee2ff5d6f2f978496b27b0a59e33979b848924)
 on November 18, 2024.
 </em></small>
 
@@ -198,9 +198,9 @@ To do this, we will first ensure that the reference mechanistic model functions 
 
 # Preliminary predictive modeling
 
-## Data Description
+## 1 Data Description
 
-### Explanation of Columns
+### 1.1 Explanation of Columns
 
 The dataset includes several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
@@ -215,7 +215,7 @@ Finally, the _total_biomass_ column represents the dependent variable, measuring
 This serves as the target variable in the regression model, with predictions based on the _rain_amount_ variable. 
 Together, these columns create a comprehensive dataset for analyzing the interplay between rainfall and biomass in varying environmental conditions.
 
-### Relationships and Usage in Code
+### 1.2 Relationships and Usage in Code
 
 The dataset’s variables are used in specific ways to build and analyze the predictive model. 
 The _rain_amount column_, derived by multiplying _MULTIPLIER_FOR_RAINFALL_ and _raw rainfall_ data, 
@@ -227,17 +227,31 @@ The _sim_index_ ensures that the data can be tracked sequentially for explorator
 These relationships enable the construction of a decision tree regression model, which uses _rain_amount_ to predict _total_biomass_, 
 and its performance is validated through visualizations and comparisons with the observed data.
 
-# _1 Model Construction and Analysis_
+## 2 Model Function Description
 
-##  _1.1 Decision Tree Regression_
+The core of this project is to implement a simple decision tree regression model from scratch without relying on external machine learning libraries. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
 
-For this project, we implemented a custom decision tree regression model. Below is the detailed logic of the model:
-Model Principle:
-The decision tree recursively partitions the data, dividing the feature space into smaller subregions. Each subregion is represented by the mean value of the target variable.
-The tree-building process involves:
-Optimal Split Selection: Iterating through all possible split points (unique rainfall values) to minimize the Mean Squared Error (MSE).
-Recursive Subtree Construction: Splitting data into left and right branches and continuing until the predefined maximum depth or a minimum number of samples is reached.
-Termination Criteria: If the sample size in a node is less than min_samples_split or the tree reaches the maximum depth, the node returns the mean value of the target variable.
+### 2.1 Decision Tree Construction Function
+
+The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B).
+
+**Stopping Criteria:** The recursion stops when the sample size is less than or equal to the minimum split sample size (min_samples_split), or when the maximum depth (depth) is reached. In this case, the mean of the target variable is used as the prediction value.
+
+**Finding the Best Split Point:** The model attempts to iterate over all unique values of the feature to find the split point that minimizes the error (sum of squared losses) for the left and right subsets. The smaller the squared loss, the higher the homogeneity of the dataset.
+
+**Recursive Splitting:** Once the best split point is found, the model splits the data into left and right subtrees and recursively constructs the subtrees until the stopping criteria are met.
+
+### 2.2 Model Workflow
+
+**Training Phase:** The decision_tree_regression function is used to recursively split the training dataset and construct the decision tree model. At each step of the split, the possible split points are iterated over, and the squared loss is calculated to select the optimal split point, dividing the dataset into two homogeneous subsets.
+
+**Prediction Phase:** The predict_tree function is used to predict new data. Each new feature value is directed through the tree's split rules to find the corresponding leaf node, and the mean value of that node is output as the final prediction.
+
+### 2.3 Experimental Results and Analysis
+
+By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:
+
+$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
 
 ## References {.page_break_before}
