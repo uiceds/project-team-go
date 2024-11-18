@@ -5,7 +5,7 @@ CEE
 Chamapign
 Champaign
 Chapagain
-csv
+CSV
 Dans
 DataFrame
 datapoints
@@ -13,7 +13,7 @@ dataset
 dataset’s
 dimensionality
 eigen
-Eigensce
+eigensce
 Evapotranspiration
 Gómez
 Hartmut
@@ -28,14 +28,14 @@ PCA
 png
 precipication
 Remenyi
-SCE
+sce
 Shih
 Soilnutrient
 Soilwater
 Stoneville
 suboptimal
 subtrees
-SV
+sv
 SVD
 Urbana
 Vensim

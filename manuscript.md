@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:11:09+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:11:09+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:20:39+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:20:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6e3608d59f375f6fa643851303ae4078e664fe7c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6e3608d59f375f6fa643851303ae4078e664fe7c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6e3608d59f375f6fa643851303ae4078e664fe7c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/3a225c85d7404137d4478ed06365fc745e68b313/))
+([permalink](https://uiceds.github.io/project-team-go/v/6e3608d59f375f6fa643851303ae4078e664fe7c/))
 was automatically generated
-from [uiceds/project-team-go@3a225c8](https://github.com/uiceds/project-team-go/tree/3a225c85d7404137d4478ed06365fc745e68b313)
+from [uiceds/project-team-go@6e3608d](https://github.com/uiceds/project-team-go/tree/6e3608d59f375f6fa643851303ae4078e664fe7c)
 on November 18, 2024.
 </em></small>
 
@@ -287,15 +287,15 @@ To prepare the dataset for SVD, we first reorganized the data by stretching all 
 
 Figure 2 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale. It shows that the dataset’s variance starts relatively small and decreases rapidly at the initial stage. Figure 3 identifies the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 4 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈). Finally, the dataset was reconstructed using the compressed data gained from the SVD process, and Figure 5 displays the reconstructed scenario.
 
-Figure 1 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 2 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 3 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 4 displays the reconstructed scenario.
+Figure 3 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 4 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 5 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 6 displays the reconstructed scenario.
 
-![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png){SV Plot}
+![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png){Figure 3}
 
-![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png){Variance 1-5 SVD Indices}
+![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png){Figure 4}
 
-![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Eigensce Plot 10 SCE}
+![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Figure 5}
 
-![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Reconstructed Dynamics}
+![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Figure 6}
 
 
 

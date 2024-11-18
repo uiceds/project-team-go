@@ -87,15 +87,11 @@ content/03. Preliminary predictive modeling.md:92:PCA
 content/03. Preliminary predictive modeling.md:92:SVD
 content/03. Preliminary predictive modeling.md:94:png
 content/03. Preliminary predictive modeling.md:94:png
-content/03. Preliminary predictive modeling.md:94:SV
 content/03. Preliminary predictive modeling.md:96:png
 content/03. Preliminary predictive modeling.md:96:png
 content/03. Preliminary predictive modeling.md:96:SVD
-content/03. Preliminary predictive modeling.md:96:SVD
-content/03. Preliminary predictive modeling.md:98:Eigensce
 content/03. Preliminary predictive modeling.md:98:png
 content/03. Preliminary predictive modeling.md:98:png
-content/03. Preliminary predictive modeling.md:98:SCE
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed
