@@ -5,11 +5,11 @@ CEE
 Chamapign
 Champaign
 Chapagain
-csv
+CSV
 Dans
 DataFrame
 datapoints
-dataset
+Dataset
 dataset’s
 dimensionality
 eigen

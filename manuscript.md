@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:11:21+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:11:21+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:12:24+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:12:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7b73958289e6fe76efe98f2fe8b5c1acb47f3627/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7b73958289e6fe76efe98f2fe8b5c1acb47f3627/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7b73958289e6fe76efe98f2fe8b5c1acb47f3627/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/7b73958289e6fe76efe98f2fe8b5c1acb47f3627/))
+([permalink](https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/))
 was automatically generated
-from [uiceds/project-team-go@7b73958](https://github.com/uiceds/project-team-go/tree/7b73958289e6fe76efe98f2fe8b5c1acb47f3627)
+from [uiceds/project-team-go@9c12f39](https://github.com/uiceds/project-team-go/tree/9c12f392290fdafee3201dbb7b5f04fe1d37f714)
 on November 18, 2024.
 </em></small>
 
@@ -196,9 +196,9 @@ To do this, we will first ensure that the reference mechanistic model functions 
 
 
 
-# Preliminary Predictive Modeling of One Scenario
+# Preliminary Predictive Modeling
 
-## 1 Data Description
+## 1 Data Description of One Scenario
 
 ### 1.1 Explanation of Columns
 
