@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:24:02+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:24:02+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:33:45+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:33:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/d2cc67dd7845895505856395675baa544b789e20/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/d2cc67dd7845895505856395675baa544b789e20/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/d2cc67dd7845895505856395675baa544b789e20/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/8304cc4668c9facfb9ad6e681c382b81d07dd545/))
+([permalink](https://uiceds.github.io/project-team-go/v/d2cc67dd7845895505856395675baa544b789e20/))
 was automatically generated
-from [uiceds/project-team-go@8304cc4](https://github.com/uiceds/project-team-go/tree/8304cc4668c9facfb9ad6e681c382b81d07dd545)
+from [uiceds/project-team-go@d2cc67d](https://github.com/uiceds/project-team-go/tree/d2cc67dd7845895505856395675baa544b789e20)
 on November 18, 2024.
 </em></small>
 
@@ -256,6 +256,8 @@ $R^2 = 1 - \frac{\text{SS}_{\text{res}} \text{SS}_{\text{tot}}}$
 
 $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
 
 ## WXY
 ## 3 Data Description for All Scenario
