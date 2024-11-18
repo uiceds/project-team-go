@@ -1,6 +1,8 @@
-# Data Description
+# Preliminary predictive modeling
 
-## Explanation of Columns
+## Data Description
+
+### Explanation of Columns
 
 The dataset includes several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
@@ -15,7 +17,7 @@ Finally, the _total_biomass_ column represents the dependent variable, measuring
 This serves as the target variable in the regression model, with predictions based on the _rain_amount_ variable. 
 Together, these columns create a comprehensive dataset for analyzing the interplay between rainfall and biomass in varying environmental conditions.
 
-## Relationships and Usage in Code
+### Relationships and Usage in Code
 
 The dataset’s variables are used in specific ways to build and analyze the predictive model. 
 The _rain_amount column_, derived by multiplying _MULTIPLIER_FOR_RAINFALL_ and _raw rainfall_ data, 
