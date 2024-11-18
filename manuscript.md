@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:41:24+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:41:24+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:47:45+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:47:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/))
+([permalink](https://uiceds.github.io/project-team-go/v/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68/))
 was automatically generated
-from [uiceds/project-team-go@7dee454](https://github.com/uiceds/project-team-go/tree/7dee454bb0d903296882291605de9b52c70980a5)
+from [uiceds/project-team-go@bd3f903](https://github.com/uiceds/project-team-go/tree/bd3f9036e64ef1dd2dcccc0028ace4197a1e7b68)
 on November 18, 2024.
 </em></small>
 
@@ -291,13 +291,16 @@ In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each 
 
 *Gif 1. Mechanistic model output for Fargo county under different multiplier scenarios*
 
+
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif)
 
 *Gif 2. Mechanistic model output for Champaign county under different multiplier scenarios*
 
+
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc8_all3.gif)
 
 *Gif 3. Mechanistic model output for Marianna county under different multiplier scenarios*
+
 
 ## 4 Dimension Reduction by SVD
 
@@ -305,15 +308,23 @@ The original mechanistic model consists of 87 equations and above 100 variables 
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 
-Figure 6 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 7 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 8 visualizes the first 20 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Figure 9 displays the reconstructed scenario.
+Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 5 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 6 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Gif 4 displays the scenario reconstructed as the number of the PCA modes increase.
 
-![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png){Figure 6}
+![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png)
 
-![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png){Figure 7}
+*Figure 4. Singular value plot*
+
+![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png)
+
+*Figure 5. Variance explained by the PCA modes*
 
 ![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png){Figure 8}
 
+*Figure 6. The first ten eigen-scenarios*
+
 ![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif){Figure 9}
+
+*Gif 4. Reconstucted scenario*
 
 ## Conclusion
 

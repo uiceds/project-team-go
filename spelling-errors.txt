@@ -9,7 +9,7 @@ csv
 Dans
 DataFrame
 datapoints
-dataset
+Dataset
 dataset’s
 datasets
 dimensionality
@@ -29,6 +29,7 @@ Mohammed
 Ojeda
 PCA
 png
+Reconstucted
 Remenyi
 sce
 Shih
