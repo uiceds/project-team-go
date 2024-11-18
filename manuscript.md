@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:53:58+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:53:58+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:56:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:56:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ddcdbf9a9716280bf71640db2ebe062501e500d0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ddcdbf9a9716280bf71640db2ebe062501e500d0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ddcdbf9a9716280bf71640db2ebe062501e500d0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ddcdbf9a9716280bf71640db2ebe062501e500d0/))
+([permalink](https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/))
 was automatically generated
-from [uiceds/project-team-go@ddcdbf9](https://github.com/uiceds/project-team-go/tree/ddcdbf9a9716280bf71640db2ebe062501e500d0)
+from [uiceds/project-team-go@0e92f77](https://github.com/uiceds/project-team-go/tree/0e92f770a43f04d80e1cd49a0600f787d70f857b)
 on November 18, 2024.
 </em></small>
 
@@ -252,9 +252,10 @@ The goal of this function is to construct a regression tree model based on the f
 By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:
 
 
-$$R^2 = 1 - \frac{\text{SS}{\text{res}}}{\text{SS}{\text{tot}}}$$
+$R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\text{res}}}$ is Residual Sum of Squares.
 
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
+Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
+
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
