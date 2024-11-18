@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:55:34+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:55:34+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:57:25+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:57:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/6c185cd3115856a2391e76e7c4605591c1547081/))
+([permalink](https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/))
 was automatically generated
-from [uiceds/project-team-go@6c185cd](https://github.com/uiceds/project-team-go/tree/6c185cd3115856a2391e76e7c4605591c1547081)
+from [uiceds/project-team-go@c7a7e32](https://github.com/uiceds/project-team-go/tree/c7a7e324e054d0e84e960af583ae681c3e7035f6)
 on November 18, 2024.
 </em></small>
 
@@ -210,7 +210,7 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121942.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20122013.png)
 
-*Chart 1. Output data of one scenario*
+*Figure 1. Output data of one scenario*
 
 The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
@@ -262,22 +262,23 @@ The goal of this function is to construct a regression tree model based on the f
 By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:
 
 
-$R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\text{res}}}$ is Residual Sum of Squares.
+$R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, 
+in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\text{res}}}$ is Residual Sum of Squares.
 
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
 
-*Figure 1. Prediction result of model with depth 100*
+*Figure 2. Prediction result of model with depth 100*
 
-Figure 1 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
+Figure 2 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
 
 *Figure 3. Prediction result of model with depth 3*
 
-Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
+Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
 ## Multiple Scenario Analysis by Using SVD and PCA
 
