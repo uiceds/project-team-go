@@ -9,7 +9,7 @@ CSV
 Dans
 DataFrame
 datapoints
-dataset
+Dataset
 dataset’s
 dimensionality
 eigen
