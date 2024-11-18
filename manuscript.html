@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:36:56+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:36:56+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:41:24+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:41:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/cee98cc3221a519c33d1c673fa457ce8a0e32c0e/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/7dee454bb0d903296882291605de9b52c70980a5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/cee98cc3221a519c33d1c673fa457ce8a0e32c0e">uiceds/project-team-go@cee98cc</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/7dee454bb0d903296882291605de9b52c70980a5">uiceds/project-team-go@7dee454</a>
 on November 18, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -230,26 +230,28 @@ and its performance is validated through visualizations and comparisons with the
 <img src="https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png" alt="image" />
 <figcaption aria-hidden="true">image</figcaption>
 </figure>
+<p><em>Figure 3. Prediction result of model with depth 3</em></p>
 <p>Figure 2 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.</p>
 <h2 id="multiple-scenario-analysis-by-using-svd-and-pca">Multiple Scenario Analysis by Using SVD and PCA</h2>
 <h2 id="data-description-for-all-scenario">3 Data Description for All Scenario</h2>
 <p>We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, ‘precipitation’ and ‘multiplier for precipitation’ serve as inputs, and their combination constitutes a new scenario. ‘Total biomass’ refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.</p>
-<p>To generate a spectrum of scenarios for better estimation of the corn yield in the US, we overlapped the corn production map with the climate zone map and select 9 sampling locations across three different major climate zones. For each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process.</p>
-<p>To generate a spectrum of scenarios for better estimation of corn yield across the U.S., we overlap the major corn production map with the climate zone map and select 9 sampling locations representing three major climate zones. For each location, precipitation data is gathered over a 20- to 21-year period. Additional scenarios are generated by using corrected precipitation, calculated as the product of meteorological ‘precipitation’ data and a ‘multiplier for precipitation’ ranging from 0.1 to 0.9 (representing suboptimal conditions). This approach results in a total of 1,692 scenarios, which is the product of the number of locations (9), years of precipitation data (20-21), and multipliers for precipitation (9). Gif 1-3 demonstrates that the simulation data remains intact even after this data transformation process.
-In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.</p>
+<p>To generate a spectrum of scenarios for better estimation of corn yield across the U.S., we overlap the major corn production map with the climate zone map and select 9 sampling locations representing three major climate zones. For each location, precipitation data is gathered over a 20- to 21-year period. Additional scenarios are generated by using corrected precipitation, calculated as the product of meteorological ‘precipitation’ data and a ‘multiplier for precipitation’ ranging from 0.1 to 0.9 (representing suboptimal conditions). This approach results in a total of 1,692 scenarios, which is the product of the number of locations (9), years of precipitation data (20-21), and multipliers for precipitation (9). Gif 1-3 show the corrected precipitation, soil water, and yield dynamics under different multiplier scenarios (0.1–0.9). These three gifs also demonstrate that the simulation data remains intact even after this data transformation process.</p>
+<p>In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.</p>
 <figure>
 <img src="https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc1_all3.gif" alt="image" />
 <figcaption aria-hidden="true">image</figcaption>
 </figure>
+<p><em>Gif 1. Mechanistic model output for Fargo county under different multiplier scenarios</em></p>
 <figure>
 <img src="https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc6_all3.gif" alt="image" />
 <figcaption aria-hidden="true">image</figcaption>
 </figure>
+<p><em>Gif 2. Mechanistic model output for Champaign county under different multiplier scenarios</em></p>
 <figure>
 <img src="https://github.com/uiceds/project-team-go/blob/main/content/images/precipitation_scenarios_0.1_loc8_all3.gif" alt="image" />
 <figcaption aria-hidden="true">image</figcaption>
 </figure>
-<p>Figure 3-5 show the corrected precipitation, soil water, and yield dynamics under different multiplier scenarios (0.1–0.9). The three figures also demonstrate that the simulation data remains intact even after this data transformation process.</p>
+<p><em>Gif 3. Mechanistic model output for Marianna county under different multiplier scenarios</em></p>
 <h2 id="dimension-reduction-by-svd">4 Dimension Reduction by SVD</h2>
 <p>The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model harder to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.</p>
 <p>To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V’).</p>
