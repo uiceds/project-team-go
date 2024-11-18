@@ -1,7 +1,7 @@
 
-# Model Construction and Analysis
+# _1 Model Construction and Analysis_
 
-##  Decision Tree Regression
+##  _1.1 Decision Tree Regression_
 
 For this project, we implemented a custom decision tree regression model. Below is the detailed logic of the model:
 Model Principle:
