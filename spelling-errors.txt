@@ -5,10 +5,10 @@ CEE
 Chamapign
 Champaign
 Chapagain
-CSV
+csv
 Dans
 DataFrame
-dataset
+Dataset
 Evapotranspiration
 Gómez
 Hartmut
