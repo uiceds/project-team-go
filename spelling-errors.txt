@@ -41,7 +41,6 @@ Urbana
 Vensim
 Wallach
 wunderground
-WXY
 Xiaozhuo
 Xie
 Xinyuan

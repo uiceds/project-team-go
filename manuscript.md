@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:56:57+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:56:57+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:00:23+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:00:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/0e92f770a43f04d80e1cd49a0600f787d70f857b/))
+([permalink](https://uiceds.github.io/project-team-go/v/799462db667528d93482dc2c2fc3206b321c1542/))
 was automatically generated
-from [uiceds/project-team-go@0e92f77](https://github.com/uiceds/project-team-go/tree/0e92f770a43f04d80e1cd49a0600f787d70f857b)
+from [uiceds/project-team-go@799462d](https://github.com/uiceds/project-team-go/tree/799462db667528d93482dc2c2fc3206b321c1542)
 on November 18, 2024.
 </em></small>
 
@@ -257,10 +257,9 @@ $R^2 = 1 - \frac{\text{SS} _{\text{tot}}}{\text{SS} _{\text{res}}}$, in which ${
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
+![你有问题要不要问问他](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
 ![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
 
-## WXY
 ## 3 Data Description for All Scenario
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
