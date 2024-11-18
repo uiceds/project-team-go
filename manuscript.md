@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T19:12:24+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T19:12:24+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:15:27+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:15:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/9c12f392290fdafee3201dbb7b5f04fe1d37f714/))
+([permalink](https://uiceds.github.io/project-team-go/v/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9/))
 was automatically generated
-from [uiceds/project-team-go@9c12f39](https://github.com/uiceds/project-team-go/tree/9c12f392290fdafee3201dbb7b5f04fe1d37f714)
+from [uiceds/project-team-go@7f8f6e1](https://github.com/uiceds/project-team-go/tree/7f8f6e1adfcffb6eb67f23619dcba6877b6282c9)
 on November 18, 2024.
 </em></small>
 
@@ -259,7 +259,7 @@ $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
 ## WXY
 ## 3 Data Description for All Scenario
-We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the results include 17 time-series variables, each with 100 data points, amounting to a total of 1,700 data points per scenario.
+We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
 To generate a spectrum of scenarios for better estimation of the corn yield in the US, we select overlaps the major corn production map with the climate zone map and select 9 sampling locations across three different major climate zones, for each location, the precipitation data is gathered in time range of 20 to 21 years. To generate more scenarios, we use the corrected precipitation, which is the product of ‘precipitation’ from meteological data and ‘multiplier for precipitation’ from 0.1 to 0.9 (less than optimum). In summary, the total scenario generated is the product of location number (9), precipitation in different years (20-21) and multiplier for precipication, in total 1692 scenarios. Figure 1 shows that the simulation data can be retrieved even after this data transformation process. 
 
