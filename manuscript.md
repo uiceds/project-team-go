@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:35:45+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:35:45+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:40:24+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:40:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/73a6b8d8861f188c32b54c417c45f17df1313c4e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/73a6b8d8861f188c32b54c417c45f17df1313c4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/73a6b8d8861f188c32b54c417c45f17df1313c4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/c121748bdcf376c6c325dd218dc6a246d515b133/))
+([permalink](https://uiceds.github.io/project-team-go/v/73a6b8d8861f188c32b54c417c45f17df1313c4e/))
 was automatically generated
-from [uiceds/project-team-go@c121748](https://github.com/uiceds/project-team-go/tree/c121748bdcf376c6c325dd218dc6a246d515b133)
+from [uiceds/project-team-go@73a6b8d](https://github.com/uiceds/project-team-go/tree/73a6b8d8861f188c32b54c417c45f17df1313c4e)
 on November 18, 2024.
 </em></small>
 
@@ -206,15 +206,7 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 
 ### 1.1 Explanation of Columns
 
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-
-
-The dataset includes several key columns, each playing an essential role in the analysis. 
+The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
 While not directly used in the model, it helps visualize time-dependent trends. 
 The _MULTIPLIER_FOR_RAINFALL_ column is a scaling factor applied to raw rainfall data, reflecting environmental adjustments or experimental conditions. 
