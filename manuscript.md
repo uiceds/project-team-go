@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T20:02:23+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T20:02:23+00:00" />
+  <meta name="dc.modified" content="2024-12-01T20:05:04+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T20:05:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/57bb2dfcfe50d70d2d0e213a52ad7bf3d9947d6d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/57bb2dfcfe50d70d2d0e213a52ad7bf3d9947d6d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/57bb2dfcfe50d70d2d0e213a52ad7bf3d9947d6d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e3c23f521ddc5fd02a431e8aa2bd55eb77d2e586/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3c23f521ddc5fd02a431e8aa2bd55eb77d2e586/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3c23f521ddc5fd02a431e8aa2bd55eb77d2e586/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/57bb2dfcfe50d70d2d0e213a52ad7bf3d9947d6d/))
+([permalink](https://uiceds.github.io/project-team-go/v/e3c23f521ddc5fd02a431e8aa2bd55eb77d2e586/))
 was automatically generated
-from [uiceds/project-team-go@57bb2df](https://github.com/uiceds/project-team-go/tree/57bb2dfcfe50d70d2d0e213a52ad7bf3d9947d6d)
+from [uiceds/project-team-go@e3c23f5](https://github.com/uiceds/project-team-go/tree/e3c23f521ddc5fd02a431e8aa2bd55eb77d2e586)
 on December 1, 2024.
 </em></small>
 
@@ -618,11 +618,12 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 ![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png)
 
-| 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382) | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2) |
-| 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
-| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a) | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96) | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391) | ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893) | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01) |
+| &nbsp;           | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
+|:-----------------|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
+|                  | ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382) | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2) |
+| &nbsp;           | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
+|:-----------------|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
+|                  | ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a) | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96) | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391) | ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893) | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01) |
 
 Table: A table with a top caption and specified relative column widths.
 
