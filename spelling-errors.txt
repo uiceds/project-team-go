@@ -15,13 +15,13 @@ cillum
 commodo
 consectetur
 consequat
-csv
+CSV
 culpa
 cupidatat
 Dans
 DataFrame
 datapoints
-dataset
+Dataset
 dataset’s
 datasets
 deserunt
@@ -37,7 +37,6 @@ Evapotranspiration
 Excepteur
 exercitation
 fugiat
-gifs
 Globetrot
 Gómez
 Hartmut
@@ -53,7 +52,6 @@ laborum
 locational
 Lorem
 magna
-Marianna
 modularized
 Mohammed
 mollit
