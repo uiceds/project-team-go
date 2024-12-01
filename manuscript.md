@@ -311,7 +311,7 @@ The original mechanistic model consists of 87 equations and above 100 variables 
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 
-Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 5 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 6 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Gif 4 displays the scenario reconstructed as the number of the PCA modes increase.
+Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It is estimated that the variance explained by the first three principal components (PCA modes) has already accounted for more than 99.5% of the total variance, indicating that using the first three PCA modes is sufficient to reconstruct the statistical relationship of the dataset. Additionally, Figure 5 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Gif 4 displays the scenario reconstructed as the number of the PCA modes increase.
 
 ![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png)
 
@@ -319,11 +319,7 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 ![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png)
 
-*Figure 5. Variance explained by the PCA modes*
-
-![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png)
-
-*Figure 6. The first ten eigen-scenarios*
+*Figure 5. The first ten eigen-scenarios*
 
 ![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif)
 
