@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T20:30:56+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T20:30:56+00:00" />
+  <meta name="dc.modified" content="2024-12-01T20:32:10+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T20:32:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/4c0a2ed872948f6861df5a0a4b7ac8ccba025e7d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c0a2ed872948f6861df5a0a4b7ac8ccba025e7d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/4c0a2ed872948f6861df5a0a4b7ac8ccba025e7d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/4c0a2ed872948f6861df5a0a4b7ac8ccba025e7d/))
+([permalink](https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/))
 was automatically generated
-from [uiceds/project-team-go@4c0a2ed](https://github.com/uiceds/project-team-go/tree/4c0a2ed872948f6861df5a0a4b7ac8ccba025e7d)
+from [uiceds/project-team-go@6dd5541](https://github.com/uiceds/project-team-go/tree/6dd5541517832eb32b1134634f7e18659eaa6b10)
 on December 1, 2024.
 </em></small>
 
@@ -587,7 +587,7 @@ In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each 
 
 ## 4 Dimension Reduction by SVD
 
-The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model harder to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.
+The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model difficult to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 

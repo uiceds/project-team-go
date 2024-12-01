@@ -15,13 +15,13 @@ cillum
 commodo
 consectetur
 consequat
-CSV
+csv
 culpa
 cupidatat
 Dans
 DataFrame
 datapoints
-Dataset
+dataset
 dataset’s
 datasets
 deserunt
