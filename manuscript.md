@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-11-18'
+date-meta: '2024-12-01'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-11-18" />
-  <meta name="citation_publication_date" content="2024-11-18" />
-  <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:57:25+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:57:25+00:00" />
+  <meta name="dc.date" content="2024-12-01" />
+  <meta name="citation_publication_date" content="2024-12-01" />
+  <meta property="article:published_time" content="2024-12-01" />
+  <meta name="dc.modified" content="2024-12-01T19:05:57+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T19:05:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e3709db5b52524c3c3615ea7749d68b14827c38b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3709db5b52524c3c3615ea7749d68b14827c38b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e3709db5b52524c3c3615ea7749d68b14827c38b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/c7a7e324e054d0e84e960af583ae681c3e7035f6/))
+([permalink](https://uiceds.github.io/project-team-go/v/e3709db5b52524c3c3615ea7749d68b14827c38b/))
 was automatically generated
-from [uiceds/project-team-go@c7a7e32](https://github.com/uiceds/project-team-go/tree/c7a7e324e054d0e84e960af583ae681c3e7035f6)
-on November 18, 2024.
+from [uiceds/project-team-go@e3709db](https://github.com/uiceds/project-team-go/tree/e3709db5b52524c3c3615ea7749d68b14827c38b)
+on December 1, 2024.
 </em></small>
 
 
@@ -311,7 +311,7 @@ The original mechanistic model consists of 87 equations and above 100 variables 
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 
-Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It is estimated that the variance explained by the first three principal components (PCA modes) has already accounted for more than 99.5% of the total variance, indicating that using the first three PCA modes is sufficient to reconstruct the statistical relationship of the dataset. Additionally, Figure 5 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Gif 4 displays the scenario reconstructed as the number of the PCA modes increase.
+Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. Figure 5 shows the variance explained by the first five principal components (PCA modes), indicating that almost all variance can be captured by the first three PCA modes. Additionally, Figure 6 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Gif 4 displays the scenario reconstructed as the number of the PCA modes increase.
 
 ![content/images/sv_plot.png](https://github.com/uiceds/project-team-go/blob/main/content/images/sv_plot.png)
 
@@ -319,7 +319,11 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 ![content/images/variance 1-5 SVD indices.png](https://github.com/uiceds/project-team-go/blob/main/content/images/variance%201-5%20SVD%20indices.png)
 
-*Figure 5. The first ten eigen-scenarios*
+*Figure 5. Variance explained by the PCA modes*
+
+![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png)
+
+*Figure 6. The first ten eigen-scenarios*
 
 ![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif)
 
@@ -343,6 +347,10 @@ Assimilation of remote sensing into crop growth models: Current status and persp
 
 Reynolds, J. F., & Acock, B. (1985). 
 Predicting the response of plants to increasing carbon dioxide: a critique of plant growth models. Ecological Modelling, 29(1-4), 107-129.
+
+Globetrot. (2008, September 11). Climate zones of the continental United States. Retrieved from https://printable-maps.blogspot.com/2008/09/climate-maps-united-states-and-canada.html.
+
+U.S. Department of Agriculture, Foreign Agricultural Service. (n.d.). Crop production maps of the United States. Retrieved from https://ipad.fas.usda.gov/rssiws/al/us_cropprod.aspx
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
