@@ -15,7 +15,7 @@ cillum
 commodo
 consectetur
 consequat
-CSV
+csv
 culpa
 cupidatat
 Dans
@@ -65,7 +65,6 @@ Ojeda
 Pandoc’s
 pariatur
 PCA
-png
 proident
 qui
 quis
