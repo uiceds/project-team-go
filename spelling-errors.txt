@@ -73,7 +73,7 @@ sed
 Shih
 sint
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees
