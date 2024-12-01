@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T20:32:10+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T20:32:10+00:00" />
+  <meta name="dc.modified" content="2024-12-01T20:57:22+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T20:57:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/51f25778e9842aad5b8df06b0f75829e8f90215c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/51f25778e9842aad5b8df06b0f75829e8f90215c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/51f25778e9842aad5b8df06b0f75829e8f90215c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/6dd5541517832eb32b1134634f7e18659eaa6b10/))
+([permalink](https://uiceds.github.io/project-team-go/v/51f25778e9842aad5b8df06b0f75829e8f90215c/))
 was automatically generated
-from [uiceds/project-team-go@6dd5541](https://github.com/uiceds/project-team-go/tree/6dd5541517832eb32b1134634f7e18659eaa6b10)
+from [uiceds/project-team-go@51f2577](https://github.com/uiceds/project-team-go/tree/51f25778e9842aad5b8df06b0f75829e8f90215c)
 on December 1, 2024.
 </em></small>
 
@@ -606,9 +606,12 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 Table 1: The first ten eigen-scenarios.
 
-![content/images/reconstructed_dynamics.gif](https://github.com/uiceds/project-team-go/blob/main/content/images/reconstructed_dynamics.gif)
 
-*Gif 4. Reconstucted scenario*
+| Precipitation | Soil water content | Total biomass |
+|:--------------|:------------------:|:-------------:|
+| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc) | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e) | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef) |
+
+*Table 2. Reconstucted scenario*
 
 ## Conclusion
 
