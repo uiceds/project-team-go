@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T19:56:54+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T19:56:54+00:00" />
+  <meta name="dc.modified" content="2024-12-01T19:59:25+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T19:59:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/3ae1d7445d16837138f522cd70fc40849cd6b6c6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/3ae1d7445d16837138f522cd70fc40849cd6b6c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/3ae1d7445d16837138f522cd70fc40849cd6b6c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/6c7db49dc0bb0c164a6eac8c14328c8f253258a8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c7db49dc0bb0c164a6eac8c14328c8f253258a8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/6c7db49dc0bb0c164a6eac8c14328c8f253258a8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/3ae1d7445d16837138f522cd70fc40849cd6b6c6/))
+([permalink](https://uiceds.github.io/project-team-go/v/6c7db49dc0bb0c164a6eac8c14328c8f253258a8/))
 was automatically generated
-from [uiceds/project-team-go@3ae1d74](https://github.com/uiceds/project-team-go/tree/3ae1d7445d16837138f522cd70fc40849cd6b6c6)
+from [uiceds/project-team-go@6c7db49](https://github.com/uiceds/project-team-go/tree/6c7db49dc0bb0c164a6eac8c14328c8f253258a8)
 on December 1, 2024.
 </em></small>
 
@@ -620,8 +620,7 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| ![image](https://github.com/user-attachments/assets/798fbd2b-4fd3-4301-b7d5-0912389a2377)
- | 150 | 187 | 210 | 105 |
+| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | 210 | 105 |
 | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
 | Game 3 | 123 | 180 | 238 | 134 |
 
