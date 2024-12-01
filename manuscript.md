@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T19:51:47+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T19:51:47+00:00" />
+  <meta name="dc.modified" content="2024-12-01T19:55:57+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T19:55:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/21aee0da1a5b94e667e34ddf1a4d3394f1aed1b0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/21aee0da1a5b94e667e34ddf1a4d3394f1aed1b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/21aee0da1a5b94e667e34ddf1a4d3394f1aed1b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7276a6db46b14dc31e5856ad63503c225190a62c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7276a6db46b14dc31e5856ad63503c225190a62c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7276a6db46b14dc31e5856ad63503c225190a62c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/21aee0da1a5b94e667e34ddf1a4d3394f1aed1b0/))
+([permalink](https://uiceds.github.io/project-team-go/v/7276a6db46b14dc31e5856ad63503c225190a62c/))
 was automatically generated
-from [uiceds/project-team-go@21aee0d](https://github.com/uiceds/project-team-go/tree/21aee0da1a5b94e667e34ddf1a4d3394f1aed1b0)
+from [uiceds/project-team-go@7276a6d](https://github.com/uiceds/project-team-go/tree/7276a6db46b14dc31e5856ad63503c225190a62c)
 on December 1, 2024.
 </em></small>
 
@@ -618,13 +618,13 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 ![content/images/eigensce_plot_10sce.png](https://github.com/uiceds/project-team-go/blob/main/content/images/eigensce_plot_10sce.png)
 
-Table: Variance explained by the PCA modes.
-{#tbl:bowling-scores}
+| 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
+| ![image](https://github.com/user-attachments/assets/798fbd2b-4fd3-4301-b7d5-0912389a2377)
+ | 150 | 187 | 210 | 105 |
+| 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
+| Game 3 | 123 | 180 | 238 | 134 |
 
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
+Table: A table with a top caption and specified relative column widths.
 
 *Figure 6. The first ten eigen-scenarios*
 

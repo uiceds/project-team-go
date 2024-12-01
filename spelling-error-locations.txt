@@ -154,6 +154,15 @@ content/03. Preliminary predictive modeling.md:124:PCA
 content/03. Preliminary predictive modeling.md:126:png
 content/03. Preliminary predictive modeling.md:126:png
 content/03. Preliminary predictive modeling.md:128:PCA
+content/03. Preliminary predictive modeling.md:128:PCA
+content/03. Preliminary predictive modeling.md:128:PCA
+content/03. Preliminary predictive modeling.md:128:PCA
+content/03. Preliminary predictive modeling.md:128:PCA
+content/03. Preliminary predictive modeling.md:131:PCA
+content/03. Preliminary predictive modeling.md:131:PCA
+content/03. Preliminary predictive modeling.md:131:PCA
+content/03. Preliminary predictive modeling.md:131:PCA
+content/03. Preliminary predictive modeling.md:131:PCA
 content/03. Preliminary predictive modeling.md:136:eigen
 content/03. Preliminary predictive modeling.md:140:Reconstucted
 content/03. Preliminary predictive modeling.md:144:dataset
