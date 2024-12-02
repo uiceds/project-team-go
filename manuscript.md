@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T04:20:27+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T04:20:27+00:00" />
+  <meta name="dc.modified" content="2024-12-02T04:18:55+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T04:18:55+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/5c4fcb352cd864884401f641d26683d6bc8cc6a9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/5c4fcb352cd864884401f641d26683d6bc8cc6a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/5c4fcb352cd864884401f641d26683d6bc8cc6a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/))
+([permalink](https://uiceds.github.io/project-team-go/v/5c4fcb352cd864884401f641d26683d6bc8cc6a9/))
 was automatically generated
-from [uiceds/project-team-go@b18c341](https://github.com/uiceds/project-team-go/tree/b18c34130b3f28c9a876d765c6b9a33547ddc298)
+from [uiceds/project-team-go@5c4fcb3](https://github.com/uiceds/project-team-go/tree/5c4fcb352cd864884401f641d26683d6bc8cc6a9)
 on December 2, 2024.
 </em></small>
 
@@ -280,7 +280,7 @@ To prepare the dataset for SVD, we first reorganized the data by stretching all 
 
 Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
 
-![sv_plot](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
+![sv_plot](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47)
 
 *Figure 4. Singular value plot*
 
