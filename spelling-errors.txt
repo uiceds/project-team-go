@@ -6,7 +6,7 @@ Chamapign
 Champaign
 Chapagain
 convolutional
-csv
+CSV
 Dans
 DataFrame
 datapoints
@@ -37,7 +37,7 @@ Remenyi
 RMSE
 Shih
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees
