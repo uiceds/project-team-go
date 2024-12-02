@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:52:28+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:52:28+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:55:10+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:55:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/))
+([permalink](https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/))
 was automatically generated
-from [uiceds/project-team-go@ebd3f38](https://github.com/uiceds/project-team-go/tree/ebd3f38fe827d324b7eaffe126968b0086f60666)
+from [uiceds/project-team-go@c0becaa](https://github.com/uiceds/project-team-go/tree/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6)
 on December 2, 2024.
 </em></small>
 
@@ -150,7 +150,7 @@ __3.1 Selecting Climate Zone and Sampling Points__
 
 *Figure 3.1.3 Cotton Production Distribution by County in the United States *
 
-The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
+In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
 
 We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions. For instance, Fig 3.1.1 suggests that the majority of corn production area in the US lies in humid continental warm/cool summer climate zones, and from Fig 3.1.3 one can see that cotton production areas are mainly in humid subtropical and semiarid steppe climate, indicating the differences in heat and precipitation requirements between cotton and corn.
 
@@ -160,9 +160,9 @@ __3.2 Data Preparation__
 ![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca)
 ![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772)
 
-In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, were collected and used in this study for model analysis.
+To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
-Here, we chose to represent the climatic characteristics of a region using the monthly average temperature and monthly average precipitation for each year. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, we chose Nobel County in Minnesota as a typical wheat-producing area to illustrate its climate characteristics, and Port Mansfield in Texas to represent the climate characteristics of a typical cotton-growing area.
+Here, the climatic characteristics of a region was demonstrated by monthly average temperature and monthly average precipitation within a 20-year peroid of time. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, Nobel County in Minnesota, as a typical wheat-producing area and located in , to illustrate its climate characteristics. and Port Mansfield in Texas to represent the climate characteristics of a typical cotton-growing area.
 
 __4. Reference Model Results Analysis and Questions__
 
@@ -304,21 +304,13 @@ For this scenario, we also performed model predictions based on a neural network
 
 Considering that in the original data, the value of _total_biomass_ becomes zero starting from row 63 due to crop harvesting, only rows 1 to 62 contain valid _total_biomass_ values. So we have these rows extracted and named them another dataframe _df1_.
 
-![image](https://github.com/user-attachments/assets/623132a5-18ad-4f16-8938-19eaac25d838){width=50%}
-
-*Figure 4. DataFrame df2 and vector yy*
-
 Subsequently, functions related to the neural network are defined. Functions such as _dense_layer_, _train!_, and _relu_ are implemented, and a two-layer neural network is used for fitting. In this fitting process, the _relu_ function is applied to the first layer and the _gelu_ function is applied to the second.
-
-![image](https://github.com/user-attachments/assets/45586c9a-1067-418b-9ef2-fe97dd8cc1c7){width=50%}
-
-*Figure 5. Two layer function*
 
 Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
 
 ![image](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
 
-*Figure 6. Prediction result of model with depth 100*
+*Figure 4. Prediction result of model with depth 100*
 
 
 

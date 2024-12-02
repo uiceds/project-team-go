@@ -8,7 +8,7 @@ Chapagain
 convolutional
 csv
 Dans
-DataFrame
+dataframe
 datapoints
 dataset
 dataset’s
@@ -31,6 +31,7 @@ Mohammed
 neuro
 Ojeda
 PCA
+peroid
 prideiction
 Reconstucted
 relu
@@ -39,7 +40,7 @@ RMSE
 sepcified
 Shih
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees
@@ -53,4 +54,3 @@ Xiaozhuo
 Xie
 Xinyuan
 Yung
-yy
