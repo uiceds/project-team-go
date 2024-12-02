@@ -10,9 +10,9 @@ Chapagain
 clasification
 continential
 convolutional
-CSV
+csv
 Dans
-dataframe
+DataFrame
 datapoints
 dataset
 dataset’s
@@ -47,7 +47,6 @@ soilwater
 Stoneville
 suboptimal
 subtrees
-sv
 SVD
 Urbana
 Vensim

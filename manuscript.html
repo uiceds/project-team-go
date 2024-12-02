@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:59:45+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:59:45+00:00" />
+  <meta name="dc.modified" content="2024-12-02T07:02:21+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T07:02:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/e138f8693b074b8b657e6b8c7eb9163baff71332">uiceds/project-team-go@e138f86</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/a878016be9647f5a7d29b2d3df220336e48acd1c">uiceds/project-team-go@a878016</a>
 on December 2, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -214,12 +214,11 @@ and its performance is validated through visualizations and comparisons with the
 <p><strong>2.2 Dimension Reduction by SVD</strong></p>
 <p>The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model difficult to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.</p>
 <p>To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V’).</p>
-<p>Figure 7 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset’s variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset’s principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.</p>
+<p>Figure 9 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset’s variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset’s principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.</p>
 <figure>
-<img src="https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47" style="width:50.0%" alt="sv_plot" />
-<figcaption aria-hidden="true">sv_plot</figcaption>
+<img src="https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47" style="width:50.0%" />
 </figure>
-<p><em>Figure 7. Singular value plot</em></p>
+<p><em>Figure 9. Singular value plot</em></p>
 <table>
 <colgroup>
 <col style="width: 23%" />
@@ -320,27 +319,24 @@ and its performance is validated through visualizations and comparisons with the
 in which <span class="math inline">\({\text{SS} _{\text{tot}}}\)</span> is Total Sum of Squares, <span class="math inline">\({\text{SS} _{\text{res}}}\)</span> is Residual Sum of Squares.</p>
 <p>Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.</p>
 <figure>
-<img src="https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331" style="width:50.0%" alt="image" />
-<figcaption aria-hidden="true">image</figcaption>
+<img src="https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331" style="width:50.0%" />
 </figure>
-<p><em>Figure 2. Prediction result of model with depth 100</em></p>
-<p>Figure 2 is the prediction result of model with depth 100, which has a goodness of fit 97.14%.</p>
+<p><em>Figure 10. Prediction result of model with depth 100</em></p>
+<p>Figure 10 is the prediction result of model with depth 100, which has a goodness of fit 97.14%.</p>
 <figure>
-<img src="https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705" style="width:50.0%" alt="image" />
-<figcaption aria-hidden="true">image</figcaption>
+<img src="https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705" style="width:50.0%" />
 </figure>
-<p><em>Figure 3. Prediction result of model with depth 3</em></p>
-<p>Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.</p>
+<p><em>Figure 11. Prediction result of model with depth 3</em></p>
+<p>Figure 11 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.</p>
 <p><strong>4 Predictive Modeling by Neural Network</strong></p>
 <p>For this scenario, we also performed model predictions based on a neural network. This part of the code is primarily based on the method from HW7. First, the CSV file is read and converted into a DataFrame <em>df</em>. Next, using the <em>groupby</em> and <em>combine</em> functions, the columns <em>MULTIPLIER_FOR_RAINFALL</em>, <em>rain_amount</em>, <em>precipitation</em>, and <em>total_biomass</em> are extracted as the dataset, and the new DataFrame is named <em>df2</em>.</p>
 <p>Considering that in the original data, the value of <em>total_biomass</em> becomes zero starting from row 63 due to crop harvesting, only rows 1 to 62 contain valid <em>total_biomass</em> values. So we have these rows extracted and named them another dataframe <em>df1</em>.</p>
 <p>Subsequently, functions related to the neural network are defined. Functions such as <em>dense_layer</em>, <em>train!</em>, and <em>relu</em> are implemented, and a two-layer neural network is used for fitting. In this fitting process, the <em>relu</em> function is applied to the first layer and the <em>gelu</em> function is applied to the second.</p>
 <p>Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values’ plot with the true values’ plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.</p>
 <figure>
-<img src="https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e" style="width:50.0%" alt="image" />
-<figcaption aria-hidden="true">image</figcaption>
+<img src="https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e" style="width:50.0%" />
 </figure>
-<p><em>Figure 4. Prediction result of model with depth 100</em></p>
+<p><em>Figure 12. Prediction result of model with depth 100</em></p>
 <p><strong>Conclusion</strong></p>
 <p>This project successfully demonstrates the application of decision tree regression for predictive modeling in one scenario and SVD for dimensionality reduction. In the single scenario analysis, the decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees. In the multi-scenario analysis, the SVD process reduces the dataset’s dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
 These methods provide a comprehensive framework for analyzing complex datasets in agricultural and environmental studies. Future work could explore integrating additional features, such as soil properties, or applying more advanced machine learning models to further improve predictive performance.</p>

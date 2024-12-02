@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:59:45+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:59:45+00:00" />
+  <meta name="dc.modified" content="2024-12-02T07:02:21+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T07:02:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/))
+([permalink](https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/))
 was automatically generated
-from [uiceds/project-team-go@e138f86](https://github.com/uiceds/project-team-go/tree/e138f8693b074b8b657e6b8c7eb9163baff71332)
+from [uiceds/project-team-go@a878016](https://github.com/uiceds/project-team-go/tree/a878016be9647f5a7d29b2d3df220336e48acd1c)
 on December 2, 2024.
 </em></small>
 
@@ -242,11 +242,11 @@ The original mechanistic model consists of 87 equations and above 100 variables 
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 
-Figure 7 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
+Figure 9 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
 
-![sv_plot](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
+![](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
 
-*Figure 7. Singular value plot*
+*Figure 9. Singular value plot*
 
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
@@ -303,17 +303,17 @@ in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\tex
 
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
-![image](https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331){width=50%}
+![](https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331){width=50%}
 
-*Figure 2. Prediction result of model with depth 100*
+*Figure 10. Prediction result of model with depth 100*
 
-Figure 2 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
+Figure 10 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
-![image](https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705){width=50%}
+![](https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705){width=50%}
 
-*Figure 3. Prediction result of model with depth 3*
+*Figure 11. Prediction result of model with depth 3*
 
-Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
+Figure 11 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
 __4 Predictive Modeling by Neural Network__
 
@@ -325,9 +325,9 @@ Subsequently, functions related to the neural network are defined. Functions suc
 
 Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
 
-![image](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
+![](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
 
-*Figure 4. Prediction result of model with depth 100*
+*Figure 12. Prediction result of model with depth 100*
 
 
 
