@@ -78,6 +78,7 @@ content/03. Preliminary predictive modeling.md:62:eigen
 content/03. Preliminary predictive modeling.md:67:soilwater
 content/03. Preliminary predictive modeling.md:69:Reconstucted
 content/03. Preliminary predictive modeling.md:74:dataset
+content/03. Preliminary predictive modeling.md:74:prideiction
 content/03. Preliminary predictive modeling.md:82:dataset
 content/03. Preliminary predictive modeling.md:84:subtrees
 content/03. Preliminary predictive modeling.md:84:subtrees

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:47:03+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:47:03+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:48:44+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:48:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c7d253b1fe3a8e83901ff83786a8dd1645cd2c11/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7d253b1fe3a8e83901ff83786a8dd1645cd2c11/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c7d253b1fe3a8e83901ff83786a8dd1645cd2c11/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/c7d253b1fe3a8e83901ff83786a8dd1645cd2c11/))
+([permalink](https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/))
 was automatically generated
-from [uiceds/project-team-go@c7d253b](https://github.com/uiceds/project-team-go/tree/c7d253b1fe3a8e83901ff83786a8dd1645cd2c11)
+from [uiceds/project-team-go@89543a6](https://github.com/uiceds/project-team-go/tree/89543a69ba3bc2a198d4521138e4b51c01909302)
 on December 2, 2024.
 </em></small>
 
@@ -152,7 +152,7 @@ __3.1 Selecting Climate Zone and Sampling Points__
 
 The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
 
-We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions. For instance, Fig 3.1.1 suggests that the majority of corn production area in the US lies in humid continental warm/cool summer climate zones, and from Fig XXX one can see that cotton production areas are mainly in , indicating the differences in heat and precipitation requirements between cotton and corn.
+We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions. For instance, Fig 3.1.1 suggests that the majority of corn production area in the US lies in humid continental warm/cool summer climate zones, and from Fig 3.1.3 one can see that cotton production areas are mainly in humid subtropical and semiarid steppe climate, indicating the differences in heat and precipitation requirements between cotton and corn.
 
 __3.2 Data Preparation__
 
@@ -257,9 +257,9 @@ Table 1: The first ten eigen-scenarios.
 *Table 2. Reconstucted scenario*
 
 
-## 3 Model Function Description
+## 3 Predictive Modeling
 
-The core of this project is to implement a simple decision tree regression model from scratch without relying on external machine learning libraries. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
+In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
 
 ### 3.1 Decision Tree Construction Function
 
