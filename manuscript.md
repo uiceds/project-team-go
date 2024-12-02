@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:35:31+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:35:31+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:53:37+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:53:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/5d398bf934a634dfb66c0b325db882c4a6847ad5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/5d398bf934a634dfb66c0b325db882c4a6847ad5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/5d398bf934a634dfb66c0b325db882c4a6847ad5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/5d398bf934a634dfb66c0b325db882c4a6847ad5/))
+([permalink](https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/))
 was automatically generated
-from [uiceds/project-team-go@5d398bf](https://github.com/uiceds/project-team-go/tree/5d398bf934a634dfb66c0b325db882c4a6847ad5)
+from [uiceds/project-team-go@48c29b9](https://github.com/uiceds/project-team-go/tree/48c29b9d18a7ebfcfc2296ed23015dcd6b055187)
 on December 2, 2024.
 </em></small>
 
@@ -138,25 +138,33 @@ __3.1 Selecting Climate Zone and Sampling Points__
 
 ![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=50%}
 
-*Figure 3.1.1 Corn Production Distribution by County in the United States *
+*Figure 1 Corn Production Distribution by County in the United States *
 
 ![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=50%}
 
-*Figure 3.1.2 Wheat Production Distribution by County in the United States *
+*Figure 2 Wheat Production Distribution by County in the United States *
 
 ![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=50%}
 
-*Figure 3.1.3 Cotton Production Distribution by County in the United States *
+*Figure 3 Cotton Production Distribution by County in the United States *
 
-In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
+In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. The figures above (Figure1, 2, 3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
 
 We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions. For instance, Fig 3.1.1 suggests that the majority of corn production area in the US lies in humid continental warm/cool summer climate zones, and from Fig 3.1.3 one can see that cotton production areas are mainly in humid subtropical and semiarid steppe climate, indicating the differences in heat and precipitation requirements between cotton and corn.
 
 __3.2 Data Preparation__
 
-![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=50%}
-![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=50%}
-![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
+![](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=50%}
+
+*Figure 4 *
+
+![](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=50%}
+
+*Figure 5 *
+
+![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
+
+*Figure 6 *
 
 To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
@@ -165,20 +173,22 @@ Here, the climatic characteristics of a region was demonstrated by monthly avera
 __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
-![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=35%}
 
-*Figure1. Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
+![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=45%}
 
-Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
+*Figure7. Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
+
+Figure 7. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
 
 From the soil nutrient data, we can observe the seasonal dynamics of biomass levels as well as plant-available nitrogen in the soil. At the beginning of cultivation, with the application of fertilizer, nitrogen levels reach their peak and then decrease as the crop continues to grow. From the soil water data, we can see that a water surplus exists in both the max and mean rainfall scenarios, leading to a significant rise in groundwater levels (d, e).
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=35%}
 
-*Figure 2. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
+![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=45%}
 
-Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum). In soil water, we can see three precipitation cases covers high water excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, no significant seasonal variation.
+*Figure 8. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
+
+Figure 8. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum). In soil water, we can see three precipitation cases covers high water excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, no significant seasonal variation.
 
 
 
