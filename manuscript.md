@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-01'
+date-meta: '2024-12-02'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-12-01" />
-  <meta name="citation_publication_date" content="2024-12-01" />
-  <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T21:54:48+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T21:54:48+00:00" />
+  <meta name="dc.date" content="2024-12-02" />
+  <meta name="citation_publication_date" content="2024-12-02" />
+  <meta property="article:published_time" content="2024-12-02" />
+  <meta name="dc.modified" content="2024-12-02T03:14:15+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T03:14:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ce9ba0b379c7ca6c1d00b121531f41e96ee72f47/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ce9ba0b379c7ca6c1d00b121531f41e96ee72f47/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ce9ba0b379c7ca6c1d00b121531f41e96ee72f47/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/5e36f58ccbd36fbe8a33fa59a5981796c86f321f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/5e36f58ccbd36fbe8a33fa59a5981796c86f321f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/5e36f58ccbd36fbe8a33fa59a5981796c86f321f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ce9ba0b379c7ca6c1d00b121531f41e96ee72f47/))
+([permalink](https://uiceds.github.io/project-team-go/v/5e36f58ccbd36fbe8a33fa59a5981796c86f321f/))
 was automatically generated
-from [uiceds/project-team-go@ce9ba0b](https://github.com/uiceds/project-team-go/tree/ce9ba0b379c7ca6c1d00b121531f41e96ee72f47)
-on December 1, 2024.
+from [uiceds/project-team-go@5e36f58](https://github.com/uiceds/project-team-go/tree/5e36f58ccbd36fbe8a33fa59a5981796c86f321f)
+on December 2, 2024.
 </em></small>
 
 
@@ -118,23 +118,19 @@ on December 1, 2024.
 
 __Project proposal__
 
-Crop models are computational tools that assess the effects of environmental variation and cultivation strategies on crop yield (Chapagain et al., 2022; Huang et al., 2019). By incorporating factors such as precipitation, humidity, temperature, fertilization, and soil properties, crop models establish relationships between input parameters and agricultural yield outcomes. From a structural perspective, crop models can be either empirical or mechanistic. Empirical models create statistical relationships based on existing data, while mechanistic models aim to explain relationships by exploring physiological mechanisms and causal connections (Reynolds and Acock, 1985). From a parameter standpoint, crop models generally include weather, soil, and crop-specific parameters to estimate crop biomass. Weather parameters cover solar radiation, precipitation, temperature, and more, while soil parameters focus on humus content, organic matter content, and other soil characteristics. Crop-specific parameters include maximum crop yield, specific nitrogen uptake rate, and related factors.
-In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and/or Fourier series. The original model is a parsimonious one, primarily focusing on the dynamic effects of precipitation on crop yield across a spectrum of crops in Germany. Initially created in BASIC (Hartmut, 1985) and later in Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (nitrogen) availability on plant growth dynamics. Built from first principles, it captures complex interactions between water and nutrient dynamics and can be adapted to different scenarios by applying specific plant and soil parameters.
-
-
-__Data description__
-
-The dataset we plan to use is the meteorological records of Champaign, Illinois. We want to predict corn yield by analyzing precipitation and temperature. Data will be obtained from wunderground.com (Savoy, IL Weather History | Weather Underground). And daily temperature and the annual precipitation amount would be needed. The format would be primarily in CSV. The four columns will be temperature (including max, avg and min) and precipitation every day, while the rows will be the date for a whole year.
+Crop models are computational tools that assess the effects of environmental variation and cultivation strategies on crop yield. In this project, we are interested in establishing a crop model to predict corn yield based on environmental variations including precipitation and temperature Meteorological data set used in model analysis and prediction covered data of major crop production areas with different climate types. Data was obtained from wunderground.com, an online database, and crop yield data used for training and testing data was generated by Hartmut Bossel's 'Field Crop Cultivation' simulation model. As exploratory data analysis, a black-box model using SVD, PCA, and/or Fourier series was be then developed. A convolutional neuro network model was finally established to realize prediction of crop yield based on annual precipitation.
 
 
 ## Exploratory data analysis {.page_break_before}
 
 __1. Background and Research Proposal__
+
 Crop models are computational tools that assess the effects of environmental variation and cultivation strategies on crop yield (Chapagain et al., 2022; Huang et al., 2019). By incorporating factors such as precipitation, humidity, temperature, fertilization, and soil properties, crop models establish relationships between input parameters and agricultural yield outcomes. From a structural perspective, crop models can be either empirical or mechanistic. Empirical models create statistical relationships based on existing data, while mechanistic models aim to explain relationships by exploring physiological mechanisms and causal connections (Reynolds and Acock, 1985). From a parameter standpoint, crop models generally include weather, soil, and crop-specific parameters to estimate crop biomass. Weather parameters cover solar radiation, precipitation, temperature, and more, while soil parameters focus on humus content, organic matter content, and other soil characteristics. Crop-specific parameters include maximum crop yield, specific nitrogen uptake rate, and related factors.
 
 In this project, we aim to replicate Hartmut Bossel's 'Field Crop Cultivation' simulation model as a white-box reference and develop a black-box model using SVD, PCA, and/or Fourier series. The original model is a parsimonious one, primarily focused on the dynamic effects of precipitation on crop yield across a spectrum of crops in Germany. Initially created in BASIC (Hartmut, 1985) and later in Vensim (Hartmut, 2007) for educational purposes, the model simulates the impact of water and nutrient (nitrogen) availability on plant growth dynamics. Built from first principles, it captures complex interactions between water and nutrient dynamics and can be adapted to different scenarios by applying specific plant and soil parameters.
 
 __2. Reference model Construction__
+
 In our project, we have already translated the model into Python as the reference model. We modularized the code into three phases to enhance customization and improve understanding:
 The first part of the code focuses on preparing input values, which involve defining constants and table functions that are used in the next stage. The second part integrates two sub-models: soil-water and soil-nutrient. The ‘Soilwater’ model determines the soil water content based on two key factors: water-related parameters and soil parameters. The water-related parameters describe the mass balance of water (precipitation, irrigation, transpiration, evaporation, and percolation). In parallel, the soil parameters define the water-holding capacity of the soil. The other sub-model ‘Soilnutrient’ contains a mass balance for nitrogen (the interconnection between plant available nitrogen and humus in soil). In summary, soil-water and soil-nutrient are fundamentally important to estimate the yield. In the third part, the output data is presented as diagrams (or in csv files), visualizing the simulation results and enabling analysis of how changing factors influence crop yield.
 

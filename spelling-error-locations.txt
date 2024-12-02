@@ -1,16 +1,10 @@
-content/01.abstract.md:5:Acock
-content/01.abstract.md:5:Chapagain
-content/01.abstract.md:6:Bossel's
-content/01.abstract.md:6:Hartmut
-content/01.abstract.md:6:Hartmut
-content/01.abstract.md:6:Hartmut
-content/01.abstract.md:6:PCA
-content/01.abstract.md:6:SVD
-content/01.abstract.md:6:Vensim
-content/01.abstract.md:11:Champaign
-content/01.abstract.md:11:CSV
-content/01.abstract.md:11:dataset
-content/01.abstract.md:11:wunderground
+content/01.abstract.md:5:Bossel's
+content/01.abstract.md:5:convolutional
+content/01.abstract.md:5:Hartmut
+content/01.abstract.md:5:neuro
+content/01.abstract.md:5:PCA
+content/01.abstract.md:5:SVD
+content/01.abstract.md:5:wunderground
 content/02.delete-me.md:44:adipiscing
 content/02.delete-me.md:44:aliqua
 content/02.delete-me.md:44:amet
@@ -62,33 +56,33 @@ content/02.delete-me.md:47:sint
 content/02.delete-me.md:47:sunt
 content/02.delete-me.md:237:Pandoc's
 content/02.delete-me.md:247:Pandoc's
-content/02. Exploratory data analysis.md:4:Acock
-content/02. Exploratory data analysis.md:4:Chapagain
-content/02. Exploratory data analysis.md:6:Bossel's
-content/02. Exploratory data analysis.md:6:Hartmut
-content/02. Exploratory data analysis.md:6:Hartmut
-content/02. Exploratory data analysis.md:6:Hartmut
-content/02. Exploratory data analysis.md:6:PCA
-content/02. Exploratory data analysis.md:6:SVD
-content/02. Exploratory data analysis.md:6:Vensim
-content/02. Exploratory data analysis.md:9:modularized
-content/02. Exploratory data analysis.md:10:csv
-content/02. Exploratory data analysis.md:10:Soilnutrient
-content/02. Exploratory data analysis.md:10:Soilwater
-content/02. Exploratory data analysis.md:32:Champaign
-content/02. Exploratory data analysis.md:39:Stoneville
-content/02. Exploratory data analysis.md:44:Soilwater
-content/02. Exploratory data analysis.md:44:Soilwater
-content/02. Exploratory data analysis.md:45:Stoneville
-content/02. Exploratory data analysis.md:54:highwater
-content/02. Exploratory data analysis.md:54:locational
-content/02. Exploratory data analysis.md:54:Stoneville
-content/02. Exploratory data analysis.md:58:Dataset
-content/02. Exploratory data analysis.md:59:Evapotranspiration
-content/02. Exploratory data analysis.md:63:CSV
-content/02. Exploratory data analysis.md:63:DataFrame
-content/02. Exploratory data analysis.md:63:PCA
-content/02. Exploratory data analysis.md:63:SVD
+content/02. Exploratory data analysis.md:5:Acock
+content/02. Exploratory data analysis.md:5:Chapagain
+content/02. Exploratory data analysis.md:7:Bossel's
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:Hartmut
+content/02. Exploratory data analysis.md:7:PCA
+content/02. Exploratory data analysis.md:7:SVD
+content/02. Exploratory data analysis.md:7:Vensim
+content/02. Exploratory data analysis.md:11:modularized
+content/02. Exploratory data analysis.md:12:csv
+content/02. Exploratory data analysis.md:12:Soilnutrient
+content/02. Exploratory data analysis.md:12:Soilwater
+content/02. Exploratory data analysis.md:34:Champaign
+content/02. Exploratory data analysis.md:41:Stoneville
+content/02. Exploratory data analysis.md:46:Soilwater
+content/02. Exploratory data analysis.md:46:Soilwater
+content/02. Exploratory data analysis.md:47:Stoneville
+content/02. Exploratory data analysis.md:56:highwater
+content/02. Exploratory data analysis.md:56:locational
+content/02. Exploratory data analysis.md:56:Stoneville
+content/02. Exploratory data analysis.md:60:Dataset
+content/02. Exploratory data analysis.md:61:Evapotranspiration
+content/02. Exploratory data analysis.md:65:CSV
+content/02. Exploratory data analysis.md:65:DataFrame
+content/02. Exploratory data analysis.md:65:PCA
+content/02. Exploratory data analysis.md:65:SVD
 content/03. Preliminary predictive modeling.md:3:dataset
 content/03. Preliminary predictive modeling.md:3:dimensionality
 content/03. Preliminary predictive modeling.md:3:dimensionality
