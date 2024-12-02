@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T04:26:55+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T04:26:55+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:03:21+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:03:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/da598c906f3699b8e00c0e289ee1301d3e78765d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/da598c906f3699b8e00c0e289ee1301d3e78765d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/da598c906f3699b8e00c0e289ee1301d3e78765d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/da598c906f3699b8e00c0e289ee1301d3e78765d/))
+([permalink](https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/))
 was automatically generated
-from [uiceds/project-team-go@da598c9](https://github.com/uiceds/project-team-go/tree/da598c906f3699b8e00c0e289ee1301d3e78765d)
+from [uiceds/project-team-go@9312192](https://github.com/uiceds/project-team-go/tree/9312192f991818ded50b7380b131e5c4d57e025b)
 on December 2, 2024.
 </em></small>
 
@@ -261,6 +261,16 @@ Figure 2 is the prediction result of model with depth 100, which has a goodness 
 *Figure 3. Prediction result of model with depth 3*
 
 Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
+
+### 3.1 Neural Network Modeling
+
+For this scenario, we also performed model predictions based on a neural network. This part of the code is primarily based on the method from HW7. First, the CSV file is read and converted into a DataFrame _df_. Next, using the _groupby_ and _combine_ functions, the columns _MULTIPLIER_FOR_RAINFALL_, _rain_amount_, _precipitation_, and _total_biomass_ are extracted as the dataset, and the new DataFrame is named _df2_.
+
+Considering that in the original data, the value of _total_biomass_ becomes zero starting from row 63 due to crop harvesting, only rows 1 to 62 contain valid _total_biomass_ values. So we have these rows extracted and named them another dataframe _df1_.
+
+Subsequently, functions related to the neural network are defined. Functions such as dense_layer, train!, and relu are implemented, and a two-layer neural network is used for fitting. In this fitting process, the swish function is applied to both layers.
+
+Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
 
 ## Multiple Scenario Analysis by Using SVD and PCA
 
