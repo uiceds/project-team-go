@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T03:59:11+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T03:59:11+00:00" />
+  <meta name="dc.modified" content="2024-12-02T04:03:27+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T04:03:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/))
+([permalink](https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/))
 was automatically generated
-from [uiceds/project-team-go@783bf51](https://github.com/uiceds/project-team-go/tree/783bf51285d03e5c4120f3c8f7fe28e10a08d875)
+from [uiceds/project-team-go@60a1608](https://github.com/uiceds/project-team-go/tree/60a1608263cbc4e4a05739492edda7136b69fd30)
 on December 2, 2024.
 </em></small>
 
@@ -138,9 +138,9 @@ __3. Data Preparation__
 
 __3.1 Selecting Climate Zone and Sampling Points__
 
-![image](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=70%}
-![image](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=70%}
-![image](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=70%}
+![image](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67)
+![image](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209)
+![image](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407)
 
 The figures above show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays. 
 
@@ -148,9 +148,9 @@ We can clearly see the locations where each crop's high-yield regions intersect 
 
 __3.2 Data Preparation__
 
-![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=70%}
-![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=70%}
-![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=70%}
+![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a)
+![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca)
+![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772)
 
 In this study, three typical U.S. crops, corn, cotton, and wheat, were selected as examples in our analysis. These crops are grown in different climate zones and play a vital role in U.S. agriculture. To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which clearly shows the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, were collected and used in this study for model analysis.
 
@@ -164,26 +164,14 @@ __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Cl
 
 Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
 
-From the soil nutrient data, we can observe the seasonal dynamics of biomass levels as well as plant-available nitrogen in the soil. At the beginning of cultivation, with the application of fertilizer, nitrogen levels reach their peak and then decrease as the crop continues to grow. From the soil water data, we can see that a water surplus exists in both the max and mean rainfall scenarios, leading to a significant rise in groundwater levels (d, e). Additionally, since the reference model did not account for surface runoff, there could be a significant overestimation of precipitation's contribution to groundwater levels.
-
-__4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
-1. Model Glitch: Notice that, despite the differences in precipitation levels, plots a, b, and c are largely identical. It appears that the sub-model 'Soilwater' is not successfully linked with the other sub-model 'Soilwater' in the simulation. Further debugging is required to calibrate the reference model.
-2. Optimal Precipitation for Corn Growth: Even under minimum precipitation, there is no significant water deficit; thus, all crops grow under optimal water conditions. However, how does each scenario impact actual corn yield in Stoneville? Can the model accurately reflect the optimal precipitation range for maximum crop growth?
-3. Nutrient Leaching: Will excessive rainfall affect nutrient level through leaching end erosion? The original model was designed to represent moderate conditions at or below optimal precipitation, but could high precipitation levels cause additional nutrient loss in other pathways?
-4. Model Validation: How well do these model outputs align with real crop yield data from similar climate zones? (This may exceed the scope of our project.)
-5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
+From the soil nutrient data, we can observe the seasonal dynamics of biomass levels as well as plant-available nitrogen in the soil. At the beginning of cultivation, with the application of fertilizer, nitrogen levels reach their peak and then decrease as the crop continues to grow. From the soil water data, we can see that a water surplus exists in both the max and mean rainfall scenarios, leading to a significant rise in groundwater levels (d, e).
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
 ![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41)
 *Figure 2. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
-Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
-The similarity of soil nutrient results is probably cause by model error. In soil water, we can see three precipitation cases covers highwater excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, not significant seasonal variation .
+Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum). In soil water, we can see three precipitation cases covers high water excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, no significant seasonal variation.
 
-__4.4 Further Questions on Reference Model Results, Humid Subtropical Climate__
-1. Model Glitch: Given that precipitation in this scenario is below the optimum level, it can be confirmed that there is a model glitch. In the original model, when water availability is below optimal, both crop growth and microbial activities (which affect the transformation of organic matter into plant-available nitrogen) in the soil should be reduced. Therefore, the overall biomass curve should shrink vertically (red), the available nitrogen level should remain low instead of increasing (green) after harvesting, and the organic matter level should remain high (blue) after harvesting.
-2. Dataset Scope: In the future, we may limit our climate zones to Humid Continental or drier regions to avoid the structural limitations of the mechanistic model in explaining crop yield under heavy rainfall conditions and accounting for surface runoff in the region’s water balance.
-3. Evapotranspiration (ET) Rate Correction: Currently, the reference model characterizes the ET rate as a constant. Since we are using this model in different locations with varying humidity, temperature, and wind speed, we could enhance the model's accuracy by incorporating location-specific ET rate.
 
 __5 Predictive Modeling Plan__
 The aim of this project is to create a statistical model to produce similar estimates as the mechanistic model. The benefit of this simplification is to reduce computational costs. Another potential outcome of this approach is that, by using regression analysis, we can test correlations and rank the inputs that have the most significant effect on the output, thereby helping to determine the dominant factors influencing crop growth and decision-making in crop management.
