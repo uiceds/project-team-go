@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:12:01+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:12:01+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:16:59+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:16:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/))
+([permalink](https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/))
 was automatically generated
-from [uiceds/project-team-go@ff92950](https://github.com/uiceds/project-team-go/tree/ff9295063573d60689a54e55c93f6d8a13b9197b)
+from [uiceds/project-team-go@dd815c9](https://github.com/uiceds/project-team-go/tree/dd815c96c74bdb0eaba3416147d11391759fd295)
 on December 2, 2024.
 </em></small>
 
@@ -241,31 +241,33 @@ Figure 7 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7){width=19%} | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f){width=19%} | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c){width=19%} | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382){width=19%} | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2){width=19%} |
+| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382) | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2) |
 | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
-| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a){width=19%} | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96){width=19%} | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391){width=19%} | ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893){width=19%} | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01){width=19%} |
+| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a) | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96) | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391)| ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893) | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01) |
 
 Table 1: The first ten eigen-scenarios.
 
 
 | Precipitation | Soil water content | Total biomass |
 |:--------------|:------------------:|:-------------:|
-| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc){width=32%} | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e){width=32%} | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef){width=32%} |
+| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc) | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e){width=32%} | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef) |
 
 *Table 2. Reconstucted scenario*
 
 
 ## 3 Predictive Modeling by Decision Tree
 
-In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
+In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable.
 
 | Annual Precipitation | Average Annual Precipitation |
 |:--------------|:------------------:|
-| ![ce0205fe-7a68-43bc-bc95-bce4d040de53](https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0){width=32%} | ![4cedff0a-46d7-480d-92e1-8d801985be82](https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e){width=32%} |
+| ![ce0205fe-7a68-43bc-bc95-bce4d040de53](https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0) | ![4cedff0a-46d7-480d-92e1-8d801985be82](https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e) |
 
 *Table 3. Precipitation scenario visualization for clasification*
 
-### 3.1 Decision Tree Construction Function
+Based on the mechanism of the original simulation model, it can be concluded that precipitation is the dominant determinant of total biomass. Therefore, the focus of the analysis is placed on annual precipitation and average annual precipitation (as shown in Table 3). These figures indicate that the precipitation data from the two humid continental climate zones are not easily distinguishable. However, on the average annual precipitation plot, it can be observed that a reasonable separation method is to classify a climate as continental when the average annual total precipitation is less than or equal to 1.1, and as humid subtropical when it is greater than 1.1. Different predictive modeling methods are then applied to each case to predict total biomass. Finally, after the precipitation scenarios are separated into subgroups, another decision tree model is implemented to fit the curve.
+
+### 3.1 Curve fitting with Decision Tree
 
 The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B).
 

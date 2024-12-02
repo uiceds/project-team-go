@@ -10,7 +10,7 @@ Chapagain
 clasification
 continential
 convolutional
-csv
+CSV
 Dans
 DataFrame
 datapoints
