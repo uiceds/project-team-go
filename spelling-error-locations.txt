@@ -23,10 +23,6 @@ content/02. Exploratory data analysis.md:40:Stoneville
 content/02. Exploratory data analysis.md:42:Stoneville
 content/02. Exploratory data analysis.md:50:locational
 content/02. Exploratory data analysis.md:50:Stoneville
-content/02. Exploratory data analysis.md:55:CSV
-content/02. Exploratory data analysis.md:55:DataFrame
-content/02. Exploratory data analysis.md:55:PCA
-content/02. Exploratory data analysis.md:55:SVD
 content/03. Preliminary predictive modeling.md:3:dataset
 content/03. Preliminary predictive modeling.md:3:dimensionality
 content/03. Preliminary predictive modeling.md:3:dimensionality

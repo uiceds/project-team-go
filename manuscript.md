@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T04:03:27+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T04:03:27+00:00" />
+  <meta name="dc.modified" content="2024-12-02T04:05:22+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T04:05:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/bcd050a83cbdf1e004025610b1925ecd570c1e16/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/bcd050a83cbdf1e004025610b1925ecd570c1e16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/bcd050a83cbdf1e004025610b1925ecd570c1e16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/60a1608263cbc4e4a05739492edda7136b69fd30/))
+([permalink](https://uiceds.github.io/project-team-go/v/bcd050a83cbdf1e004025610b1925ecd570c1e16/))
 was automatically generated
-from [uiceds/project-team-go@60a1608](https://github.com/uiceds/project-team-go/tree/60a1608263cbc4e4a05739492edda7136b69fd30)
+from [uiceds/project-team-go@bcd050a](https://github.com/uiceds/project-team-go/tree/bcd050a83cbdf1e004025610b1925ecd570c1e16)
 on December 2, 2024.
 </em></small>
 
@@ -172,10 +172,6 @@ __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (w
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum). In soil water, we can see three precipitation cases covers high water excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, no significant seasonal variation.
 
-
-__5 Predictive Modeling Plan__
-The aim of this project is to create a statistical model to produce similar estimates as the mechanistic model. The benefit of this simplification is to reduce computational costs. Another potential outcome of this approach is that, by using regression analysis, we can test correlations and rank the inputs that have the most significant effect on the output, thereby helping to determine the dominant factors influencing crop growth and decision-making in crop management.
-To do this, we will first ensure that the reference mechanistic model functions correctly, making it capable of generating predictive yield based on the precipitation data. Then, to create sufficient data, we can randomly generate 1,000 (or more) precipitation curves for each scenario using the mean value and standard deviation obtained from the data in section 3. Third, the generated precipitation curves will be stored as CSV files, ready for model input. Fourth, we will translate the current Python model into Julia and automatically run simulations to obtain the corresponding yield for each precipitation scenario. Finally, we will compile a new DataFrame that includes both the precipitation and yield data, allowing us to apply SVD, PCA, and/or Fourier series to identify the dominant eigenvectors and underlying patterns in the data.
 
 
 
