@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T04:17:55+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T04:17:55+00:00" />
+  <meta name="dc.modified" content="2024-12-02T04:20:27+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T04:20:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/279e2c85753204f64ea058821c46509b5813d85f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/279e2c85753204f64ea058821c46509b5813d85f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/279e2c85753204f64ea058821c46509b5813d85f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/279e2c85753204f64ea058821c46509b5813d85f/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/b18c34130b3f28c9a876d765c6b9a33547ddc298/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/279e2c85753204f64ea058821c46509b5813d85f">uiceds/project-team-go@279e2c8</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/b18c34130b3f28c9a876d765c6b9a33547ddc298">uiceds/project-team-go@b18c341</a>
 on December 2, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -229,7 +229,7 @@ in which <span class="math inline">\({\text{SS} _{\text{tot}}}\)</span> is Total
 <p>To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V’).</p>
 <p>Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset’s variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset’s principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.</p>
 <figure>
-<img src="https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47" alt="sv_plot" />
+<img src="https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47" style="width:50.0%" alt="sv_plot" />
 <figcaption aria-hidden="true">sv_plot</figcaption>
 </figure>
 <p><em>Figure 4. Singular value plot</em></p>
@@ -300,37 +300,6 @@ in which <span class="math inline">\({\text{SS} _{\text{tot}}}\)</span> is Total
 <h2 id="conclusion">Conclusion</h2>
 <p>This project successfully demonstrates the application of decision tree regression for predictive modeling in one scenario and SVD for dimensionality reduction. In the single scenario analysis, the decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees. In the multi-scenario analysis, the SVD process reduces the dataset’s dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
 These methods provide a comprehensive framework for analyzing complex datasets in agricultural and environmental studies. Future work could explore integrating additional features, such as soil properties, or applying more advanced machine learning models to further improve predictive performance.</p>
-<h2 id="figures">Figures</h2>
-<div id="fig:square-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="Figure 1: A square image at actual size and with a bottom caption. Loaded from the latest version of image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:wide-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="Figure 2: An image too wide to fit within page at full size. Loaded from a specific (hashed) version of the image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:tall-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="Figure 3: A tall image with a specified height. Loaded from a specific (hashed) version of the image on GitHub." />
-<figcaption aria-hidden="true"><span>Figure 3:</span> <strong>A tall image with a specified height.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:vector-image" class="fignos">
-<figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="Figure 4: A vector .svg image loaded from GitHub. The parameter sanitize=true is necessary to properly load SVGs hosted via GitHub URLs. White background specified to serve as a backdrop for transparent sections of the image. Note that if you want to export to Word (.docx), you need to download the image and reference it locally (e.g. content/images/vector.svg) instead of using a URL." />
-<figcaption aria-hidden="true"><span>Figure 4:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
-The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-Note that if you want to export to Word (<code>.docx</code>), you need to download the image and reference it locally (e.g. <code>content/images/vector.svg</code>) instead of using a URL.</figcaption>
-</figure>
-</div>
 <h2 class="page_break_before" id="references">References</h2>
 <p>Chapagain, R., Remenyi, T. A., Harris, R. M., Mohammed, C. L., Huth, N., Wallach, D., … &amp; Ojeda, J. J. (2022).
 Decomposing crop model uncertainty: A systematic review. Field Crops Research, 279, 108448.</p>
