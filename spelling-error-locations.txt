@@ -20,6 +20,7 @@ content/02. Exploratory data analysis.md:12:Soilnutrient
 content/02. Exploratory data analysis.md:12:Soilwater
 content/02. Exploratory data analysis.md:30:sepcified
 content/02. Exploratory data analysis.md:42:Champaign
+content/02. Exploratory data analysis.md:42:continential
 content/02. Exploratory data analysis.md:42:peroid
 content/02. Exploratory data analysis.md:48:Stoneville
 content/02. Exploratory data analysis.md:50:Stoneville
@@ -99,6 +100,12 @@ content/03. Preliminary predictive modeling.md:137:dimensionality
 content/03. Preliminary predictive modeling.md:137:SVD
 content/03. Preliminary predictive modeling.md:137:SVD
 content/03. Preliminary predictive modeling.md:138:datasets
+content/04. Discussion.md:3:dimensionality
+content/04. Discussion.md:3:SVD
+content/04. Discussion.md:4:datasets
+content/04. Discussion.md:5:RMSE
+content/04. Discussion.md:6:datasets
+content/04. Discussion.md:6:datasets
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed

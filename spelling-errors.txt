@@ -8,6 +8,7 @@ Chamapign
 Champaign
 Chapagain
 clasification
+continential
 convolutional
 csv
 Dans
@@ -43,7 +44,7 @@ RMSE
 sepcified
 Shih
 Soilnutrient
-soilwater
+Soilwater
 Stoneville
 suboptimal
 subtrees

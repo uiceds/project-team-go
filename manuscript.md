@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:56:50+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:56:50+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:12:01+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:12:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/))
+([permalink](https://uiceds.github.io/project-team-go/v/ff9295063573d60689a54e55c93f6d8a13b9197b/))
 was automatically generated
-from [uiceds/project-team-go@7a2a9e0](https://github.com/uiceds/project-team-go/tree/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb)
+from [uiceds/project-team-go@ff92950](https://github.com/uiceds/project-team-go/tree/ff9295063573d60689a54e55c93f6d8a13b9197b)
 on December 2, 2024.
 </em></small>
 
@@ -162,7 +162,7 @@ __3.2 Data Preparation__
 
 To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
-Here, the climatic characteristics of a region was demonstrated by monthly average temperature and monthly average precipitation within a 20-year peroid of time. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, Nobel County in Minnesota, as a typical wheat-producing area and located in , to illustrate its climate characteristics. and Port Mansfield in Texas to represent the climate characteristics of a typical cotton-growing area.
+Here, the climatic characteristics of a region was demonstrated by monthly average temperature and monthly average precipitation within a 20-year peroid of time. For example, the State of Illinois, of which mostly is humid continental climate, is a major corn production area in the US. The characteristics of this climate type is presented by temperature and precipitation data from Champaign. Similarly, meteorological data of Nobel County in Minnesota, as a typical wheat production area located in humid continential cool-summer climate zone, was also demonstrated. Port Mansfield in Texas was picked to represent the climate characteristics of a typical cotton-growing area.
 
 __4. Reference Model Results Analysis and Questions__
 
@@ -327,6 +327,14 @@ These methods provide a comprehensive framework for analyzing complex datasets i
 
 
 
+
+
+## Discussion
+
+Based on the previous findings, the project demonstrated predictive modeling of biomass production using decision tree regression and SVD for dimensionality reduction. 
+While the decision tree model showed higher accuracy (up to 97.14%), its performance may face challenges with larger datasets.
+Additionally, the neural network model faced limitations, with poorer fit and higher RMSE. 
+Future work should focus on refining model structures to improve accuracy and consistency across different datasets by steps such as expanding datasets, applying different machine learning methods, and solving existing neural network challenges.
 
 
 ## References {.page_break_before}
