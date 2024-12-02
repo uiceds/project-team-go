@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:16:59+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:16:59+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:21:41+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:21:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/dd815c96c74bdb0eaba3416147d11391759fd295/))
+([permalink](https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/))
 was automatically generated
-from [uiceds/project-team-go@dd815c9](https://github.com/uiceds/project-team-go/tree/dd815c96c74bdb0eaba3416147d11391759fd295)
+from [uiceds/project-team-go@da7f808](https://github.com/uiceds/project-team-go/tree/da7f808ec7d3a255345357ffbd908ea87f4feaa5)
 on December 2, 2024.
 </em></small>
 
@@ -138,15 +138,15 @@ __3. Data Preparation__
 
 __3.1 Selecting Climate Zone and Sampling Points__
 
-![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67)
+![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=50%}
 
 *Figure 3.1.1 Corn Production Distribution by County in the United States *
 
-![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209)
+![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=50%}
 
 *Figure 3.1.2 Wheat Production Distribution by County in the United States *
 
-![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407)
+![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=50%}
 
 *Figure 3.1.3 Cotton Production Distribution by County in the United States *
 
@@ -156,9 +156,9 @@ We can clearly see the locations where each crop's high-yield regions intersect 
 
 __3.2 Data Preparation__
 
-![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a)
-![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca)
-![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772)
+![image](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=50%}
+![image](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=50%}
+![image](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
 
 To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
@@ -167,7 +167,7 @@ Here, the climatic characteristics of a region was demonstrated by monthly avera
 __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
-![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52)
+![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=50%}
 *Figure1. Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
 
 Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
@@ -175,7 +175,7 @@ Figure 1. shows the mechanistic model results for soil water and nutrient dynami
 From the soil nutrient data, we can observe the seasonal dynamics of biomass levels as well as plant-available nitrogen in the soil. At the beginning of cultivation, with the application of fertilizer, nitrogen levels reach their peak and then decrease as the crop continues to grow. From the soil water data, we can see that a water surplus exists in both the max and mean rainfall scenarios, leading to a significant rise in groundwater levels (d, e).
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41)
+![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=50%}
 *Figure 2. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum). In soil water, we can see three precipitation cases covers high water excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, no significant seasonal variation.

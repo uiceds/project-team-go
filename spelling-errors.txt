@@ -44,7 +44,7 @@ RMSE
 sepcified
 Shih
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees
