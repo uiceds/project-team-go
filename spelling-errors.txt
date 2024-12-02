@@ -8,7 +8,7 @@ Chapagain
 convolutional
 csv
 Dans
-dataframe
+DataFrame
 datapoints
 dataset
 dataset’s
@@ -37,7 +37,7 @@ Remenyi
 RMSE
 Shih
 Soilnutrient
-soilwater
+Soilwater
 Stoneville
 suboptimal
 subtrees

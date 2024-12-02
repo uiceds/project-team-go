@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:31:56+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:31:56+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:33:37+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:33:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7c4269bb37d8f25e6fbd82ef406ea61aa59dd85d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7c4269bb37d8f25e6fbd82ef406ea61aa59dd85d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7c4269bb37d8f25e6fbd82ef406ea61aa59dd85d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/))
+([permalink](https://uiceds.github.io/project-team-go/v/7c4269bb37d8f25e6fbd82ef406ea61aa59dd85d/))
 was automatically generated
-from [uiceds/project-team-go@25ad10d](https://github.com/uiceds/project-team-go/tree/25ad10d21fe45d0b70990e9a0f4989273fc21a1f)
+from [uiceds/project-team-go@7c4269b](https://github.com/uiceds/project-team-go/tree/7c4269bb37d8f25e6fbd82ef406ea61aa59dd85d)
 on December 2, 2024.
 </em></small>
 
@@ -138,15 +138,15 @@ __3. Data Preparation__
 
 __3.1 Selecting Climate Zone and Sampling Points__
 
-![image](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67)
+![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67)
 
 *Figure 3.1.1 Corn Production Distribution by County in the United States *
 
-![image](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209)
+![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209)
 
 *Figure 3.1.2 Wheat Production Distribution by County in the United States *
 
-![image](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407)
+![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407)
 
 *Figure 3.1.3 Cotton Production Distribution by County in the United States *
 
@@ -195,12 +195,6 @@ This section focuses on predictive modeling and dimensionality reduction for ana
 ## 1 Data Description of One Scenario
 
 ### 1.1 Explanation of Columns
-
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121903.png)
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20121942.png)
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-18%20122013.png)
-
-*Figure 1. Output data of one scenario*
 
 The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
@@ -258,13 +252,13 @@ in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\tex
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%871.png){width=50%}
 
 *Figure 2. Prediction result of model with depth 100*
 
 Figure 2 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
-![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png)
+![image](https://github.com/uiceds/project-team-go/blob/main/content/images/%E5%9B%BE%E7%89%872.png){width=50%}
 
 *Figure 3. Prediction result of model with depth 3*
 
@@ -276,19 +270,19 @@ For this scenario, we also performed model predictions based on a neural network
 
 Considering that in the original data, the value of _total_biomass_ becomes zero starting from row 63 due to crop harvesting, only rows 1 to 62 contain valid _total_biomass_ values. So we have these rows extracted and named them another dataframe _df1_.
 
-![image](https://github.com/user-attachments/assets/623132a5-18ad-4f16-8938-19eaac25d838)
+![image](https://github.com/user-attachments/assets/623132a5-18ad-4f16-8938-19eaac25d838){width=50%}
 
 *Figure 4. DataFrame df2 and vector yy*
 
 Subsequently, functions related to the neural network are defined. Functions such as _dense_layer_, _train!_, and _relu_ are implemented, and a two-layer neural network is used for fitting. In this fitting process, the _relu_ function is applied to the first layer and the _gelu_ function is applied to the second.
 
-![image](https://github.com/user-attachments/assets/45586c9a-1067-418b-9ef2-fe97dd8cc1c7)
+![image](https://github.com/user-attachments/assets/45586c9a-1067-418b-9ef2-fe97dd8cc1c7){width=50%}
 
 *Figure 5. Two layer function*
 
 Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
 
-![image](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e)
+![image](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
 
 *Figure 6. Prediction result of model with depth 100*
 
@@ -311,10 +305,6 @@ To prepare the dataset for SVD, we first reorganized the data by stretching all 
 Figure 7 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
 
 ![sv_plot](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){#fig:wide-image}
 
 *Figure 7. Singular value plot*
 
