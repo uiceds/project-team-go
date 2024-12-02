@@ -29,7 +29,6 @@ Huth
 HW
 interpretability
 locational
-MaxMeanMin
 modularized
 Mohammed
 neuro
@@ -44,7 +43,7 @@ RMSE
 sepcified
 Shih
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees

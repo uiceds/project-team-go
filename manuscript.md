@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:56:49+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:56:49+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:59:45+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:59:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/))
+([permalink](https://uiceds.github.io/project-team-go/v/e138f8693b074b8b657e6b8c7eb9163baff71332/))
 was automatically generated
-from [uiceds/project-team-go@8b67832](https://github.com/uiceds/project-team-go/tree/8b678326c205969320e2af1881720efcaa79ab07)
+from [uiceds/project-team-go@e138f86](https://github.com/uiceds/project-team-go/tree/e138f8693b074b8b657e6b8c7eb9163baff71332)
 on December 2, 2024.
 </em></small>
 
@@ -174,7 +174,7 @@ __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
 
-![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=45%}
+![](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=45%}
 
 *Figure7. Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
 
@@ -184,7 +184,7 @@ From the soil nutrient data, we can observe the seasonal dynamics of biomass lev
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
 
-![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=45%}
+![](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=45%}
 
 *Figure 8. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
