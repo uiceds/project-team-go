@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:50:52+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:50:52+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:52:28+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:52:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/))
+([permalink](https://uiceds.github.io/project-team-go/v/ebd3f38fe827d324b7eaffe126968b0086f60666/))
 was automatically generated
-from [uiceds/project-team-go@e5e606a](https://github.com/uiceds/project-team-go/tree/e5e606a71332b81d7520feada47c571d9cfb4ae7)
+from [uiceds/project-team-go@ebd3f38](https://github.com/uiceds/project-team-go/tree/ebd3f38fe827d324b7eaffe126968b0086f60666)
 on December 2, 2024.
 </em></small>
 
@@ -190,8 +190,6 @@ Figure 2. shows the mechanistic model results for soil water and nutrient dynami
 
 This section focuses on predictive modeling and dimensionality reduction for analyzing the relationship between rainfall and corn yield under varying environmental scenarios. The study leverages a mechanistic dataset with high dimensionality and computational complexity. The primary objectives include implementing a decision tree regression model for single-scenario prediction and utilizing Singular Value Decomposition (SVD) for multi-scenario dimensionality reduction. By combining these approaches, the project aims to reduce computational cost while preserving the predictive accuracy and interpretability of the model.
 
-## Single Scenario Analysis by Using Decision Tree
-
 ## 1 Data Description of One Scenario
 
 The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
@@ -218,9 +216,9 @@ These relationships enable the construction of a decision tree regression model,
 and its performance is validated through visualizations and comparisons with the observed data.
 
 
-## 2 Multiple Scenario Analysis by Using SVD and PCA
+## 2 Multiple Scenario Analysis with SVD and PCA
 
-## 2.1 Data Description for All Scenario
+## 2.1 Data Description of All Scenario
 
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
