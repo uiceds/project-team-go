@@ -19,7 +19,6 @@ content/02. Exploratory data analysis.md:12:csv
 content/02. Exploratory data analysis.md:12:Soilnutrient
 content/02. Exploratory data analysis.md:12:Soilwater
 content/02. Exploratory data analysis.md:30:sepcified
-content/02. Exploratory data analysis.md:32:umid
 content/02. Exploratory data analysis.md:42:Champaign
 content/02. Exploratory data analysis.md:48:Stoneville
 content/02. Exploratory data analysis.md:50:Stoneville
