@@ -80,24 +80,25 @@ content/03. Preliminary predictive modeling.md:65:soilwater
 content/03. Preliminary predictive modeling.md:67:Reconstucted
 content/03. Preliminary predictive modeling.md:72:dataset
 content/03. Preliminary predictive modeling.md:72:prideiction
-content/03. Preliminary predictive modeling.md:80:dataset
-content/03. Preliminary predictive modeling.md:82:subtrees
-content/03. Preliminary predictive modeling.md:82:subtrees
+content/03. Preliminary predictive modeling.md:78:clasification
 content/03. Preliminary predictive modeling.md:86:dataset
-content/03. Preliminary predictive modeling.md:86:dataset
-content/03. Preliminary predictive modeling.md:115:CSV
-content/03. Preliminary predictive modeling.md:115:DataFrame
-content/03. Preliminary predictive modeling.md:115:DataFrame
-content/03. Preliminary predictive modeling.md:115:dataset
-content/03. Preliminary predictive modeling.md:117:dataframe
-content/03. Preliminary predictive modeling.md:121:RMSE
-content/03. Preliminary predictive modeling.md:131:dataset
-content/03. Preliminary predictive modeling.md:131:dataset's
-content/03. Preliminary predictive modeling.md:131:dimensionality
-content/03. Preliminary predictive modeling.md:131:dimensionality
-content/03. Preliminary predictive modeling.md:131:SVD
-content/03. Preliminary predictive modeling.md:131:SVD
-content/03. Preliminary predictive modeling.md:132:datasets
+content/03. Preliminary predictive modeling.md:88:subtrees
+content/03. Preliminary predictive modeling.md:88:subtrees
+content/03. Preliminary predictive modeling.md:92:dataset
+content/03. Preliminary predictive modeling.md:92:dataset
+content/03. Preliminary predictive modeling.md:121:CSV
+content/03. Preliminary predictive modeling.md:121:DataFrame
+content/03. Preliminary predictive modeling.md:121:DataFrame
+content/03. Preliminary predictive modeling.md:121:dataset
+content/03. Preliminary predictive modeling.md:123:dataframe
+content/03. Preliminary predictive modeling.md:127:RMSE
+content/03. Preliminary predictive modeling.md:137:dataset
+content/03. Preliminary predictive modeling.md:137:dataset's
+content/03. Preliminary predictive modeling.md:137:dimensionality
+content/03. Preliminary predictive modeling.md:137:dimensionality
+content/03. Preliminary predictive modeling.md:137:SVD
+content/03. Preliminary predictive modeling.md:137:SVD
+content/03. Preliminary predictive modeling.md:138:datasets
 content/90.back-matter.md:2:Chapagain
 content/90.back-matter.md:2:Huth
 content/90.back-matter.md:2:Mohammed

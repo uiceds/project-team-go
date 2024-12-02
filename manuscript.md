@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:55:10+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:55:10+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:56:50+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:56:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/))
+([permalink](https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/))
 was automatically generated
-from [uiceds/project-team-go@c0becaa](https://github.com/uiceds/project-team-go/tree/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6)
+from [uiceds/project-team-go@7a2a9e0](https://github.com/uiceds/project-team-go/tree/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb)
 on December 2, 2024.
 </em></small>
 
@@ -258,6 +258,12 @@ Table 1: The first ten eigen-scenarios.
 ## 3 Predictive Modeling by Decision Tree
 
 In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
+
+| Annual Precipitation | Average Annual Precipitation |
+|:--------------|:------------------:|
+| ![ce0205fe-7a68-43bc-bc95-bce4d040de53](https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0){width=32%} | ![4cedff0a-46d7-480d-92e1-8d801985be82](https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e){width=32%} |
+
+*Table 3. Precipitation scenario visualization for clasification*
 
 ### 3.1 Decision Tree Construction Function
 
