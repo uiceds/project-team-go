@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:55:10+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:55:10+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:56:50+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:56:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/c0becaa2168366cc88c4cee7faed7c10a0b1ddf6">uiceds/project-team-go@c0becaa</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/7a2a9e07a177102cc5ac8816e54cbcfdd17bcacb">uiceds/project-team-go@7a2a9e0</a>
 on December 2, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -274,6 +274,25 @@ and its performance is validated through visualizations and comparisons with the
 <p><em>Table 2. Reconstucted scenario</em></p>
 <h2 id="predictive-modeling-by-decision-tree">3 Predictive Modeling by Decision Tree</h2>
 <p>In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:</p>
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Annual Precipitation</th>
+<th style="text-align: center;">Average Annual Precipitation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" title="fig:" style="width:32.0%" alt="ce0205fe-7a68-43bc-bc95-bce4d040de53" /></td>
+<td style="text-align: center;"><img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" title="fig:" style="width:32.0%" alt="4cedff0a-46d7-480d-92e1-8d801985be82" /></td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 3. Precipitation scenario visualization for clasification</em></p>
 <h3 id="decision-tree-construction-function">3.1 Decision Tree Construction Function</h3>
 <p>The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B).</p>
 <p><strong>Stopping Criteria:</strong> The recursion stops when the sample size is less than or equal to the minimum split sample size (min_samples_split), or when the maximum depth (depth) is reached. In this case, the mean of the target variable is used as the prediction value.</p>
