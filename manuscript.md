@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:48:44+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:48:44+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:50:52+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:50:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/89543a69ba3bc2a198d4521138e4b51c01909302/))
+([permalink](https://uiceds.github.io/project-team-go/v/e5e606a71332b81d7520feada47c571d9cfb4ae7/))
 was automatically generated
-from [uiceds/project-team-go@89543a6](https://github.com/uiceds/project-team-go/tree/89543a69ba3bc2a198d4521138e4b51c01909302)
+from [uiceds/project-team-go@e5e606a](https://github.com/uiceds/project-team-go/tree/e5e606a71332b81d7520feada47c571d9cfb4ae7)
 on December 2, 2024.
 </em></small>
 
@@ -257,7 +257,7 @@ Table 1: The first ten eigen-scenarios.
 *Table 2. Reconstucted scenario*
 
 
-## 3 Predictive Modeling
+## 3 Predictive Modeling by Decision Tree
 
 In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable. Specifically, the model consists of the following modules:
 
@@ -300,7 +300,7 @@ Figure 2 is the prediction result of model with depth 100, which has a goodness 
 
 Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
-### 4.4 Neural Network Modeling
+### 4 Predictive Modeling by Neural Network
 
 For this scenario, we also performed model predictions based on a neural network. This part of the code is primarily based on the method from HW7. First, the CSV file is read and converted into a DataFrame _df_. Next, using the _groupby_ and _combine_ functions, the columns _MULTIPLIER_FOR_RAINFALL_, _rain_amount_, _precipitation_, and _total_biomass_ are extracted as the dataset, and the new DataFrame is named _df2_.
 

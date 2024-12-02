@@ -6,9 +6,9 @@ Chamapign
 Champaign
 Chapagain
 convolutional
-csv
+CSV
 Dans
-dataframe
+DataFrame
 datapoints
 dataset
 dataset’s
