@@ -6,7 +6,7 @@ Chamapign
 Champaign
 Chapagain
 convolutional
-csv
+CSV
 Dans
 DataFrame
 datapoints
@@ -23,6 +23,7 @@ highwater
 Huth
 interpretability
 locational
+MaxMeanMin
 modularized
 Mohammed
 neuro

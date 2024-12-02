@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T03:51:58+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T03:51:58+00:00" />
+  <meta name="dc.modified" content="2024-12-02T03:59:11+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T03:59:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/bc6debee0bb79105d79164bca0b5d858fee52986/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/bc6debee0bb79105d79164bca0b5d858fee52986/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/bc6debee0bb79105d79164bca0b5d858fee52986/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/bc6debee0bb79105d79164bca0b5d858fee52986/))
+([permalink](https://uiceds.github.io/project-team-go/v/783bf51285d03e5c4120f3c8f7fe28e10a08d875/))
 was automatically generated
-from [uiceds/project-team-go@bc6debe](https://github.com/uiceds/project-team-go/tree/bc6debee0bb79105d79164bca0b5d858fee52986)
+from [uiceds/project-team-go@783bf51](https://github.com/uiceds/project-team-go/tree/783bf51285d03e5c4120f3c8f7fe28e10a08d875)
 on December 2, 2024.
 </em></small>
 
@@ -159,7 +159,8 @@ Here, we chose to represent the climatic characteristics of a region using the m
 __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
-![image](https://github.com/user-attachments/assets/d9aff41d-6891-4189-b007-3cd3ae2e0c01){width=80%}
+![MaxMeanMin_fig1](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52)
+*Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
 
 Figure 1. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Stoneville, Mississippi) under varying precipitation scenarios (maximum, mean, and minimum). The results are shown in two sets of plots. The x-axis represents time within one year, ranging from 0 to 1. Plots in the first row (a, b, c) display the changes in soil nutrients over time, specifically total biomass (red), nitrogen available to plants (green), and organic matter fraction in soil (blue). Plots in the second row (d, e, f) illustrate the in precipitation with randomized weather event (blue line), groundwater levels (red line), and soil water content (blue line) across three precipitation scenarios.
 
@@ -173,7 +174,8 @@ __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
 5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc){width=80%}
+![MaxMeanMin_fig2](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41)
+*Figure 2. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
 The similarity of soil nutrient results is probably cause by model error. In soil water, we can see three precipitation cases covers highwater excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, not significant seasonal variation .
