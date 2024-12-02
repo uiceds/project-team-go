@@ -173,7 +173,9 @@ __4.2 Further Questions on Reference Model Results, Humid Subtropical Climate__
 5. Long-Term Soil Health Under Crop Rotation: Over multiple growth cycles and by applying sustainable practice such as crop rotation, what would be the cumulative effect in the long-term on soil nutrient content and water content? (Exceeding the scope.)
 
 __4.3 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
-![image](https://github.com/user-attachments/assets/98e3a031-54b1-477f-a3a4-f9bc40b597bc){width=80%}
+![image](https://github.com/user-attachments/assets/ceb07724-fcf8-4461-9be3-256afd6a9fa4)
+
+*Figure 2. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
 Figure 2. shows the mechanistic model results for soil water and nutrient dynamics in a humid subtropical climate (Arnold, Iowa) under varying precipitation scenarios (maximum, mean, and minimum).
 The similarity of soil nutrient results is probably cause by model error. In soil water, we can see three precipitation cases covers highwater excess, minor water deficit and large water deficit, indication that the locational conditions can be a good setting for us to use this reference model to explain the situation. Also, notice that the precipitation pattern (blue) is different from Stoneville, and hence causing different dynamics in soil water content (green), for example, not significant seasonal variation .
