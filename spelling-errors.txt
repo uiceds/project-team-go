@@ -6,9 +6,9 @@ Chamapign
 Champaign
 Chapagain
 convolutional
-CSV
+csv
 Dans
-DataFrame
+dataframe
 datapoints
 dataset
 dataset’s
@@ -16,6 +16,7 @@ datasets
 df
 dimensionality
 eigen
+gelu
 Globetrot
 Gómez
 groupby
@@ -50,3 +51,4 @@ Xiaozhuo
 Xie
 Xinyuan
 Yung
+yy

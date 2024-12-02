@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:27:47+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:27:47+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:31:56+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:31:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/))
+([permalink](https://uiceds.github.io/project-team-go/v/25ad10d21fe45d0b70990e9a0f4989273fc21a1f/))
 was automatically generated
-from [uiceds/project-team-go@54a2b97](https://github.com/uiceds/project-team-go/tree/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c)
+from [uiceds/project-team-go@25ad10d](https://github.com/uiceds/project-team-go/tree/25ad10d21fe45d0b70990e9a0f4989273fc21a1f)
 on December 2, 2024.
 </em></small>
 
@@ -270,15 +270,27 @@ Figure 2 is the prediction result of model with depth 100, which has a goodness 
 
 Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
-### 3.1 Neural Network Modeling
+### 2.4 Neural Network Modeling
 
 For this scenario, we also performed model predictions based on a neural network. This part of the code is primarily based on the method from HW7. First, the CSV file is read and converted into a DataFrame _df_. Next, using the _groupby_ and _combine_ functions, the columns _MULTIPLIER_FOR_RAINFALL_, _rain_amount_, _precipitation_, and _total_biomass_ are extracted as the dataset, and the new DataFrame is named _df2_.
 
 Considering that in the original data, the value of _total_biomass_ becomes zero starting from row 63 due to crop harvesting, only rows 1 to 62 contain valid _total_biomass_ values. So we have these rows extracted and named them another dataframe _df1_.
 
-Subsequently, functions related to the neural network are defined. Functions such as dense_layer, train!, and relu are implemented, and a two-layer neural network is used for fitting. In this fitting process, the swish function is applied to both layers.
+![image](https://github.com/user-attachments/assets/623132a5-18ad-4f16-8938-19eaac25d838)
+
+*Figure 4. DataFrame df2 and vector yy*
+
+Subsequently, functions related to the neural network are defined. Functions such as _dense_layer_, _train!_, and _relu_ are implemented, and a two-layer neural network is used for fitting. In this fitting process, the _relu_ function is applied to the first layer and the _gelu_ function is applied to the second.
+
+![image](https://github.com/user-attachments/assets/45586c9a-1067-418b-9ef2-fe97dd8cc1c7)
+
+*Figure 5. Two layer function*
 
 Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
+
+![image](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e)
+
+*Figure 6. Prediction result of model with depth 100*
 
 ## Multiple Scenario Analysis by Using SVD and PCA
 
@@ -296,7 +308,7 @@ The original mechanistic model consists of 87 equations and above 100 variables 
 
 To prepare the dataset for SVD, we first reorganized the data by stretching all the data points in one scenario into a single column in the DataFrame. Each variable has 100 time-series elements and the number of columns equals the total number of scenarios. Second, we calculated the average scenario by horizontally taking the mean value across scenarios, then subtracted this average scenario from the dataset itself to obtain the centered data (X). Third, we performed SVD on the centered data to obtain the three singular components (U, S, and V'). 
 
-Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
+Figure 7 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
 
 ![sv_plot](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
 ![
@@ -304,23 +316,24 @@ Figure 4 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 Loaded from a specific (hashed) version of the image on GitHub.
 ](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){#fig:wide-image}
 
-*Figure 4. Singular value plot*
+*Figure 7. Singular value plot*
 
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382) | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2) |
+| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7){width=19%} | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f){width=19%} | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c){width=19%} | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382){width=19%} | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2){width=19%} |
 | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
-| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a) | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96) | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391) | ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893) | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01) |
+| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a){width=19%} | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96){width=19%} | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391){width=19%} | ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893){width=19%} | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01){width=19%} |
 
 Table 1: The first ten eigen-scenarios.
 
 
 | Precipitation | Soil water content | Total biomass |
 |:--------------|:------------------:|:-------------:|
-| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc) | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e) | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef) |
+| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc){width=32%} | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e){width=32%} | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef){width=32%} |
 
 *Table 2. Reconstucted scenario*
+
 
 ## Conclusion
 
