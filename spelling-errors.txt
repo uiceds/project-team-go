@@ -6,9 +6,9 @@ Chamapign
 Champaign
 Chapagain
 convolutional
-csv
+CSV
 Dans
-DataFrame
+dataframe
 datapoints
 dataset
 dataset’s
@@ -38,12 +38,13 @@ RMSE
 sepcified
 Shih
 Soilnutrient
-Soilwater
+soilwater
 Stoneville
 suboptimal
 subtrees
 sv
 SVD
+umid
 Urbana
 Vensim
 Wallach
