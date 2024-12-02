@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:53:37+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:53:37+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:56:49+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:56:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/48c29b9d18a7ebfcfc2296ed23015dcd6b055187/))
+([permalink](https://uiceds.github.io/project-team-go/v/8b678326c205969320e2af1881720efcaa79ab07/))
 was automatically generated
-from [uiceds/project-team-go@48c29b9](https://github.com/uiceds/project-team-go/tree/48c29b9d18a7ebfcfc2296ed23015dcd6b055187)
+from [uiceds/project-team-go@8b67832](https://github.com/uiceds/project-team-go/tree/8b678326c205969320e2af1881720efcaa79ab07)
 on December 2, 2024.
 </em></small>
 
@@ -200,7 +200,7 @@ Figure 8. shows the mechanistic model results for soil water and nutrient dynami
 
 This section focuses on predictive modeling and dimensionality reduction for analyzing the relationship between rainfall and corn yield under varying environmental scenarios. The study leverages a mechanistic dataset with high dimensionality and computational complexity. The primary objectives include implementing a decision tree regression model for single-scenario prediction and utilizing Singular Value Decomposition (SVD) for multi-scenario dimensionality reduction. By combining these approaches, the project aims to reduce computational cost while preserving the predictive accuracy and interpretability of the model.
 
-## 1 Data Description of One Scenario
+__1. Data Description of One Scenario__
 
 The dataset includes 100 rows of data and several key columns, each playing an essential role in the analysis. 
 The _sim_index_ column represents the simulation timeline, allowing the data to be tracked sequentially. 
@@ -226,9 +226,9 @@ These relationships enable the construction of a decision tree regression model,
 and its performance is validated through visualizations and comparisons with the observed data.
 
 
-## 2 Multiple Scenario Analysis with SVD and PCA
+__2. Multiple Scenario Analysis with SVD and PCA__
 
-## 2.1 Data Description of All Scenario
+__2.1 Data Description of All Scenario__
 
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
@@ -236,7 +236,7 @@ To generate a spectrum of scenarios for better estimation of corn yield across t
 
 In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.
 
-## 2.2 Dimension Reduction by SVD
+__2.2 Dimension Reduction by SVD__
 
 The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model difficult to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.
 
@@ -265,7 +265,7 @@ Table 1: The first ten eigen-scenarios.
 *Table 2. Reconstucted scenario*
 
 
-## 3 Predictive Modeling by Decision Tree
+__3. Predictive Modeling by Decision Tree__
 
 In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable.
 
@@ -277,7 +277,7 @@ In this part, we implemented a simple decision tree regression model to conduct 
 
 Based on the mechanism of the original simulation model, it can be concluded that precipitation is the dominant determinant of total biomass. Therefore, the focus of the analysis is placed on annual precipitation and average annual precipitation (as shown in Table 3). These figures indicate that the precipitation data from the two humid continental climate zones are not easily distinguishable. However, on the average annual precipitation plot, it can be observed that a reasonable separation method is to classify a climate as continental when the average annual total precipitation is less than or equal to 1.1, and as humid subtropical when it is greater than 1.1. Different predictive modeling methods are then applied to each case to predict total biomass. Finally, after the precipitation scenarios are separated into subgroups, another decision tree model is implemented to fit the curve.
 
-### 3.1 Curve fitting with Decision Tree
+__3.1 Curve fitting with Decision Tree__
 
 The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B).
 
@@ -287,13 +287,13 @@ The goal of this function is to construct a regression tree model based on the f
 
 **Recursive Splitting:** Once the best split point is found, the model splits the data into left and right subtrees and recursively constructs the subtrees until the stopping criteria are met.
 
-### 3.2 Model Workflow
+__3.2 Model Workflow__
 
 **Training Phase:** The decision_tree_regression function is used to recursively split the training dataset and construct the decision tree model. At each step of the split, the possible split points are iterated over, and the squared loss is calculated to select the optimal split point, dividing the dataset into two homogeneous subsets.
 
 **Prediction Phase:** The predict_tree function is used to predict new data. Each new feature value is directed through the tree's split rules to find the corresponding leaf node, and the mean value of that node is output as the final prediction.
 
-### 3.3 Experimental Results and Analysis
+__3.3 Experimental Results and Analysis__
 
 By testing the decision tree regression model on the rainfall data and the biomass data, it was observed that the model effectively performed segmented predictions based on the given data, which continuously split the feature space to minimize the variance of the target variable as much as possible. The goodness of fit is used to estimate the prediction outcome, which is calculated as follows:
 
@@ -315,7 +315,7 @@ Figure 2 is the prediction result of model with depth 100, which has a goodness 
 
 Figure 3 is the result of model with depth 3 which has a goodness of fit 96.91%. It can be observed that as the number of layers in the decision tree increases, its fitting performance in the early stages improves. In fact, the final goodness of fit is also higher.
 
-### 4 Predictive Modeling by Neural Network
+__4 Predictive Modeling by Neural Network__
 
 For this scenario, we also performed model predictions based on a neural network. This part of the code is primarily based on the method from HW7. First, the CSV file is read and converted into a DataFrame _df_. Next, using the _groupby_ and _combine_ functions, the columns _MULTIPLIER_FOR_RAINFALL_, _rain_amount_, _precipitation_, and _total_biomass_ are extracted as the dataset, and the new DataFrame is named _df2_.
 
@@ -331,7 +331,7 @@ Next, the neural network functions are executed. The hidden layer size is set to
 
 
 
-## Conclusion
+__Conclusion__
 
 This project successfully demonstrates the application of decision tree regression for predictive modeling in one scenario and SVD for dimensionality reduction. In the single scenario analysis, the decision tree regression effectively predicts biomass based on rainfall data, with high goodness-of-fit scores for both shallow and deep trees. In the multi-scenario analysis, the SVD process reduces the dataset's dimensionality while retaining critical information, enabling more efficient modeling and interpretation.
 These methods provide a comprehensive framework for analyzing complex datasets in agricultural and environmental studies. Future work could explore integrating additional features, such as soil properties, or applying more advanced machine learning models to further improve predictive performance.

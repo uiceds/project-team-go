@@ -36,14 +36,12 @@ content/03. Preliminary predictive modeling.md:7:dataset
 content/03. Preliminary predictive modeling.md:18:dataset
 content/03. Preliminary predictive modeling.md:20:dataset
 content/03. Preliminary predictive modeling.md:20:dataset’s
-content/03. Preliminary predictive modeling.md:31:PCA
 content/03. Preliminary predictive modeling.md:31:SVD
 content/03. Preliminary predictive modeling.md:37:suboptimal
 content/03. Preliminary predictive modeling.md:39:csv
 content/03. Preliminary predictive modeling.md:39:datapoints
 content/03. Preliminary predictive modeling.md:39:dataset
 content/03. Preliminary predictive modeling.md:39:dataset
-content/03. Preliminary predictive modeling.md:41:SVD
 content/03. Preliminary predictive modeling.md:43:dataset
 content/03. Preliminary predictive modeling.md:43:dataset
 content/03. Preliminary predictive modeling.md:43:dimensionality
