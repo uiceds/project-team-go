@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T06:21:41+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T06:21:41+00:00" />
+  <meta name="dc.modified" content="2024-12-02T06:23:31+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T06:23:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/a91e5e0502d7ee4c8a1fd63e7ba9e644657794ef/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/a91e5e0502d7ee4c8a1fd63e7ba9e644657794ef/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/a91e5e0502d7ee4c8a1fd63e7ba9e644657794ef/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/da7f808ec7d3a255345357ffbd908ea87f4feaa5/))
+([permalink](https://uiceds.github.io/project-team-go/v/a91e5e0502d7ee4c8a1fd63e7ba9e644657794ef/))
 was automatically generated
-from [uiceds/project-team-go@da7f808](https://github.com/uiceds/project-team-go/tree/da7f808ec7d3a255345357ffbd908ea87f4feaa5)
+from [uiceds/project-team-go@a91e5e0](https://github.com/uiceds/project-team-go/tree/a91e5e0502d7ee4c8a1fd63e7ba9e644657794ef)
 on December 2, 2024.
 </em></small>
 
