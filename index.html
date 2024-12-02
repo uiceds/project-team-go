@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:03:21+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:03:21+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:27:47+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:27:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-go/v/9312192f991818ded50b7380b131e5c4d57e025b/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-go/v/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-go/tree/9312192f991818ded50b7380b131e5c4d57e025b">uiceds/project-team-go@9312192</a>
+from <a href="https://github.com/uiceds/project-team-go/tree/54a2b976cee2ed244a122cd0fa1ff5e225adbe3c">uiceds/project-team-go@54a2b97</a>
 on December 2, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -140,10 +140,22 @@ Department of CEE, University of illinois Urbana-Chamapign
 The first part of the code focuses on preparing input values, which involve defining constants and table functions that are used in the next stage. The second part integrates two sub-models: soil-water and soil-nutrient. The ‘Soilwater’ model determines the soil water content based on two key factors: water-related parameters and soil parameters. The water-related parameters describe the mass balance of water (precipitation, irrigation, transpiration, evaporation, and percolation). In parallel, the soil parameters define the water-holding capacity of the soil. The other sub-model ‘Soilnutrient’ contains a mass balance for nitrogen (the interconnection between plant available nitrogen and humus in soil). In summary, soil-water and soil-nutrient are fundamentally important to estimate the yield. In the third part, the output data is presented as diagrams (or in csv files), visualizing the simulation results and enabling analysis of how changing factors influence crop yield.</p>
 <p><strong>3. Data Preparation</strong></p>
 <p><strong>3.1 Selecting Climate Zone and Sampling Points</strong></p>
-<p><img src="https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67" alt="image" />
+<figure>
+<img src="https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
+<p><em>Figure 3.1.1 Corn Production Distribution by County in the United States </em></p>
+<figure>
 <img src="https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209" alt="image" />
-<img src="https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407" alt="image" /></p>
-<p>The figures above show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays.</p>
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
+<p><em>Figure 3.1.2 Wheat Production Distribution by County in the United States </em></p>
+<figure>
+<img src="https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
+<p><em>Figure 3.1.3 Cotton Production Distribution by County in the United States </em></p>
+<p>The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays.</p>
 <p>We can clearly see the locations where each crop’s high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop’s growth conditions.</p>
 <p><strong>3.2 Data Preparation</strong></p>
 <p><img src="https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a" alt="image" />
