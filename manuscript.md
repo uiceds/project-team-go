@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:36:22+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:36:22+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:42:12+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:42:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/f82e0e0ef8c9f45d6b9d8e3d496f74461aa0a3ac/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/f82e0e0ef8c9f45d6b9d8e3d496f74461aa0a3ac/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/f82e0e0ef8c9f45d6b9d8e3d496f74461aa0a3ac/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/5eb758a0445cfe9587969d3e8b0220a0db8b002b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/5eb758a0445cfe9587969d3e8b0220a0db8b002b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/5eb758a0445cfe9587969d3e8b0220a0db8b002b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/f82e0e0ef8c9f45d6b9d8e3d496f74461aa0a3ac/))
+([permalink](https://uiceds.github.io/project-team-go/v/5eb758a0445cfe9587969d3e8b0220a0db8b002b/))
 was automatically generated
-from [uiceds/project-team-go@f82e0e0](https://github.com/uiceds/project-team-go/tree/f82e0e0ef8c9f45d6b9d8e3d496f74461aa0a3ac)
+from [uiceds/project-team-go@5eb758a](https://github.com/uiceds/project-team-go/tree/5eb758a0445cfe9587969d3e8b0220a0db8b002b)
 on December 2, 2024.
 </em></small>
 
@@ -150,7 +150,7 @@ __3.1 Selecting Climate Zone and Sampling Points__
 
 *Figure 3.1.3 Cotton Production Distribution by County in the United States *
 
-The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the distribution percentages of corn, wheat, and cotton yields in the United States with climate zones. Our team determined the range of temperature and precipitation data needed by examining these overlays. 
+The figures above (Figure3.1.1, 3.1.2, 3.1.3) show an overlay analysis of the major production areas of corn, wheat, and cotton in the US, along with different climate zones. Meteorological data from typical cities within these climate zones were gathered and sepcified. The range of temperature and precipitation in the past 20 years were needed to examine these overlays.
 
 We can clearly see the locations where each crop's high-yield regions intersect with various climate zones, enabling us to understand how climate factors influence each crop's growth conditions.
 
@@ -286,9 +286,9 @@ Next, the neural network functions are executed. The hidden layer size is set to
 
 *Figure 6. Prediction result of model with depth 100*
 
-## Multiple Scenario Analysis by Using SVD and PCA
+## 3 Multiple Scenario Analysis by Using SVD and PCA
 
-## 3 Data Description for All Scenario
+## 3.1 Data Description for All Scenario
 
 We aim to recreate a simplified surrogate model to reduce the computation time of the mechanistic model. In the mechanistic model, 17 different variables are calculated for every iteration. Each variable represents time-series data consisting of 100 data points over a 1-year range. Among these variables, 'precipitation' and 'multiplier for precipitation' serve as inputs, and their combination constitutes a new scenario. 'Total biomass' refers to the yield of corn, which is the final output. The remaining 14 variables are intermediate variables used in the calculations. In summary, for every scenario, the outputs include 17 time-series variables, each with 100 data points, accumulating to a total of 1,700 data points per scenario.
 
@@ -296,7 +296,7 @@ To generate a spectrum of scenarios for better estimation of corn yield across t
 
 In summary, the dataset consists of 1692 scenarios and 1700 datapoints for each scenario. Using the mechanistic model to generate this dataset and stored as a csv file, consisting inputs, output and intermediate variables.
 
-## 4 Dimension Reduction by SVD
+## 3.2 Dimension Reduction by SVD
 
 The original mechanistic model consists of 87 equations and above 100 variables for each iteration step, 15 of which are integral equations updated at each iteration. This high dimensionality and computational complexity increase computational time and make the model difficult to interpret. To address these challenges, we apply Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) to reduce the dimensionality of the dataset, evaluate the contribution of the most important principal components, and recreate the dataset using the compressed eigenvectors.
 
