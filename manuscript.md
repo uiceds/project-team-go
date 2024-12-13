@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T02:18:35+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T02:18:35+00:00" />
+  <meta name="dc.modified" content="2024-12-13T02:25:45+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T02:25:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/))
+([permalink](https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/))
 was automatically generated
-from [uiceds/project-team-go@f4a4b8b](https://github.com/uiceds/project-team-go/tree/f4a4b8b302345d75ee025f8d1da729591ff1d6b0)
+from [uiceds/project-team-go@c6bf5c8](https://github.com/uiceds/project-team-go/tree/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa)
 on December 13, 2024.
 </em></small>
 
@@ -261,9 +261,10 @@ Table 1: The first ten eigen-scenarios.
 
 | Precipitation | Soil water content | Total biomass |
 |:--------------|:------------------:|:-------------:|
-| ![precipitation](https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc) | ![soilwater](https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e){width=32%} | ![total_biomass](https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef) |
+| <img src="https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc" width="150"> | <img src="https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e" width="150"> | <img src="https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef" width="150"> |
 
-*Table 2. Reconstucted scenario*
+*Table 2. Reconstructed scenario*
+
 
 
 __3. Predictive Modeling by Decision Tree__
@@ -271,10 +272,11 @@ __3. Predictive Modeling by Decision Tree__
 In this part, we implemented a simple decision tree regression model to conduct prideiction within one scenario. The basic idea of decision tree regression is to recursively split the dataset into homogeneous subsets and estimate the mean of each subset to predict the target variable.
 
 | Annual Precipitation | Average Annual Precipitation |
-|:--------------|:------------------:|
-| ![ce0205fe-7a68-43bc-bc95-bce4d040de53](https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0) | ![4cedff0a-46d7-480d-92e1-8d801985be82](https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e) |
+|:---------------------|:---------------------------:|
+| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="150"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="150"> |
 
-*Table 3. Precipitation scenario visualization for clasification*
+*Table 3. Precipitation scenario visualization for classification*
+
 
 Based on the mechanism of the original simulation model, it can be concluded that precipitation is the dominant determinant of total biomass. Therefore, the focus of the analysis is placed on annual precipitation and average annual precipitation (as shown in Table 3). These figures indicate that the precipitation data from the two humid continental climate zones are not easily distinguishable. However, on the average annual precipitation plot, it can be observed that a reasonable separation method is to classify a climate as continental when the average annual total precipitation is less than or equal to 1.1, and as humid subtropical when it is greater than 1.1. Different predictive modeling methods are then applied to each case to predict total biomass. Finally, after the precipitation scenarios are separated into subgroups, another decision tree model is implemented to fit the curve.
 
