@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T02:50:38+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T02:50:38+00:00" />
+  <meta name="dc.modified" content="2024-12-13T15:38:18+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T15:38:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/abf530cc15aff70d69ebd87e7a2e3698c21820ae/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/abf530cc15aff70d69ebd87e7a2e3698c21820ae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/abf530cc15aff70d69ebd87e7a2e3698c21820ae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/abf530cc15aff70d69ebd87e7a2e3698c21820ae/))
+([permalink](https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/))
 was automatically generated
-from [uiceds/project-team-go@abf530c](https://github.com/uiceds/project-team-go/tree/abf530cc15aff70d69ebd87e7a2e3698c21820ae)
+from [uiceds/project-team-go@76e3f8b](https://github.com/uiceds/project-team-go/tree/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8)
 on December 13, 2024.
 </em></small>
 
@@ -261,7 +261,7 @@ Table 1: The first ten eigen-scenarios.
 
 | Precipitation | Soil water content | Total biomass |
 |:--------------|:------------------:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc" width="180"> | <img src="https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e" width="180"> | <img src="https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef" width="180"> |
+| <img src="https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc" width="150"> | <img src="https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e" width="150"> | <img src="https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef" width="150"> |
 
 *Table 2. Reconstructed scenario*
 
@@ -273,7 +273,7 @@ In this part, we implemented a simple decision tree regression model to conduct 
 
 | Annual Precipitation | Average Annual Precipitation |
 |:---------------------|:---------------------------:|
-| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="250"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="250"> |
+| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="150"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="150"> |
 
 *Table 3. Precipitation scenario visualization for classification*
 
@@ -323,6 +323,8 @@ Next, the neural network functions are executed. The hidden layer size is set to
 ![](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
 
 *Figure 12. Prediction result of model with depth 100*
+
+This is the result of the neural network model. This figure looks different from the figure 11 because in this time we only take the first 62 time points since the 63rd point is the harvest point where the total biomass turn to zero until the end of this time period. Initially we wanted to do the modeling of the whole section. However we found it quite hard to have a close prediction even in correct shape. And when it comes to the result of nerual network, we can see that the highest point on the figure is approximately 5500, which is far from Figure 11. From this result we can see that the prediction is not good. The reason might be the HW 7 basically solve the regression problem but this time out data points are non-linear. The choice modeling function inside the layers are _relu_ and _gelu_, as they might not be the ideal function for modeling. Overall we could see an result but the quality of this result is quite bad. Perhaps using CNN model would be better in this scenario.
 
 
 
