@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-02'
+date-meta: '2024-12-13'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-12-02" />
-  <meta name="citation_publication_date" content="2024-12-02" />
-  <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T07:02:21+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T07:02:21+00:00" />
+  <meta name="dc.date" content="2024-12-13" />
+  <meta name="citation_publication_date" content="2024-12-13" />
+  <meta property="article:published_time" content="2024-12-13" />
+  <meta name="dc.modified" content="2024-12-13T02:18:35+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T02:18:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/a878016be9647f5a7d29b2d3df220336e48acd1c/))
+([permalink](https://uiceds.github.io/project-team-go/v/f4a4b8b302345d75ee025f8d1da729591ff1d6b0/))
 was automatically generated
-from [uiceds/project-team-go@a878016](https://github.com/uiceds/project-team-go/tree/a878016be9647f5a7d29b2d3df220336e48acd1c)
-on December 2, 2024.
+from [uiceds/project-team-go@f4a4b8b](https://github.com/uiceds/project-team-go/tree/f4a4b8b302345d75ee025f8d1da729591ff1d6b0)
+on December 13, 2024.
 </em></small>
 
 
@@ -251,11 +251,12 @@ Figure 9 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| ![image](https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7) | ![image](https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f) | ![image](https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c) | ![image](https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382) | ![image](https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2) |
+| <img src="https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7" width="100"> | <img src="https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f" width="100"> | <img src="https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c" width="100"> | <img src="https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382" width="100"> | <img src="https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2" width="100"> |
 | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
-| ![image](https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a) | ![image](https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96) | ![image](https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391)| ![image](https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893) | ![image](https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01) |
+| <img src="https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a" width="100"> | <img src="https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96" width="100"> | <img src="https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391" width="100"> | <img src="https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893" width="100"> | <img src="https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01" width="100"> |
 
 Table 1: The first ten eigen-scenarios.
+
 
 
 | Precipitation | Soil water content | Total biomass |
