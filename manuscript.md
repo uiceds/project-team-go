@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T02:25:45+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T02:25:45+00:00" />
+  <meta name="dc.modified" content="2024-12-13T02:41:10+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T02:41:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/19eb7e255200c93941e69a357e19c4c2bc6b79d2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/19eb7e255200c93941e69a357e19c4c2bc6b79d2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/19eb7e255200c93941e69a357e19c4c2bc6b79d2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa/))
+([permalink](https://uiceds.github.io/project-team-go/v/19eb7e255200c93941e69a357e19c4c2bc6b79d2/))
 was automatically generated
-from [uiceds/project-team-go@c6bf5c8](https://github.com/uiceds/project-team-go/tree/c6bf5c8125be59d50cb2f425f6e1e5c72c45dcaa)
+from [uiceds/project-team-go@19eb7e2](https://github.com/uiceds/project-team-go/tree/19eb7e255200c93941e69a357e19c4c2bc6b79d2)
 on December 13, 2024.
 </em></small>
 
@@ -282,19 +282,11 @@ Based on the mechanism of the original simulation model, it can be concluded tha
 
 __3.1 Curve fitting with Decision Tree__
 
-The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B).
-
-**Stopping Criteria:** The recursion stops when the sample size is less than or equal to the minimum split sample size (min_samples_split), or when the maximum depth (depth) is reached. In this case, the mean of the target variable is used as the prediction value.
-
-**Finding the Best Split Point:** The model attempts to iterate over all unique values of the feature to find the split point that minimizes the error (sum of squared losses) for the left and right subsets. The smaller the squared loss, the higher the homogeneity of the dataset.
-
-**Recursive Splitting:** Once the best split point is found, the model splits the data into left and right subtrees and recursively constructs the subtrees until the stopping criteria are met.
+The goal of this function is to construct a regression tree model based on the feature data (P) and target data (B). The recursion stops when the sample size is less than or equal to the minimum split sample size (min_samples_split) or when the maximum depth (depth) is reached. In this case, the mean of the target variable is used as the prediction value. The model attempts to iterate over all unique values of the feature to find the split point that minimizes the error (sum of squared losses) for the left and right subsets. The smaller the squared loss, the higher the homogeneity of the dataset. Once the best split point is found, the model splits the data into left and right subtrees and recursively constructs the subtrees until the stopping criteria are met.
 
 __3.2 Model Workflow__
 
-**Training Phase:** The decision_tree_regression function is used to recursively split the training dataset and construct the decision tree model. At each step of the split, the possible split points are iterated over, and the squared loss is calculated to select the optimal split point, dividing the dataset into two homogeneous subsets.
-
-**Prediction Phase:** The predict_tree function is used to predict new data. Each new feature value is directed through the tree's split rules to find the corresponding leaf node, and the mean value of that node is output as the final prediction.
+The training phase involves using the decision_tree_regression function to recursively split the training dataset and construct the decision tree model. At each step of the split, the possible split points are iterated over, and the squared loss is calculated to select the optimal split point, which divides the dataset into two homogeneous subsets. In the prediction phase, the predict_tree function is used to predict new data. Each new feature value is directed through the tree's split rules to locate the corresponding leaf node, and the mean value of that node is output as the final prediction.
 
 __3.3 Experimental Results and Analysis__
 

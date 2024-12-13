@@ -7,9 +7,9 @@ Champaign
 Chapagain
 continential
 convolutional
-CSV
+csv
 Dans
-dataframe
+DataFrame
 datapoints
 dataset
 dataset’s
