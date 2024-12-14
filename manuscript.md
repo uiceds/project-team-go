@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-14" />
   <meta name="citation_publication_date" content="2024-12-14" />
   <meta property="article:published_time" content="2024-12-14" />
-  <meta name="dc.modified" content="2024-12-14T00:17:38+00:00" />
-  <meta property="article:modified_time" content="2024-12-14T00:17:38+00:00" />
+  <meta name="dc.modified" content="2024-12-14T23:40:21+00:00" />
+  <meta property="article:modified_time" content="2024-12-14T23:40:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/))
+([permalink](https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/))
 was automatically generated
-from [uiceds/project-team-go@de90c50](https://github.com/uiceds/project-team-go/tree/de90c50cad0f81721cd42ab0bb4406a655d51004)
+from [uiceds/project-team-go@24412f1](https://github.com/uiceds/project-team-go/tree/24412f16bda656d610992624f169dbd0d88b8bc7)
 on December 14, 2024.
 </em></small>
 
@@ -164,7 +164,7 @@ __3.2 Data Preparation__
 
 ![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
 
-*Figure 6 * Annual precipitation and temperature in Port Mansfield, Texas
+*Figure 6 * Annual precipation and temperature in Pore Mansfield, Texas
 
 To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
@@ -244,9 +244,11 @@ To prepare the dataset for SVD, we first reorganized the data by stretching all 
 
 Figure 9 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic scale, highlighting that the dataset's variance starts relatively small and decreases sharply at the initial stage. It can be estimated from the model that the variance explained by the first three principal components (PCA modes) captures more than 99.5% of the variance, indicating that it is sufficient to reconstruct the dataset using the first three PCA modes. Additionally, Table 1 visualizes the first 10 eigen-scenarios (columns of 𝐹.𝑈), providing insights into the dataset's principal structures. Finally, the dataset was reconstructed using the compressed data from the SVD process, and Table 2 displays the scenario reconstructed as the number of the PCA modes increase.
 
-![](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=50%}
+![](https://github.com/user-attachments/assets/7fd59635-7e15-4211-9b3f-084435a53c47){width=75%}
 
 *Figure 9. Singular value plot*
+
+
 
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
@@ -273,7 +275,7 @@ In this part, we implemented a simple decision tree regression model to conduct 
 
 | Annual Precipitation | Average Annual Precipitation |
 |:---------------------|:---------------------------:|
-| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="150"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="150"> |
+| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="200"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="200"> |
 
 *Table 3. Precipitation scenario visualization for classification*
 
@@ -298,13 +300,13 @@ in which ${\text{SS} _{\text{tot}}}$ is Total Sum of Squares, ${\text{SS} _{\tex
 
 Although this implementation is relatively simplified, it effectively demonstrates the core ideas and basic construction process of decision tree regression.
 
-![](https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331){width=50%}
+![](https://github.com/user-attachments/assets/2d375f25-82b4-406b-9d88-c5e69e6c6331){width=75%}
 
 *Figure 10. Prediction result of model with depth 100*
 
 Figure 10 is the prediction result of model with depth 100, which has a goodness of fit 97.14%. 
 
-![](https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705){width=50%}
+![](https://github.com/user-attachments/assets/17b920b2-ed0f-45f4-ace4-3ebb4b18b705){width=75%}
 
 *Figure 11. Prediction result of model with depth 3*
 
@@ -320,7 +322,7 @@ Subsequently, functions related to the neural network are defined. Functions suc
 
 Next, the neural network functions are executed. The hidden layer size is set to 6, the learning rate is set to 0.001, and the number of training iterations is set to 5000 for fitting. Afterward, the results are visualized, generating the following plots. By comparing the predicted values' plot with the true values' plot, it is concluded that while the trends are similar, the fitting quality is still poor. This conclusion is further supported by an RMSE value of 1000.
 
-![](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=50%}
+![](https://github.com/user-attachments/assets/028f9d3d-155c-4abb-8436-a17a8443596e){width=75%}
 
 *Figure 12. Prediction result of model with depth 100*
 

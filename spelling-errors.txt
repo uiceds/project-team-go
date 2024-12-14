@@ -3,7 +3,6 @@ Bossel’s
 Cao
 CEE
 Chamapign
-Champaign
 Chapagain
 continential
 convolutional
@@ -11,9 +10,6 @@ CSV
 Dans
 DataFrame
 datapoints
-dataset
-dataset’s
-datasets
 df
 dimensionality
 eigen
@@ -34,6 +30,7 @@ neuro
 Ojeda
 PCA
 peroid
+precipation
 prideiction
 relu
 Remenyi
