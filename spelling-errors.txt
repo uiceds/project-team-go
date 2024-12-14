@@ -9,7 +9,7 @@ continential
 convolutional
 CSV
 Dans
-dataframe
+DataFrame
 datapoints
 dataset
 dataset’s
@@ -22,6 +22,7 @@ Globetrot
 Gómez
 groupby
 Hartmut
+Hugoton
 Huth
 HW
 interpretability

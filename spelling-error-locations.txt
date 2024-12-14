@@ -19,6 +19,8 @@ content/02. Exploratory data analysis.md:12:csv
 content/02. Exploratory data analysis.md:12:Soilnutrient
 content/02. Exploratory data analysis.md:12:Soilwater
 content/02. Exploratory data analysis.md:30:sepcified
+content/02. Exploratory data analysis.md:38:Champaign
+content/02. Exploratory data analysis.md:42:Hugoton
 content/02. Exploratory data analysis.md:50:Champaign
 content/02. Exploratory data analysis.md:50:continential
 content/02. Exploratory data analysis.md:50:peroid

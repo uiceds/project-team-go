@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-13'
+date-meta: '2024-12-14'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-12-13" />
-  <meta name="citation_publication_date" content="2024-12-13" />
-  <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T15:38:18+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T15:38:18+00:00" />
+  <meta name="dc.date" content="2024-12-14" />
+  <meta name="citation_publication_date" content="2024-12-14" />
+  <meta property="article:published_time" content="2024-12-14" />
+  <meta name="dc.modified" content="2024-12-14T00:17:38+00:00" />
+  <meta property="article:modified_time" content="2024-12-14T00:17:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8/))
+([permalink](https://uiceds.github.io/project-team-go/v/de90c50cad0f81721cd42ab0bb4406a655d51004/))
 was automatically generated
-from [uiceds/project-team-go@76e3f8b](https://github.com/uiceds/project-team-go/tree/76e3f8b2d527fcaaaabb72e9d4e6b0e6327ed3e8)
-on December 13, 2024.
+from [uiceds/project-team-go@de90c50](https://github.com/uiceds/project-team-go/tree/de90c50cad0f81721cd42ab0bb4406a655d51004)
+on December 14, 2024.
 </em></small>
 
 
@@ -156,11 +156,11 @@ __3.2 Data Preparation__
 
 ![](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=50%}
 
-*Figure 4 *
+*Figure 4 * Annual precipitation and temperature in Champaign, Illinois
 
 ![](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=50%}
 
-*Figure 5 *
+*Figure 5 * Annual precipitation and temperature in Hugoton, Kansas
 
 ![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
 
@@ -251,7 +251,7 @@ Figure 9 illustrates the singular values (𝐹.𝑆) plotted on a logarithmic sc
 
 | 1st PCA mode | 2nd PCA mode | 3rd PCA mode | 4th PCA modes | 5th PCA modes |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/bf3fa9dd-b966-42fd-b416-7478cd55759c" width="120"> | <img src="https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f" width="100"> | <img src="https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c" width="100"> | <img src="https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382" width="100"> | <img src="https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2" width="100"> |
+| <img src="https://github.com/user-attachments/assets/777dd5c1-0d1a-4989-b8b8-b32e694809b7" width="100"> | <img src="https://github.com/user-attachments/assets/2eb9a40e-e437-457e-b1a7-1e31f9a3266f" width="100"> | <img src="https://github.com/user-attachments/assets/05721efa-358e-4119-91b4-643075ac0a9c" width="100"> | <img src="https://github.com/user-attachments/assets/bdd031d0-33df-4d0f-ad6a-a1df5b348382" width="100"> | <img src="https://github.com/user-attachments/assets/dbd10162-fb97-427f-bbf6-6a880bffaec2" width="100"> |
 | 6th PCA mode | 7th PCA mode | 8th PCA mode | 9th PCA modes | 10th PCA modes |
 | <img src="https://github.com/user-attachments/assets/e81b81cd-2e73-4897-867d-b0c438ec841a" width="100"> | <img src="https://github.com/user-attachments/assets/cd337b93-0d32-4b8b-9c10-c2bc68ee4a96" width="100"> | <img src="https://github.com/user-attachments/assets/ce4e28fa-921b-441a-9987-d38917de3391" width="100"> | <img src="https://github.com/user-attachments/assets/2893d27e-1d95-4b01-9d7e-3d27b52c8893" width="100"> | <img src="https://github.com/user-attachments/assets/ab922cff-37cb-47d2-ae8a-cb8210421e01" width="100"> |
 
