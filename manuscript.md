@@ -164,7 +164,7 @@ __3.2 Data Preparation__
 
 ![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
 
-*Figure 6 * Annual precipitation and temperature in Hugoton, Texas
+*Figure 6 * Annual precipitation and temperature in Port Mansfield, Texas
 
 To scientifically analyze the impact of climate on crop yields, the study first chose climate data sampling points based on the United States crop production maps (USDA United States - Crop Production Maps), which recorded the key production areas for different crops. Climate data, including monthly average temperature and monthly precipitation, were collected from three different weather monitoring stations within each key production area. Climate data from 2004 to 2024, within a 20-year period of time, was collected and used in this study for model analysis.
 
