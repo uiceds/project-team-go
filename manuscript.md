@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-14'
+date-meta: '2024-12-15'
 author-meta:
 - Yung Shun Shih
 - Derek Chen
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="og:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
   <meta property="twitter:title" content="Analyzing Environmental Influences on Corn Yield: A Data-Driven Study in Champaign, Illinois" />
-  <meta name="dc.date" content="2024-12-14" />
-  <meta name="citation_publication_date" content="2024-12-14" />
-  <meta property="article:published_time" content="2024-12-14" />
-  <meta name="dc.modified" content="2024-12-14T23:40:21+00:00" />
-  <meta property="article:modified_time" content="2024-12-14T23:40:21+00:00" />
+  <meta name="dc.date" content="2024-12-15" />
+  <meta name="citation_publication_date" content="2024-12-15" />
+  <meta property="article:published_time" content="2024-12-15" />
+  <meta name="dc.modified" content="2024-12-15T00:00:17+00:00" />
+  <meta property="article:modified_time" content="2024-12-15T00:00:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-go/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-go/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-go/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-go/v/9fac16ee138707034eba4496e717bcce2353b07e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-go/v/9fac16ee138707034eba4496e717bcce2353b07e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-go/v/9fac16ee138707034eba4496e717bcce2353b07e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-go/v/24412f16bda656d610992624f169dbd0d88b8bc7/))
+([permalink](https://uiceds.github.io/project-team-go/v/9fac16ee138707034eba4496e717bcce2353b07e/))
 was automatically generated
-from [uiceds/project-team-go@24412f1](https://github.com/uiceds/project-team-go/tree/24412f16bda656d610992624f169dbd0d88b8bc7)
-on December 14, 2024.
+from [uiceds/project-team-go@9fac16e](https://github.com/uiceds/project-team-go/tree/9fac16ee138707034eba4496e717bcce2353b07e)
+on December 15, 2024.
 </em></small>
 
 
@@ -136,15 +136,15 @@ __3. Data Preparation__
 
 __3.1 Selecting Climate Zone and Sampling Points__
 
-![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=50%}
+![](https://github.com/user-attachments/assets/7be65a57-758d-4047-a86e-b4c41ae70b67){width=75%}
 
 *Figure 1 Corn Production Distribution by County in the United States *
 
-![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=50%}
+![](https://github.com/user-attachments/assets/fe99328d-13a8-4363-bab3-ce82132e9209){width=75%}
 
 *Figure 2 Wheat Production Distribution by County in the United States *
 
-![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=50%}
+![](https://github.com/user-attachments/assets/eefec4f0-55c5-46c5-8a24-5aaf55cfa407){width=75%}
 
 *Figure 3 Cotton Production Distribution by County in the United States *
 
@@ -154,15 +154,15 @@ We can clearly see the locations where each crop's high-yield regions intersect 
 
 __3.2 Data Preparation__
 
-![](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=50%}
+![](https://github.com/user-attachments/assets/5df1052a-d477-4fbe-851a-0fea6bf7f84a){width=75%}
 
 *Figure 4 * Annual precipitation and temperature in Champaign, Illinois
 
-![](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=50%}
+![](https://github.com/user-attachments/assets/2364a33a-967a-4ad3-93f9-29d43bd26aca){width=75%}
 
 *Figure 5 * Annual precipitation and temperature in Hugoton, Kansas
 
-![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=50%}
+![](https://github.com/user-attachments/assets/bdbdb62e-3e8a-401f-94ee-00474315e772){width=75%}
 
 *Figure 6 * Annual precipation and temperature in Pore Mansfield, Texas
 
@@ -174,7 +174,7 @@ __4. Reference Model Results Analysis and Questions__
 
 __4.1 Exploratory Data Analysis on Reference Model Results, Humid Subtropical Climate__
 
-![](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=85%}
+![](https://github.com/user-attachments/assets/a50caea4-094b-4002-8d10-8be33ec9af52){width=90%}
 
 *Figure7. Model Results Under Varying Precipitation in Humid Subtropical Climate (Stoneville, MS)*
 
@@ -184,7 +184,7 @@ From the soil nutrient data, we can observe the seasonal dynamics of biomass lev
 
 __4.2 Exploratory Data Analysis on Reference Model Results, Humid Continental (warm summer)__
 
-![](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=85%}
+![](https://github.com/user-attachments/assets/13ca3723-e29f-4032-ab3d-6fc3328c6e41){width=90%}
 
 *Figure 8. Model Results Under Varying Precipitation in Humid Continental (warm summer) (Arnold, IA)*
 
