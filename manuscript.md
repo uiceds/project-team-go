@@ -263,7 +263,7 @@ Table 1: The first ten eigen-scenarios.
 
 | Precipitation | Soil water content | Total biomass |
 |:--------------|:------------------:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc" width="150"> | <img src="https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e" width="150"> | <img src="https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef" width="150"> |
+| <img src="https://github.com/user-attachments/assets/e32fa2d1-d3d2-4c54-bb3b-6e9477cef2fc" width="180"> | <img src="https://github.com/user-attachments/assets/3ed0e982-090b-478f-ab8f-65d1aedb465e" width="180"> | <img src="https://github.com/user-attachments/assets/e7d5ec9e-9f90-437b-a2a4-8191eb75c3ef" width="180"> |
 
 *Table 2. Reconstructed scenario*
 
@@ -275,7 +275,7 @@ In this part, we implemented a simple decision tree regression model to conduct 
 
 | Annual Precipitation | Average Annual Precipitation |
 |:---------------------|:---------------------------:|
-| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="200"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="200"> |
+| <img src="https://github.com/user-attachments/assets/bbbfc8a7-d7bb-4c41-a2da-fb6d90e6f4d0" width="350"> | <img src="https://github.com/user-attachments/assets/8e16ef57-3cdd-4722-a60b-0c9d2973301e" width="350"> |
 
 *Table 3. Precipitation scenario visualization for classification*
 
